@@ -1,4 +1,4 @@
-# 오늘등산 O! HIKING
+# Dickstone Mountain Club
 
 GitHub Pages 업로드용 정적 HTML 사이트입니다. 저장소 루트에 이 폴더의 파일들을 업로드하면 `index.html`부터 동작합니다.
 
