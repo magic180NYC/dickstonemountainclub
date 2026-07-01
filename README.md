@@ -1,4 +1,4 @@
-# Dickstone Mountain Club
+# 딕소톤 마운틴 클럽
 
 GitHub Pages 업로드용 정적 HTML 사이트입니다.
 

@@ -102,3 +102,37 @@
     gap:5px !important;
   }
 }
+
+
+/* Remove club meta boxes */
+.club-meta button{
+  padding:0 !important;
+  border:0 !important;
+  border-radius:0 !important;
+  background:transparent !important;
+  box-shadow:none !important;
+}
+.club-meta button:hover{
+  background:transparent !important;
+  border-color:transparent !important;
+}
+@media(max-width:760px){
+  .club-meta button{
+    width:auto !important;
+    min-height:auto !important;
+    padding:0 !important;
+  }
+}
+
+
+/* Large hero title removal spacing */
+.hero-copy > .club-banner:first-child,
+.hero-copy > .eyebrow + .club-banner{
+  margin-top:8px;
+}
+.hero-copy > p:first-of-type{
+  max-width:680px;
+}
+@media(max-width:760px){
+  .hero-copy > .eyebrow + .club-banner{margin-top:6px}
+}
