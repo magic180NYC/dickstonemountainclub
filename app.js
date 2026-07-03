@@ -25,27 +25,37 @@ function renderMountainList(list=mountains){
 }
 function mountainSearchText(m){return [m.name,m.nameEn,m.region,m.province,m.level,m.difficultyOriginal,m.desc,m.summary,m.transport,m.course?.name,m.course?.start,m.course?.mid,m.course?.summit,m.course?.end,...(m.keywords||[]),...(m.photoSpots||[]),...(m.recommendedFor||[])].join(' ').toLowerCase()}
 function matchesTheme(m,theme){const text=mountainSearchText(m);if(theme==='초보')return m.level==='초급'||/초보|초급|완만|입문/.test(text);if(theme==='대중교통')return /대중교통|버스|지하철|역/.test(text);if(theme==='계곡')return /계곡|폭포|물|溪/.test(text);if(theme==='단풍')return /단풍|가을|억새/.test(text);if(theme==='일출')return /일출|해돋이|전망|조망/.test(text);if(theme==='암릉')return /암릉|바위|릿지|암벽/.test(text);return true}
+function resetFilterControls(){
+  $$('.filter-btn[data-region]').forEach(b=>b.classList.toggle('active',b.dataset.region==='전체'));
+  $$('.filter-btn[data-level]').forEach(b=>b.classList.toggle('active',b.dataset.level==='전체'));
+  $$('.filter-btn[data-theme]').forEach(b=>b.classList.remove('active'));
+}
+function clearSearchInput(){const input=$('[data-search-input]');if(input)input.value=''}
+function updateResultLabel(mode){const label=$('.result-head .muted');if(label)label.textContent=mode==='search'?'검색 결과':mode==='filter'?'필터 결과':'전체 산'}
+function activeFilterState(){return {region:$('.filter-btn.active[data-region]')?.dataset.region||'전체',level:$('.filter-btn.active[data-level]')?.dataset.level||'전체',themes:$$('.filter-btn.active[data-theme]').map(b=>b.dataset.theme)}}
 function applyFilters(){
   const q=($('[data-search-input]')?.value||'').trim().toLowerCase();
-  const region=$('.filter-btn.active[data-region]')?.dataset.region||'전체';
-  const level=$('.filter-btn.active[data-level]')?.dataset.level||'전체';
-  const themes=$('.filter-btn.active[data-theme]').map(b=>b.dataset.theme);
+  const {region,level,themes}=activeFilterState();
+  const hasFilter=region!=='전체'||level!=='전체'||themes.length>0;
   const list=mountains.filter(m=>(region==='전체'||m.region===region)&&(level==='전체'||m.level===level)&&(!q||mountainSearchText(m).includes(q))&&themes.every(t=>matchesTheme(m,t)));
+  updateResultLabel(q?'search':hasFilter?'filter':'all');
   renderMountainList(list);
 }
 function setupArchive(){
   const list=$('[data-mountain-list]'); if(!list)return;
   renderMountainList();
+  updateResultLabel('all');
   document.addEventListener('click',e=>{
     const btn=e.target.closest('.filter-btn');
     if(!btn)return;
+    clearSearchInput();
     if(btn.dataset.theme){btn.classList.toggle('active');applyFilters();return}
     const group=btn.dataset.region?'data-region':'data-level';
     $$('.filter-btn['+group+']').forEach(b=>b.classList.remove('active'));
     btn.classList.add('active');
     applyFilters();
   });
-  $('[data-search-input]')?.addEventListener('input',applyFilters);
+  $('[data-search-input]')?.addEventListener('input',e=>{if(e.target.value.trim())resetFilterControls();applyFilters()});
 }
 
 function setupClubBanner(){
