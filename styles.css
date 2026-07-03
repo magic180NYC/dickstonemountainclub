@@ -296,3 +296,17 @@
 .saved-course-link{border-color:#cfe8d6;background:#f7fbf8}
 .course-detail-actions{grid-template-columns:1fr 1fr 1fr}
 @media (max-width:640px){.course-detail-actions{grid-template-columns:1fr}}
+
+
+/* Course source verification */
+.course-source-box{margin-top:16px;border:1px solid #d9e9df;background:#f8fcf9;border-radius:14px;padding:12px}
+.course-source-head{display:flex;justify-content:space-between;gap:10px;align-items:center;margin-bottom:10px}
+.course-source-head strong{color:#10231a;font-size:.95rem}
+.course-source-head span{background:#eaf7ef;color:#137044;border:1px solid #cfe8d6;border-radius:999px;padding:4px 8px;font-size:.76rem;font-weight:800}
+.course-source-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+.course-source-grid div{background:#fff;border:1px solid #e4eee8;border-radius:10px;padding:10px;min-width:0}
+.course-source-grid b{display:block;color:#153322;margin-bottom:4px;font-size:.86rem}
+.course-source-grid p{margin:0 0 8px;color:#64748b;font-size:.78rem;line-height:1.35}
+.course-source-grid a{display:block;color:#0f8a4b;font-size:.78rem;font-weight:800;line-height:1.45;word-break:keep-all}
+.course-source-note{margin:10px 0 0;color:#6b7280;font-size:.78rem;line-height:1.45}
+@media (max-width:640px){.course-source-grid{grid-template-columns:1fr}.course-source-head{align-items:flex-start;flex-direction:column}}
