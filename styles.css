@@ -136,3 +136,16 @@
 @media(max-width:760px){
   .hero-copy > .eyebrow + .club-banner{margin-top:6px}
 }
+
+
+/* Data-driven facilities section */
+.facility-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:12px}.facility{border:1px solid var(--line);border-radius:8px;background:#f8fcf9;padding:11px}.facility span{display:block;color:var(--green);font-weight:900;font-size:13px;margin-bottom:4px}.facility strong{display:block;color:var(--ink);font-size:14px;line-height:1.35}@media(max-width:560px){.facility-grid{grid-template-columns:1fr}.facility{padding:10px}}
+
+/* Mountain data media */
+.mountain-photo-wrap{margin:0 0 16px;border-radius:8px;overflow:hidden;background:#e8efe8;border:1px solid var(--line)}
+.mountain-photo{display:block;width:100%;aspect-ratio:16/9;object-fit:cover;background:#dfe8df}
+.mountain-photo-wrap figcaption{min-height:22px;padding:6px 10px;font-size:12px;color:var(--sub);background:#fbfdfb}
+.mountain-photo-wrap figcaption a{color:var(--green);text-decoration:none;font-weight:700}
+.thumb{background-image:url('assets/hero.jpg');background-position:center;background-size:cover;background-repeat:no-repeat}
+.item .thumb{box-shadow:inset 0 0 0 1px rgba(255,255,255,.22)}
+@media(max-width:760px){.item{grid-template-columns:96px 1fr;align-items:start}.item .btn{grid-column:1/-1;width:100%}.thumb{height:78px}.mountain-photo{aspect-ratio:4/3}}
