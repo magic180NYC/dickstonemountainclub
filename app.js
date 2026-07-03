@@ -21,9 +21,18 @@ function renderMountainList(list=mountains){
   const box=$('[data-mountain-list]'); if(!box)return;
   const count=$('[data-result-count]'); if(count)count.textContent=list.length+'개 산';
   box.innerHTML=list.length?list.slice(0,100).map(m=>`<article class="item search-item"><div class="thumb" style="background-image:url(&quot;${escapeHtml(mountainImage(m))}&quot;)"></div><div><h3>${escapeHtml(m.name)}</h3><p class="muted">${escapeHtml(m.region)} · ${escapeHtml(m.level)} · ${escapeHtml(m.time)} · ${escapeHtml(m.distance)} · ${escapeHtml(m.elevation)}</p><div class="tags"><span class="tag">${escapeHtml(m.difficultyOriginal||m.level)}</span><span class="tag">${escapeHtml(m.course?.summit||'정상')}</span></div></div><a class="btn primary" href="dashboard.html?mountain=${encodeURIComponent(m.id)}" data-open="${escapeHtml(m.id)}">상세 보기</a></article>`).join(''):'<div class="empty">조건에 맞는 산이 없습니다.</div>';
-  $('[data-open]',box).forEach(a=>a.addEventListener('click',()=>localStorage.setItem('dmc.lastMountain',a.dataset.open)));
+  $$('[data-open]',box).forEach(a=>a.addEventListener('click',()=>localStorage.setItem('dmc.lastMountain',a.dataset.open)));
 }
-function applyFilters(){const q=($('[data-search-input]')?.value||'').trim().toLowerCase();const region=$('.filter-btn.active[data-region]')?.dataset.region||'전체';const level=$('.filter-btn.active[data-level]')?.dataset.level||'전체';let list=mountains.filter(m=>(region==='전체'||m.region===region)&&(level==='전체'||m.level===level)&&(!q||[m.name,m.region,m.level,m.desc,m.summary,m.course?.summit].join(' ').toLowerCase().includes(q)));renderMountainList(list)}
+function mountainSearchText(m){return [m.name,m.nameEn,m.region,m.province,m.level,m.difficultyOriginal,m.desc,m.summary,m.transport,m.course?.name,m.course?.start,m.course?.mid,m.course?.summit,m.course?.end,...(m.keywords||[]),...(m.photoSpots||[]),...(m.recommendedFor||[])].join(' ').toLowerCase()}
+function matchesTheme(m,theme){const text=mountainSearchText(m);if(theme==='초보')return m.level==='초급'||/초보|초급|완만|입문/.test(text);if(theme==='대중교통')return /대중교통|버스|지하철|역/.test(text);if(theme==='계곡')return /계곡|폭포|물|溪/.test(text);if(theme==='단풍')return /단풍|가을|억새/.test(text);if(theme==='일출')return /일출|해돋이|전망|조망/.test(text);if(theme==='암릉')return /암릉|바위|릿지|암벽/.test(text);return true}
+function applyFilters(){
+  const q=($('[data-search-input]')?.value||'').trim().toLowerCase();
+  const region=$('.filter-btn.active[data-region]')?.dataset.region||'전체';
+  const level=$('.filter-btn.active[data-level]')?.dataset.level||'전체';
+  const themes=$('.filter-btn.active[data-theme]').map(b=>b.dataset.theme);
+  const list=mountains.filter(m=>(region==='전체'||m.region===region)&&(level==='전체'||m.level===level)&&(!q||mountainSearchText(m).includes(q))&&themes.every(t=>matchesTheme(m,t)));
+  renderMountainList(list);
+}
 function setupArchive(){
   const list=$('[data-mountain-list]'); if(!list)return;
   renderMountainList();
@@ -32,7 +41,7 @@ function setupArchive(){
     if(!btn)return;
     if(btn.dataset.theme){btn.classList.toggle('active');applyFilters();return}
     const group=btn.dataset.region?'data-region':'data-level';
-    $('.filter-btn['+group+']').forEach(b=>b.classList.remove('active'));
+    $$('.filter-btn['+group+']').forEach(b=>b.classList.remove('active'));
     btn.classList.add('active');
     applyFilters();
   });
