@@ -1,0 +1,9717 @@
+window.DMC_MOUNTAINS = [
+  {
+    "id": "hallasan",
+    "name": "한라산",
+    "nameEn": "",
+    "region": "제주",
+    "province": "제주특별자치도 제주시/서귀포시",
+    "height": 1950,
+    "bac": true,
+    "level": "고급",
+    "difficultyOriginal": "상급",
+    "time": "6.3시간",
+    "hours": 6.3,
+    "distance": "15km",
+    "distanceKm": 15,
+    "elevation": "1270m",
+    "rating": "4.6",
+    "lat": 33.35,
+    "lon": 126.51666666667,
+    "summary": "한라산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "한라산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "제주 산행을 원하는 사람",
+      "상급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "대표 코스",
+      "start": "출발지 정보 준비중",
+      "mid": "중간지점 정보 준비중",
+      "summit": "백록담",
+      "end": "하산지점 정보 준비중"
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "제주",
+      "상급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "한라산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "coordinateStatus": "public_source",
+    "regionOriginal": "제주",
+    "coordinateType": "summit",
+    "coordinateSource": "wikidata_or_wikipedia",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%ED%95%9C%EB%9D%BC%EC%82%B0",
+    "wikidataId": "Q494645",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/eb/KOCIS_Halla_Mountain_in_Jeju-do_%286387785543%29.jpg",
+    "imageThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/KOCIS_Halla_Mountain_in_Jeju-do_%286387785543%29.jpg/1280px-KOCIS_Halla_Mountain_in_Jeju-do_%286387785543%29.jpg",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:KOCIS_Halla_Mountain_in_Jeju-do_%286387785543%29.jpg",
+    "imageSource": "wikimedia_pageimage",
+    "imageStatus": "exact_or_article",
+    "imageAlt": "한라산 산 풍경",
+    "sourceExtract": ""
+  },
+  {
+    "id": "jirisan-banyabong",
+    "name": "지리산 반야봉",
+    "nameEn": "",
+    "region": "전라",
+    "province": "전라북도/전라남도/경상남도 남원/구례/하동/산청",
+    "height": 1732,
+    "bac": true,
+    "level": "고급",
+    "difficultyOriginal": "상급",
+    "time": "5.6시간",
+    "hours": 5.6,
+    "distance": "13.3km",
+    "distanceKm": 13.3,
+    "elevation": "1130m",
+    "rating": "4.6",
+    "lat": 35.3163058,
+    "lon": 127.5694995,
+    "summary": "지리산 반야봉 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "지리산 반야봉 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "전북 산행을 원하는 사람",
+      "상급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "대표 코스",
+      "start": "출발지 정보 준비중",
+      "mid": "중간지점 정보 준비중",
+      "summit": "반야봉",
+      "end": "하산지점 정보 준비중"
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "전북",
+      "상급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "지리산 반야봉",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "coordinateStatus": "public_source",
+    "regionOriginal": "전북/전남/경남",
+    "coordinateType": "summit",
+    "coordinateSource": "openstreetmap_nominatim_peak_name_disambiguated",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%EC%A7%80%EB%A6%AC%EC%82%B0_%EB%B0%98%EC%95%BC%EB%B4%89",
+    "wikidataId": "",
+    "image": "assets/mountains/jirisan-banyabong.svg",
+    "imageThumb": "assets/mountains/jirisan-banyabong.svg",
+    "imageSourceUrl": "",
+    "imageSource": "generated_site_fallback",
+    "imageStatus": "generated_fallback",
+    "imageAlt": "지리산 반야봉 산 풍경",
+    "sourceExtract": "",
+    "osmDisplayName": "반야봉, 남원시, 전북특별자치도, 대한민국"
+  },
+  {
+    "id": "seoraksan",
+    "name": "설악산",
+    "nameEn": "",
+    "region": "강원",
+    "province": "강원특별자치도 속초/인제/양양/고성",
+    "height": 1708,
+    "bac": true,
+    "level": "고급",
+    "difficultyOriginal": "상급",
+    "time": "5.5시간",
+    "hours": 5.5,
+    "distance": "13.1km",
+    "distanceKm": 13.1,
+    "elevation": "1110m",
+    "rating": "4.6",
+    "lat": 38.119444444444,
+    "lon": 128.46555555556,
+    "summary": "설악산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "설악산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "강원 산행을 원하는 사람",
+      "상급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "대표 코스",
+      "start": "출발지 정보 준비중",
+      "mid": "중간지점 정보 준비중",
+      "summit": "대청봉",
+      "end": "하산지점 정보 준비중"
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "강원",
+      "상급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "설악산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "coordinateStatus": "public_source",
+    "regionOriginal": "강원",
+    "coordinateType": "summit",
+    "coordinateSource": "wikidata_or_wikipedia",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%EC%84%A4%EC%95%85%EC%82%B0",
+    "wikidataId": "Q482644",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/32/Korea_Seoraksan.jpg",
+    "imageThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Korea_Seoraksan.jpg/1280px-Korea_Seoraksan.jpg",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Korea_Seoraksan.jpg",
+    "imageSource": "wikimedia_pageimage",
+    "imageStatus": "exact_or_article",
+    "imageAlt": "설악산 산 풍경",
+    "sourceExtract": "설악산(雪嶽山, Seoraksan, Mt. Seorak)은 대한민국 강원특별자치도 속초시, 양양군, 인제군, 고성군에 걸쳐 있는 해발고도 1,708미터의 산이다. 대한민국에서는 한라산과 지리산 다음으로 높은 산이다.  추석 무렵부터 눈이 내리기 시작하여, 여름이 되어야 녹는 까닭으로 이렇게 이름 지었다. 해방 및 분단 이후 한국 전쟁 때까지는 이 산이 조선민주주의인민공화국 영토에 속했으나 한국 전쟁 이후에는 대한민국 영토가 되었다."
+  },
+  {
+    "id": "deogyusan",
+    "name": "덕유산",
+    "nameEn": "",
+    "region": "전라",
+    "province": "전북 무주/경남 거창 무주/거창",
+    "height": 1614,
+    "bac": true,
+    "level": "고급",
+    "difficultyOriginal": "상급",
+    "time": "5.2시간",
+    "hours": 5.2,
+    "distance": "12.4km",
+    "distanceKm": 12.4,
+    "elevation": "1050m",
+    "rating": "4.6",
+    "lat": 35.860555555556,
+    "lon": 127.74638888889,
+    "summary": "덕유산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "덕유산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "전북 산행을 원하는 사람",
+      "상급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "대표 코스",
+      "start": "출발지 정보 준비중",
+      "mid": "중간지점 정보 준비중",
+      "summit": "향적봉",
+      "end": "하산지점 정보 준비중"
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "전북",
+      "상급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "덕유산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "coordinateStatus": "public_source",
+    "regionOriginal": "전북/경남",
+    "coordinateType": "summit",
+    "coordinateSource": "wikidata_or_wikipedia",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%EB%8D%95%EC%9C%A0%EC%82%B0",
+    "wikidataId": "Q130821",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Deogyusan_from_Hyangjeok_Peak.jpg",
+    "imageThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Deogyusan_from_Hyangjeok_Peak.jpg/1280px-Deogyusan_from_Hyangjeok_Peak.jpg",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Deogyusan_from_Hyangjeok_Peak.jpg",
+    "imageSource": "wikimedia_pageimage",
+    "imageStatus": "exact_or_article",
+    "imageAlt": "덕유산 산 풍경",
+    "sourceExtract": "덕유산(德裕山)은 대한민국 전북특별자치도 무주군·장수군과 경상남도 거창군 ·함양군에 걸쳐 있는 높이 1,614m의 산이다. 1975년 2월 1일, 10번째로 국립공원에 지정되었다.\n덕유산의 깃대종에는 한국의 특산 동 · 식물인 구상나무, 금강모치가 있다."
+  },
+  {
+    "id": "gyebangsan",
+    "name": "계방산",
+    "nameEn": "",
+    "region": "강원",
+    "province": "강원특별자치도 평창/홍천",
+    "height": 1577,
+    "bac": true,
+    "level": "고급",
+    "difficultyOriginal": "상급",
+    "time": "5.1시간",
+    "hours": 5.1,
+    "distance": "12.1km",
+    "distanceKm": 12.1,
+    "elevation": "1030m",
+    "rating": "4.6",
+    "lat": 37.72833333,
+    "lon": 128.46555556,
+    "summary": "계방산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "계방산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "강원 산행을 원하는 사람",
+      "상급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "대표 코스",
+      "start": "출발지 정보 준비중",
+      "mid": "중간지점 정보 준비중",
+      "summit": "정상",
+      "end": "하산지점 정보 준비중"
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "강원",
+      "상급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "계방산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "coordinateStatus": "public_source",
+    "regionOriginal": "강원",
+    "coordinateType": "summit",
+    "coordinateSource": "wikidata_label_nearest_region",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%EA%B3%84%EB%B0%A9%EC%82%B0",
+    "wikidataId": "Q16072491",
+    "image": "assets/mountains/gyebangsan.svg",
+    "imageThumb": "assets/mountains/gyebangsan.svg",
+    "imageSourceUrl": "",
+    "imageSource": "generated_site_fallback",
+    "imageStatus": "generated_fallback",
+    "imageAlt": "계방산 산 풍경",
+    "sourceExtract": "계방산의 다른 뜻은 다음과 같다.\n\n계방산(桂芳山)은 강원특별자치도 평창군과 홍천군에 결쳐 있는 산이다.\n계방산은 경상남도 진주시와 함안군에 걸쳐 있는 산이다."
+  },
+  {
+    "id": "taebaeksan",
+    "name": "태백산",
+    "nameEn": "",
+    "region": "강원",
+    "province": "강원특별자치도/경상북도 태백/봉화",
+    "height": 1567,
+    "bac": true,
+    "level": "고급",
+    "difficultyOriginal": "상급",
+    "time": "5.1시간",
+    "hours": 5.1,
+    "distance": "12.1km",
+    "distanceKm": 12.1,
+    "elevation": "1020m",
+    "rating": "4.6",
+    "lat": 37.095730555556,
+    "lon": 128.91523888889,
+    "summary": "태백산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "태백산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "강원 산행을 원하는 사람",
+      "상급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "대표 코스",
+      "start": "출발지 정보 준비중",
+      "mid": "중간지점 정보 준비중",
+      "summit": "천제단",
+      "end": "하산지점 정보 준비중"
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "강원",
+      "상급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "태백산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "coordinateStatus": "public_source",
+    "regionOriginal": "강원",
+    "coordinateType": "summit",
+    "coordinateSource": "wikidata_or_wikipedia",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%ED%83%9C%EB%B0%B1%EC%82%B0",
+    "wikidataId": "Q625254",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Taebaeksan_2016_12_30_winter.jpg",
+    "imageThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Taebaeksan_2016_12_30_winter.jpg/1280px-Taebaeksan_2016_12_30_winter.jpg",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Taebaeksan_2016_12_30_winter.jpg",
+    "imageSource": "wikimedia_pageimage",
+    "imageStatus": "exact_or_article",
+    "imageAlt": "태백산 산 풍경",
+    "sourceExtract": "태백산(太白山)은 대한민국 강원특별자치도 영월군, 정선군, 태백시, 경상북도 봉화군 경계에 있는 높이 1,567m의 산이다. 1989년 5월 13일에 강원도 도립공원으로 지정되었으며, 2016년 4월 15일 국립공원으로 승격이 결정, 2016년 8월 22일부터 대한민국의 22번째 국립공원이 되었다.\n일찍이  민족의 영산으로 일컬어 오며 신라 때부터 여기서 관리와 백성들이 천제를 지내왔다. 고려 시대까지는 산꼭대기에 제사를 지내는 전각이 있었으나"
+  },
+  {
+    "id": "odaesan",
+    "name": "오대산",
+    "nameEn": "",
+    "region": "강원",
+    "province": "강원특별자치도 평창/홍천/강릉",
+    "height": 1563,
+    "bac": true,
+    "level": "고급",
+    "difficultyOriginal": "상급",
+    "time": "5시간",
+    "hours": 5,
+    "distance": "12km",
+    "distanceKm": 12,
+    "elevation": "1020m",
+    "rating": "4.6",
+    "lat": 37.798055555556,
+    "lon": 128.54305555556,
+    "summary": "오대산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "오대산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "강원 산행을 원하는 사람",
+      "상급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "대표 코스",
+      "start": "출발지 정보 준비중",
+      "mid": "중간지점 정보 준비중",
+      "summit": "비로봉",
+      "end": "하산지점 정보 준비중"
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "강원",
+      "상급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "오대산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "coordinateStatus": "public_source",
+    "regionOriginal": "강원",
+    "coordinateType": "summit",
+    "coordinateSource": "wikidata_or_wikipedia",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%EC%98%A4%EB%8C%80%EC%82%B0",
+    "wikidataId": "Q491028",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Korea-Gangwondo-Odaesan_National_Park_1663-07.JPG",
+    "imageThumb": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Korea-Gangwondo-Odaesan_National_Park_1663-07.JPG",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Korea-Gangwondo-Odaesan_National_Park_1663-07.JPG",
+    "imageSource": "wikimedia_pageimage",
+    "imageStatus": "exact_or_article",
+    "imageAlt": "오대산 산 풍경",
+    "sourceExtract": "오대산(五臺山, Odaesan Mt.)은 대한민국 강원특별자치도 강릉시와 평창군 및 홍천군 경계에 있는 높이 1,563m의 산이다. 1975년에 국립공원으로 지정되었다. 기암들의 모습이 금강산을 보는 듯하다고 해서 소금강, 또 학의 날개를 펴는 형상을 했다고 해서 일명 청학산이라고도 불린다. 조선 후기에는 실록을 보관하는 사고(史庫)도 설치되어 오늘날에도 건물은 보존되어 있다."
+  },
+  {
+    "id": "gariwangsan",
+    "name": "가리왕산",
+    "nameEn": "",
+    "region": "강원",
+    "province": "강원특별자치도 정선/평창",
+    "height": 1561,
+    "bac": true,
+    "level": "고급",
+    "difficultyOriginal": "상급",
+    "time": "5시간",
+    "hours": 5,
+    "distance": "12km",
+    "distanceKm": 12,
+    "elevation": "1010m",
+    "rating": "4.6",
+    "lat": 37.461388888889,
+    "lon": 128.56333333333,
+    "summary": "가리왕산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "가리왕산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "강원 산행을 원하는 사람",
+      "상급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "대표 코스",
+      "start": "출발지 정보 준비중",
+      "mid": "중간지점 정보 준비중",
+      "summit": "정상",
+      "end": "하산지점 정보 준비중"
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "강원",
+      "상급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "가리왕산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "coordinateStatus": "public_source",
+    "regionOriginal": "강원",
+    "coordinateType": "summit",
+    "coordinateSource": "wikidata_or_wikipedia",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%EA%B0%80%EB%A6%AC%EC%99%95%EC%82%B0",
+    "wikidataId": "Q5523374",
+    "image": "assets/mountains/gariwangsan.svg",
+    "imageThumb": "assets/mountains/gariwangsan.svg",
+    "imageSourceUrl": "",
+    "imageSource": "generated_site_fallback",
+    "imageStatus": "generated_fallback",
+    "imageAlt": "가리왕산 산 풍경",
+    "sourceExtract": "가리왕산(加里王山)은 대한민국 강원특별자치도 정선군과 평창군에 걸쳐 있는 산이다.오대산의 남쪽에 있으면서 높이도 비슷하여 오대산과 더불어 태백산맥의 지붕노릇을 하고 있다.\n전형적인 육산이며 능선에는 고산식물인 주목, 잣나무, 단풍나무 등 각종 수목이 울창하다.\n갈왕(葛王)이 난을 피하여 숨어든 곳이라 하여 갈왕산(葛王山)이라 부르다가 일제 강점기를 거치면서 가리왕산(加里王山)으로 불리고 있다. 정선아리랑의 고장이다.\n지금은 가리왕산 안에 국립 "
+  },
+  {
+    "id": "hambaeksan",
+    "name": "함백산",
+    "nameEn": "",
+    "region": "강원",
+    "province": "강원특별자치도 정선/태백",
+    "height": 1573,
+    "bac": true,
+    "level": "고급",
+    "difficultyOriginal": "상급",
+    "time": "5.1시간",
+    "hours": 5.1,
+    "distance": "12.1km",
+    "distanceKm": 12.1,
+    "elevation": "1020m",
+    "rating": "4.6",
+    "lat": 37.161666666667,
+    "lon": 128.9175,
+    "summary": "함백산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "함백산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "강원 산행을 원하는 사람",
+      "상급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "대표 코스",
+      "start": "출발지 정보 준비중",
+      "mid": "중간지점 정보 준비중",
+      "summit": "정상",
+      "end": "하산지점 정보 준비중"
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "강원",
+      "상급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "함백산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "coordinateStatus": "public_source",
+    "regionOriginal": "강원",
+    "coordinateType": "summit",
+    "coordinateSource": "wikidata_or_wikipedia",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%ED%95%A8%EB%B0%B1%EC%82%B0",
+    "wikidataId": "Q3727424",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/GN-GD-Sm-Ph15.jpg/1280px-GN-GD-Sm-Ph15.jpg",
+    "imageThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/GN-GD-Sm-Ph15.jpg/1280px-GN-GD-Sm-Ph15.jpg",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:GN-GD-Sm-Ph15.jpg",
+    "imageSource": "wikimedia_commons_search",
+    "imageStatus": "commons_search",
+    "imageAlt": "함백산 산 풍경",
+    "sourceExtract": ""
+  },
+  {
+    "id": "sobaeksan",
+    "name": "소백산",
+    "nameEn": "",
+    "region": "충청",
+    "province": "충청북도/경상북도 단양/영주",
+    "height": 1439,
+    "bac": true,
+    "level": "고급",
+    "difficultyOriginal": "상급",
+    "time": "4.6시간",
+    "hours": 4.6,
+    "distance": "11.1km",
+    "distanceKm": 11.1,
+    "elevation": "940m",
+    "rating": "4.6",
+    "lat": 36.96,
+    "lon": 128.48472222222,
+    "summary": "소백산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "소백산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "충북 산행을 원하는 사람",
+      "상급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "대표 코스",
+      "start": "출발지 정보 준비중",
+      "mid": "중간지점 정보 준비중",
+      "summit": "비로봉",
+      "end": "하산지점 정보 준비중"
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "충북",
+      "상급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "소백산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "coordinateStatus": "public_source",
+    "regionOriginal": "충북/경북",
+    "coordinateType": "summit",
+    "coordinateSource": "wikidata_or_wikipedia",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%EC%86%8C%EB%B0%B1%EC%82%B0",
+    "wikidataId": "Q625589",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Sobaeksan.jpg",
+    "imageThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Sobaeksan.jpg/1280px-Sobaeksan.jpg",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Sobaeksan.jpg",
+    "imageSource": "wikimedia_pageimage",
+    "imageStatus": "exact_or_article",
+    "imageAlt": "소백산 산 풍경",
+    "sourceExtract": "소백산(小白山)은 대한민국 경상북도 영주시와 충청북도 단양군에 걸쳐 있는 편마암 산으로 일찍부터 태백산과 함께 신령시 되어 온 산이다. 작은 백두산이라는 의미로 소백산이라고 했으며, 삼재(화재 수재 풍재)가 들지 않은 산이라 하여 풍수의 명당으로 꼽혀 조선시대 병란과 기근을 피할 수 있는 십승지지(十勝之地)의 하나로 거론되기도 했다. 1987년에 대한민국의 국립공원으로 지정되었다. 2007년 IUCN 국립공원(Ⅱ)으로 인증되었다."
+  },
+  {
+    "id": "bac-011",
+    "name": "가야산",
+    "nameEn": "",
+    "region": "경상",
+    "province": "경상남도/경상북도 합천/성주",
+    "height": 1430,
+    "bac": true,
+    "level": "고급",
+    "difficultyOriginal": "상급",
+    "time": "4.6시간",
+    "hours": 4.6,
+    "distance": "11km",
+    "distanceKm": 11,
+    "elevation": "930m",
+    "rating": "4.6",
+    "lat": 35.8220918,
+    "lon": 128.1179367,
+    "summary": "가야산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "가야산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "경남 산행을 원하는 사람",
+      "상급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "대표 코스",
+      "start": "출발지 정보 준비중",
+      "mid": "중간지점 정보 준비중",
+      "summit": "상왕봉",
+      "end": "하산지점 정보 준비중"
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "경남",
+      "상급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "가야산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "coordinateStatus": "public_source",
+    "regionOriginal": "경남/경북",
+    "coordinateType": "summit",
+    "coordinateSource": "wikidata_or_wikipedia",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%EA%B0%80%EC%95%BC%EC%82%B0",
+    "wikidataId": "Q5528708",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0b/GayaSanghwangbong.jpg",
+    "imageThumb": "https://upload.wikimedia.org/wikipedia/commons/0/0b/GayaSanghwangbong.jpg",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:GayaSanghwangbong.jpg",
+    "imageSource": "wikimedia_pageimage",
+    "imageStatus": "exact_or_article",
+    "imageAlt": "가야산 산 풍경",
+    "sourceExtract": "가야산(伽倻山)은 대한민국 경상북도 성주군과 경상남도 합천군, 거창군에 걸쳐 있는 산이다. 가야산은 예로부터 소백산, 오대산과 함께 삼재(화재, 수재, 풍재)가 들지 않은 산으로 알려져 왔다.\n가야산은 1972년 9번째 국립공원으로 지정된 한국 12대 명산 중 하나로 예로부터 조선 8경일만큼 산세가 빼어나다. 산세가 부드러운 합천군의 가야산과는 달리 성주 가야산은 산세가 가파른 편으로, 원시 그대로의 신비로움을 느낄 수 있다. 성주 가야산은 코"
+  },
+  {
+    "id": "bac-012",
+    "name": "황석산",
+    "nameEn": "",
+    "region": "경상",
+    "province": "경상남도 함양",
+    "height": 1192,
+    "bac": true,
+    "level": "고급",
+    "difficultyOriginal": "중상급",
+    "time": "3.8시간",
+    "hours": 3.8,
+    "distance": "9.2km",
+    "distanceKm": 9.2,
+    "elevation": "770m",
+    "rating": "4.6",
+    "lat": 35.65666667,
+    "lon": 127.7575,
+    "summary": "황석산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "황석산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "경남 산행을 원하는 사람",
+      "중상급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "대표 코스",
+      "start": "출발지 정보 준비중",
+      "mid": "중간지점 정보 준비중",
+      "summit": "정상",
+      "end": "하산지점 정보 준비중"
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "경남",
+      "중상급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "황석산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "coordinateStatus": "public_source",
+    "regionOriginal": "경남",
+    "coordinateType": "summit",
+    "coordinateSource": "wikidata_or_wikipedia",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%ED%99%A9%EC%84%9D%EC%82%B0",
+    "wikidataId": "Q5952055",
+    "image": "assets/mountains/bac-012.svg",
+    "imageThumb": "assets/mountains/bac-012.svg",
+    "imageSourceUrl": "",
+    "imageSource": "generated_site_fallback",
+    "imageStatus": "generated_fallback",
+    "imageAlt": "황석산 산 풍경",
+    "sourceExtract": ""
+  },
+  {
+    "id": "bac-013",
+    "name": "민주지산",
+    "nameEn": "",
+    "region": "충청",
+    "province": "충청북도/경상북도/전라북도 영동/김천/무주",
+    "height": 1242,
+    "bac": true,
+    "level": "고급",
+    "difficultyOriginal": "중상급",
+    "time": "4시간",
+    "hours": 4,
+    "distance": "9.6km",
+    "distanceKm": 9.6,
+    "elevation": "810m",
+    "rating": "4.6",
+    "lat": 36.04,
+    "lon": 127.84916667,
+    "summary": "민주지산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "민주지산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "충북 산행을 원하는 사람",
+      "중상급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "대표 코스",
+      "start": "출발지 정보 준비중",
+      "mid": "중간지점 정보 준비중",
+      "summit": "정상",
+      "end": "하산지점 정보 준비중"
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "충북",
+      "중상급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "민주지산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "coordinateStatus": "public_source",
+    "regionOriginal": "충북/경북/전북",
+    "coordinateType": "summit",
+    "coordinateSource": "wikidata_or_wikipedia",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%EB%AF%BC%EC%A3%BC%EC%A7%80%EC%82%B0",
+    "wikidataId": "Q8533668",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Minjujisan_Muju.jpg?width=1200",
+    "imageThumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Minjujisan_Muju.jpg?width=1200",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Minjujisan_Muju.jpg",
+    "imageSource": "wikimedia_pageimage",
+    "imageStatus": "exact_or_article",
+    "imageAlt": "민주지산 산 풍경",
+    "sourceExtract": "민주지산(岷周之山)은 대한민국 충청북도 영동군, 전북특별자치도 무주군, 경상북도 김천시의 경계에 있는 높이 1,242m의 산이다. 충청·전라·경상, 삼도를 가르는 삼도봉을 거느린 명산으로 옛 삼국 시대는 신라와 백제가 접경을 이루었던 산이기도 하다. 이 산을 중심으로 북쪽으로는 충북 영동군의 절경 물한리 계곡과 경북 김천시 황악산 기슭의 직지사가 유명하고, 동남쪽으로는 마애삼두불의 미소를 머금은 해발 1,200m의 석기봉과 태종 14년(1414"
+  },
+  {
+    "id": "bac-014",
+    "name": "장안산",
+    "nameEn": "",
+    "region": "전라",
+    "province": "전라북도 장수",
+    "height": 1237,
+    "bac": true,
+    "level": "고급",
+    "difficultyOriginal": "중상급",
+    "time": "4시간",
+    "hours": 4,
+    "distance": "9.5km",
+    "distanceKm": 9.5,
+    "elevation": "800m",
+    "rating": "4.6",
+    "lat": 35.63,
+    "lon": 127.59583333,
+    "summary": "장안산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "장안산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "전북 산행을 원하는 사람",
+      "중상급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "대표 코스",
+      "start": "출발지 정보 준비중",
+      "mid": "중간지점 정보 준비중",
+      "summit": "정상",
+      "end": "하산지점 정보 준비중"
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "전북",
+      "중상급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "장안산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "coordinateStatus": "public_source",
+    "regionOriginal": "전북",
+    "coordinateType": "summit",
+    "coordinateSource": "wikidata_or_wikipedia",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%EC%9E%A5%EC%95%88%EC%82%B0",
+    "wikidataId": "Q6154017",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5b/%EC%9E%A5%EC%95%88%EC%82%B0.jpg",
+    "imageThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/%EC%9E%A5%EC%95%88%EC%82%B0.jpg/1280px-%EC%9E%A5%EC%95%88%EC%82%B0.jpg",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%EC%9E%A5%EC%95%88%EC%82%B0.jpg",
+    "imageSource": "wikimedia_pageimage",
+    "imageStatus": "exact_or_article",
+    "imageAlt": "장안산 산 풍경",
+    "sourceExtract": "장안산(長安山)은 전북특별자치도 장수군에 있는 높이 1,237m의 산이다. 장안산은 일명 영취산(靈鷲山)이라고 하며, 장수, 번암,계남, 장계 등 4개 면의 중앙에 위치하고 백두대간이 뻗어 전국의 팔대 종산중 제일 광활한 면적을 점유하고 있다.1986년 8월 18일에 군립공원으로 지정되었다.\n무룡궁이란 곳이 있어 금강과 섬진강의 가장 먼 분수지이다. 무룡이란 용이 춤을 춘다는 말로 이재에서 장안산으로 향하는 기세가 마치 용이 하늘로 오르는 기상"
+  },
+  {
+    "id": "bac-015",
+    "name": "백운산",
+    "nameEn": "",
+    "region": "전라",
+    "province": "전라남도 광양",
+    "height": 1222,
+    "bac": true,
+    "level": "고급",
+    "difficultyOriginal": "중상급",
+    "time": "3.9시간",
+    "hours": 3.9,
+    "distance": "9.4km",
+    "distanceKm": 9.4,
+    "elevation": "790m",
+    "rating": "4.6",
+    "lat": 35.618333333,
+    "lon": 127.635277777,
+    "summary": "백운산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "백운산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "광주 산행을 원하는 사람",
+      "중상급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "대표 코스",
+      "start": "출발지 정보 준비중",
+      "mid": "중간지점 정보 준비중",
+      "summit": "상봉",
+      "end": "하산지점 정보 준비중"
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "광주",
+      "중상급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "백운산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "coordinateStatus": "public_source",
+    "regionOriginal": "전라",
+    "coordinateType": "summit",
+    "coordinateSource": "wikidata_label_nearest_region",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%EB%B0%B1%EC%9A%B4%EC%82%B0",
+    "wikidataId": "Q4841232",
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/White%20Cloud%20Mountain%20Minnow%201.jpg?width=1200",
+    "imageThumb": "http://commons.wikimedia.org/wiki/Special:FilePath/White%20Cloud%20Mountain%20Minnow%201.jpg?width=1200",
+    "imageSourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/White%20Cloud%20Mountain%20Minnow%201.jpg",
+    "imageSource": "wikidata_image",
+    "imageStatus": "wikidata_label",
+    "imageAlt": "백운산 산 풍경",
+    "sourceExtract": "백운산의 다른 뜻은 다음과 같다."
+  },
+  {
+    "id": "bac-016",
+    "name": "가지산",
+    "nameEn": "",
+    "region": "경상",
+    "province": "울산광역시/경상남도/경상북도 울주/밀양/청도",
+    "height": 1241,
+    "bac": true,
+    "level": "고급",
+    "difficultyOriginal": "중상급",
+    "time": "4시간",
+    "hours": 4,
+    "distance": "9.5km",
+    "distanceKm": 9.5,
+    "elevation": "810m",
+    "rating": "4.6",
+    "lat": 35.620277777,
+    "lon": 129.003055555,
+    "summary": "가지산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "가지산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "울산 산행을 원하는 사람",
+      "중상급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "대표 코스",
+      "start": "출발지 정보 준비중",
+      "mid": "중간지점 정보 준비중",
+      "summit": "정상",
+      "end": "하산지점 정보 준비중"
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "울산",
+      "중상급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "가지산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "coordinateStatus": "public_source",
+    "regionOriginal": "경상",
+    "coordinateType": "summit",
+    "coordinateSource": "wikidata_label_nearest_region",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%EA%B0%80%EC%A7%80%EC%82%B0",
+    "wikidataId": "Q16071481",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/2a/%EA%B0%80%EC%A7%80%EC%82%B0%EC%B2%A0%EC%AD%89%EB%82%98%EB%AC%B4%EA%B5%B0%EB%9D%BD%EC%A7%80_%281%29_01.jpg",
+    "imageThumb": "https://upload.wikimedia.org/wikipedia/commons/2/2a/%EA%B0%80%EC%A7%80%EC%82%B0%EC%B2%A0%EC%AD%89%EB%82%98%EB%AC%B4%EA%B5%B0%EB%9D%BD%EC%A7%80_%281%29_01.jpg",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%EA%B0%80%EC%A7%80%EC%82%B0%EC%B2%A0%EC%AD%89%EB%82%98%EB%AC%B4%EA%B5%B0%EB%9D%BD%EC%A7%80_(1)_01.jpg",
+    "imageSource": "wikimedia_commons_search",
+    "imageStatus": "commons_search",
+    "imageAlt": "가지산 산 풍경",
+    "sourceExtract": "가지산의 다른 뜻은 다음과 같다.\n\n가지산(迦智山)은 울산광역시 울주군과 경상남도 밀양시, 경상북도 청도군의 경계에 있는 산이다.\n가지산(迦智山)은 전라남도 장흥군에 있는 산이다."
+  },
+  {
+    "id": "bac-017",
+    "name": "운장산",
+    "nameEn": "",
+    "region": "전라",
+    "province": "전라북도 진안",
+    "height": 1126,
+    "bac": true,
+    "level": "고급",
+    "difficultyOriginal": "중상급",
+    "time": "3.6시간",
+    "hours": 3.6,
+    "distance": "8.7km",
+    "distanceKm": 8.7,
+    "elevation": "730m",
+    "rating": "4.6",
+    "lat": 35.9108,
+    "lon": 127.357,
+    "summary": "운장산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "운장산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "전북 산행을 원하는 사람",
+      "중상급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "대표 코스",
+      "start": "출발지 정보 준비중",
+      "mid": "중간지점 정보 준비중",
+      "summit": "정상",
+      "end": "하산지점 정보 준비중"
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "전북",
+      "중상급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "운장산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "coordinateStatus": "public_source",
+    "regionOriginal": "전북",
+    "coordinateType": "summit",
+    "coordinateSource": "wikidata_or_wikipedia",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%EC%9A%B4%EC%9E%A5%EC%82%B0",
+    "wikidataId": "Q7896931",
+    "image": "assets/mountains/bac-017.svg",
+    "imageThumb": "assets/mountains/bac-017.svg",
+    "imageSourceUrl": "",
+    "imageSource": "generated_site_fallback",
+    "imageStatus": "generated_fallback",
+    "imageAlt": "운장산 산 풍경",
+    "sourceExtract": "운장산(雲長山)은 대한민국 전북특별자치도 진안군에 있는 높이 1126m의 산이다.\n호남지방 노령산맥 중 제일 높은 산이다.\n과거에는 주줄산(珠崒山), 주출산, 주화산(珠華山) 등으로 불리다 중봉인 운장대의 이름이 산이름으로 되었다. 한자 표기로는 雲藏臺이지만 일제시대부터 雲長山으로 표기 되었다. (일설로  전해지는 송익필의 자(字)가 산이름이 되었다는 것은 사실이 아니다. 일반적으로 자(字)를 지명으로 쓰는 경우는 없다. 서인인 송익필과 동인인"
+  },
+  {
+    "id": "bac-018",
+    "name": "무등산",
+    "nameEn": "",
+    "region": "전라",
+    "province": "광주광역시/전라남도 광주/화순/담양",
+    "height": 1100,
+    "bac": true,
+    "level": "고급",
+    "difficultyOriginal": "중상급",
+    "time": "3.5시간",
+    "hours": 3.5,
+    "distance": "8.5km",
+    "distanceKm": 8.5,
+    "elevation": "720m",
+    "rating": "4.6",
+    "lat": 35.134166666667,
+    "lon": 126.98888888889,
+    "summary": "무등산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "무등산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "광주 산행을 원하는 사람",
+      "중상급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "대표 코스",
+      "start": "출발지 정보 준비중",
+      "mid": "중간지점 정보 준비중",
+      "summit": "서석대",
+      "end": "하산지점 정보 준비중"
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "광주",
+      "중상급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "무등산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "coordinateStatus": "public_source",
+    "regionOriginal": "전라",
+    "coordinateType": "summit",
+    "coordinateSource": "wikidata_or_wikipedia",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%EB%AC%B4%EB%93%B1%EC%82%B0",
+    "wikidataId": "Q6931712",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/97/Gwangju_Mudeungsan.jpg",
+    "imageThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Gwangju_Mudeungsan.jpg/1280px-Gwangju_Mudeungsan.jpg",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Gwangju_Mudeungsan.jpg",
+    "imageSource": "wikimedia_pageimage",
+    "imageStatus": "exact_or_article",
+    "imageAlt": "무등산 산 풍경",
+    "sourceExtract": "무등산(無等山)은 대한민국 전남광주통합특별시 동구 · 북구 · 화순군 · 담양군에 걸쳐 있는 해발 1,187m의 호남정맥의 산이다. 1972년 5월 22일에 도립공원으로 지정되었으며, 2013년 3월 4일, 국립공원으로 지정되었다. 대한민국 21번째 국립공원이며 1988년 변산반도·월출산 이후 24년 만의 신규 지정이었다. 정상은 천왕봉이나 1966년 공군부대가 주둔해서 정상 부근이 군사시설 보호구역으로 통제되는 바람에 일반 등산객이 올라갈 수"
+  },
+  {
+    "id": "bac-019",
+    "name": "연인산",
+    "nameEn": "",
+    "region": "경기",
+    "province": "경기도 가평",
+    "height": 1068,
+    "bac": true,
+    "level": "고급",
+    "difficultyOriginal": "중상급",
+    "time": "3.4시간",
+    "hours": 3.4,
+    "distance": "8.2km",
+    "distanceKm": 8.2,
+    "elevation": "690m",
+    "rating": "4.6",
+    "lat": 37.899444444444,
+    "lon": 127.41444444444,
+    "summary": "연인산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "연인산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "경기 산행을 원하는 사람",
+      "중상급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "대표 코스",
+      "start": "출발지 정보 준비중",
+      "mid": "중간지점 정보 준비중",
+      "summit": "노인봉",
+      "end": "하산지점 정보 준비중"
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "경기",
+      "중상급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "연인산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "coordinateStatus": "public_source",
+    "regionOriginal": "경기",
+    "coordinateType": "summit",
+    "coordinateSource": "wikidata_or_wikipedia",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%EC%97%B0%EC%9D%B8%EC%82%B0",
+    "wikidataId": "Q8052476",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Yongchu_Valley_06.jpg",
+    "imageThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Yongchu_Valley_06.jpg/1280px-Yongchu_Valley_06.jpg",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Yongchu_Valley_06.jpg",
+    "imageSource": "wikimedia_pageimage",
+    "imageStatus": "exact_or_article",
+    "imageAlt": "연인산 산 풍경",
+    "sourceExtract": "연인산(戀人山)은 대한민국 경기도 가평군의 산이다. 1999년 3월 15일, 가평군 지명위원회에서 다른 이름이 없던 이 산에 연인산이란 이름을 붙였다. 경기 육괴 선캄브리아기 경기변성암복합체 흑운모 편마암으로 구성된다."
+  },
+  {
+    "id": "bac-020",
+    "name": "명지산",
+    "nameEn": "",
+    "region": "경기",
+    "province": "경기도 가평",
+    "height": 1267,
+    "bac": true,
+    "level": "고급",
+    "difficultyOriginal": "중상급",
+    "time": "4.1시간",
+    "hours": 4.1,
+    "distance": "9.7km",
+    "distanceKm": 9.7,
+    "elevation": "820m",
+    "rating": "4.6",
+    "lat": 37.932777777778,
+    "lon": 127.43083333333,
+    "summary": "명지산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "명지산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "경기 산행을 원하는 사람",
+      "중상급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "대표 코스",
+      "start": "출발지 정보 준비중",
+      "mid": "중간지점 정보 준비중",
+      "summit": "정상",
+      "end": "하산지점 정보 준비중"
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "경기",
+      "중상급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "명지산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "coordinateStatus": "public_source",
+    "regionOriginal": "경기",
+    "coordinateType": "summit",
+    "coordinateSource": "wikidata_or_wikipedia",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%EB%AA%85%EC%A7%80%EC%82%B0",
+    "wikidataId": "Q8528363",
+    "image": "assets/mountains/bac-020.svg",
+    "imageThumb": "assets/mountains/bac-020.svg",
+    "imageSourceUrl": "",
+    "imageSource": "generated_site_fallback",
+    "imageStatus": "generated_fallback",
+    "imageAlt": "명지산 산 풍경",
+    "sourceExtract": "명지산(明智山)은 대한민국 경기도 가평군 북면 하면에 걸쳐 있는 높이 1,267m의 산이다. 1991년 10월 9일에 군립공원으로 지정되었다. 경기 육괴 경기변성암복합체의 미그마타이트(혼성암)질 흑운모 편마암으로 구성된다."
+  },
+  {
+    "id": "bac-021",
+    "name": "용문산",
+    "nameEn": "",
+    "region": "경기",
+    "province": "경기도 양평",
+    "height": 1157,
+    "bac": true,
+    "level": "고급",
+    "difficultyOriginal": "중상급",
+    "time": "3.7시간",
+    "hours": 3.7,
+    "distance": "8.9km",
+    "distanceKm": 8.9,
+    "elevation": "750m",
+    "rating": "4.6",
+    "lat": 36.25,
+    "lon": 128.055,
+    "summary": "용문산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "용문산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "경기 산행을 원하는 사람",
+      "중상급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "대표 코스",
+      "start": "출발지 정보 준비중",
+      "mid": "중간지점 정보 준비중",
+      "summit": "가섭봉 정상석",
+      "end": "하산지점 정보 준비중"
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "경기",
+      "중상급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "용문산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "coordinateStatus": "public_source",
+    "regionOriginal": "경기",
+    "coordinateType": "summit",
+    "coordinateSource": "wikidata_label_nearest_region",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%EC%9A%A9%EB%AC%B8%EC%82%B0",
+    "wikidataId": "Q12608681",
+    "image": "assets/mountains/bac-021.svg",
+    "imageThumb": "assets/mountains/bac-021.svg",
+    "imageSourceUrl": "",
+    "imageSource": "generated_site_fallback",
+    "imageStatus": "generated_fallback",
+    "imageAlt": "용문산 산 풍경",
+    "sourceExtract": "용문산은 다음을 의미한다.\n\n대한민국 지리\n용문산(龍門山)은 경기도 양평군에 있는 산이다.\n용문산(龍門山)은 경상북도 예천군에 있는 산이다.\n조선민주주의인민공화국 지리\n용문산(龍門山)은 평안남도 덕천군과 평안북도 영변군에 걸쳐있는 산이다.\n중화인민공화국 지리\n룽먼 산(龍門山)은 중국 허난 성에 있는 산이다.\n룽먼 산(龍門山)은 중국 쓰촨 성에 있는 산이다."
+  },
+  {
+    "id": "bac-022",
+    "name": "비슬산",
+    "nameEn": "",
+    "region": "경상",
+    "province": "대구광역시/경상북도 달성/청도",
+    "height": 1084,
+    "bac": true,
+    "level": "고급",
+    "difficultyOriginal": "중상급",
+    "time": "3.5시간",
+    "hours": 3.5,
+    "distance": "8.3km",
+    "distanceKm": 8.3,
+    "elevation": "700m",
+    "rating": "4.6",
+    "lat": 35.71666667,
+    "lon": 128.52444444,
+    "summary": "비슬산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "비슬산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "대구 산행을 원하는 사람",
+      "중상급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "대표 코스",
+      "start": "출발지 정보 준비중",
+      "mid": "중간지점 정보 준비중",
+      "summit": "천왕봉",
+      "end": "하산지점 정보 준비중"
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "대구",
+      "중상급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "비슬산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "coordinateStatus": "public_source",
+    "regionOriginal": "경상",
+    "coordinateType": "summit",
+    "coordinateSource": "wikidata_or_wikipedia",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%EB%B9%84%EC%8A%AC%EC%82%B0",
+    "wikidataId": "Q4917297",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/da/Korea-Mount_Biseul-Azalea_Valley-01.jpg",
+    "imageThumb": "https://upload.wikimedia.org/wikipedia/commons/d/da/Korea-Mount_Biseul-Azalea_Valley-01.jpg",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Korea-Mount_Biseul-Azalea_Valley-01.jpg",
+    "imageSource": "wikimedia_pageimage",
+    "imageStatus": "exact_or_article",
+    "imageAlt": "비슬산 산 풍경",
+    "sourceExtract": "비슬산(琵瑟山)은 대한민국 대구광역시 달성군과 경상북도 청도군, 경상남도 창녕군의 사이에 있는 높이 1,084m의 산이다. 1986년 2월 22일에 군립공원으로 지정되었다.\n'신증동국여지승람'과 '달성군지'에는 비슬산을 일명 포산(苞山, 수목에 덮여 있는 산)이라 한다고 기록되어 있다. '유가사사적(瑜伽寺寺蹟)'에는 산의 모습이 거문고와 같아서 비슬산(琵瑟山)이라고 하였다는 기록이 있다.\n암괴류(岩塊流)는 큰 자갈 또는 바위 크기의 둥글거나 각"
+  },
+  {
+    "id": "bac-023",
+    "name": "황매산",
+    "nameEn": "",
+    "region": "경상",
+    "province": "경상남도 합천/산청",
+    "height": 1113,
+    "bac": true,
+    "level": "고급",
+    "difficultyOriginal": "중상급",
+    "time": "3.6시간",
+    "hours": 3.6,
+    "distance": "8.6km",
+    "distanceKm": 8.6,
+    "elevation": "720m",
+    "rating": "4.6",
+    "lat": 35.49638889,
+    "lon": 127.97444444,
+    "summary": "황매산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "황매산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "경남 산행을 원하는 사람",
+      "중상급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "대표 코스",
+      "start": "출발지 정보 준비중",
+      "mid": "중간지점 정보 준비중",
+      "summit": "정상",
+      "end": "하산지점 정보 준비중"
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "경남",
+      "중상급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "황매산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "coordinateStatus": "public_source",
+    "regionOriginal": "경남",
+    "coordinateType": "summit",
+    "coordinateSource": "wikidata_or_wikipedia",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%ED%99%A9%EB%A7%A4%EC%82%B0",
+    "wikidataId": "Q5952045",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/39/Hwangmaesan_Mountain_in_autumn.jpg",
+    "imageThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Hwangmaesan_Mountain_in_autumn.jpg/1280px-Hwangmaesan_Mountain_in_autumn.jpg",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Hwangmaesan_Mountain_in_autumn.jpg",
+    "imageSource": "wikimedia_pageimage",
+    "imageStatus": "exact_or_article",
+    "imageAlt": "황매산 산 풍경",
+    "sourceExtract": ""
+  },
+  {
+    "id": "bac-024",
+    "name": "팔공산",
+    "nameEn": "",
+    "region": "경상",
+    "province": "대구광역시/경상북도 군위/영천/경산",
+    "height": 1193,
+    "bac": true,
+    "level": "고급",
+    "difficultyOriginal": "중상급",
+    "time": "3.8시간",
+    "hours": 3.8,
+    "distance": "9.2km",
+    "distanceKm": 9.2,
+    "elevation": "780m",
+    "rating": "4.6",
+    "lat": 36.0151,
+    "lon": 128.69977,
+    "summary": "팔공산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "팔공산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "대구 산행을 원하는 사람",
+      "중상급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "대표 코스",
+      "start": "출발지 정보 준비중",
+      "mid": "중간지점 정보 준비중",
+      "summit": "비로봉",
+      "end": "하산지점 정보 준비중"
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "대구",
+      "중상급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "팔공산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "coordinateStatus": "public_source",
+    "regionOriginal": "경상",
+    "coordinateType": "summit",
+    "coordinateSource": "wikidata_or_wikipedia",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%ED%8C%94%EA%B3%B5%EC%82%B0",
+    "wikidataId": "Q624313",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3c/%ED%8C%94%EA%B3%B5%EC%82%B0_%EA%B4%80%EB%B4%89_%EA%B2%BD%EC%B9%98%28%EA%B2%BD%EC%82%B0%EC%8B%9C_%EB%B0%A9%ED%96%A5%29.jpg",
+    "imageThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/%ED%8C%94%EA%B3%B5%EC%82%B0_%EA%B4%80%EB%B4%89_%EA%B2%BD%EC%B9%98%28%EA%B2%BD%EC%82%B0%EC%8B%9C_%EB%B0%A9%ED%96%A5%29.jpg/1280px-%ED%8C%94%EA%B3%B5%EC%82%B0_%EA%B4%80%EB%B4%89_%EA%B2%BD%EC%B9%98%28%EA%B2%BD%EC%82%B0%EC%8B%9C_%EB%B0%A9%ED%96%A5%29.jpg",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%ED%8C%94%EA%B3%B5%EC%82%B0_%EA%B4%80%EB%B4%89_%EA%B2%BD%EC%B9%98%28%EA%B2%BD%EC%82%B0%EC%8B%9C_%EB%B0%A9%ED%96%A5%29.jpg",
+    "imageSource": "wikimedia_pageimage",
+    "imageStatus": "exact_or_article",
+    "imageAlt": "팔공산 산 풍경",
+    "sourceExtract": "팔공산(八公山)은 제23호 대한민국의 국립공원으로 대구광역시 동구와 북구와 군위군, 경상북도 경산시와 영천시 그리고 칠곡군에 넓게 걸쳐 있는 태백산맥 줄기의 산이다. 1980년 5월 13일에 경상북도 도립공원으로 지정되었고, 2023년 12월 31일에 국립공원으로 지정되었다.\n삼국시대부터 신라인들이 \"아버지의 산(부악, 父岳)\" 또는 \"중심이 되는 산(중악, 中岳)\"으로 신성시하며, 하늘에 제사를 지내던 산이다.\n팔공산은 봉황의 모습으로 대구분"
+  },
+  {
+    "id": "bac-025",
+    "name": "재약산",
+    "nameEn": "",
+    "region": "경상",
+    "province": "경상남도 밀양",
+    "height": 1108,
+    "bac": true,
+    "level": "고급",
+    "difficultyOriginal": "중상급",
+    "time": "3.6시간",
+    "hours": 3.6,
+    "distance": "8.5km",
+    "distanceKm": 8.5,
+    "elevation": "720m",
+    "rating": "4.6",
+    "lat": 35.54666667,
+    "lon": 128.98055556,
+    "summary": "재약산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "재약산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "경남 산행을 원하는 사람",
+      "중상급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "대표 코스",
+      "start": "출발지 정보 준비중",
+      "mid": "중간지점 정보 준비중",
+      "summit": "수미봉",
+      "end": "하산지점 정보 준비중"
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "경남",
+      "중상급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "재약산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "coordinateStatus": "public_source",
+    "regionOriginal": "경남",
+    "coordinateType": "summit",
+    "coordinateSource": "wikidata_or_wikipedia",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%EC%9E%AC%EC%95%BD%EC%82%B0",
+    "wikidataId": "Q6121735",
+    "image": "assets/mountains/bac-025.svg",
+    "imageThumb": "assets/mountains/bac-025.svg",
+    "imageSourceUrl": "",
+    "imageSource": "generated_site_fallback",
+    "imageStatus": "generated_fallback",
+    "imageAlt": "재약산 산 풍경",
+    "sourceExtract": "재약산(載藥山)은 대한민국 경상남도 밀양시와 울산광역시 울주군의 경계에 있는 높이 1,119.1m의 산이다. 영남 알프스의 일부이다. 인근 천황산과 함께 재약산으로 묶어서 천황산을 재약산 사자봉으로 재약산을 재약산 수미봉으로 부르기도 한다."
+  },
+  {
+    "id": "bac-026",
+    "name": "천황산",
+    "nameEn": "",
+    "region": "경상",
+    "province": "경상남도 밀양/울주",
+    "height": 1189,
+    "bac": true,
+    "level": "고급",
+    "difficultyOriginal": "중상급",
+    "time": "3.8시간",
+    "hours": 3.8,
+    "distance": "9.1km",
+    "distanceKm": 9.1,
+    "elevation": "770m",
+    "rating": "4.6",
+    "lat": 35.509722222,
+    "lon": 128.265833333,
+    "summary": "천황산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "천황산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "경남 산행을 원하는 사람",
+      "중상급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "대표 코스",
+      "start": "출발지 정보 준비중",
+      "mid": "중간지점 정보 준비중",
+      "summit": "사자봉",
+      "end": "하산지점 정보 준비중"
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "경남",
+      "중상급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "천황산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "coordinateStatus": "public_source",
+    "regionOriginal": "경남",
+    "coordinateType": "summit",
+    "coordinateSource": "wikidata_label_nearest_region",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%EC%B2%9C%ED%99%A9%EC%82%B0",
+    "wikidataId": "Q5091671",
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Chonhwangsan.jpg?width=1200",
+    "imageThumb": "http://commons.wikimedia.org/wiki/Special:FilePath/Chonhwangsan.jpg?width=1200",
+    "imageSourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Chonhwangsan.jpg",
+    "imageSource": "wikidata_image",
+    "imageStatus": "wikidata_label",
+    "imageAlt": "천황산 산 풍경",
+    "sourceExtract": "천황산의 다른 뜻은 다음과 같다.\n\n천황산은 경상남도 밀양시와 울산광역시 울주군의 경계에 있는 산이다.\n천황산은 경상남도 합천군에 있는 산이다."
+  },
+  {
+    "id": "bac-027",
+    "name": "월악산",
+    "nameEn": "",
+    "region": "충청",
+    "province": "충청북도/경상북도 제천/충주/문경",
+    "height": 1097,
+    "bac": true,
+    "level": "고급",
+    "difficultyOriginal": "중상급",
+    "time": "3.5시간",
+    "hours": 3.5,
+    "distance": "8.4km",
+    "distanceKm": 8.4,
+    "elevation": "710m",
+    "rating": "4.6",
+    "lat": 36.883333333333,
+    "lon": 128.08333333333,
+    "summary": "월악산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "월악산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "충북 산행을 원하는 사람",
+      "중상급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "대표 코스",
+      "start": "출발지 정보 준비중",
+      "mid": "중간지점 정보 준비중",
+      "summit": "영봉",
+      "end": "하산지점 정보 준비중"
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "충북",
+      "중상급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "월악산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "coordinateStatus": "public_source",
+    "regionOriginal": "충북/경북",
+    "coordinateType": "summit",
+    "coordinateSource": "wikidata_or_wikipedia",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%EC%9B%94%EC%95%85%EC%82%B0",
+    "wikidataId": "Q482709",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/07/Mount_Worak_Korea_242.jpg",
+    "imageThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Mount_Worak_Korea_242.jpg/1280px-Mount_Worak_Korea_242.jpg",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Mount_Worak_Korea_242.jpg",
+    "imageSource": "wikimedia_pageimage",
+    "imageStatus": "exact_or_article",
+    "imageAlt": "월악산 산 풍경",
+    "sourceExtract": "월악산(月岳山)은 대한민국 충청북도 제천시, 충주시와 경상북도 문경시에 걸쳐 있는 높이 1,097m의 한국의 화강암 산이다. 1984년 12월 31일 국립공원으로 지정되었다. 면적 대부분은 제천시에 있다."
+  },
+  {
+    "id": "bac-028",
+    "name": "주왕산",
+    "nameEn": "",
+    "region": "경상",
+    "province": "경상북도 청송",
+    "height": 722,
+    "bac": true,
+    "level": "중급",
+    "difficultyOriginal": "중급",
+    "time": "2.3시간",
+    "hours": 2.3,
+    "distance": "5.6km",
+    "distanceKm": 5.6,
+    "elevation": "470m",
+    "rating": "4.6",
+    "lat": 36.38922,
+    "lon": 129.162589,
+    "summary": "주왕산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "주왕산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "경북 산행을 원하는 사람",
+      "중급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "대표 코스",
+      "start": "출발지 정보 준비중",
+      "mid": "중간지점 정보 준비중",
+      "summit": "주봉",
+      "end": "하산지점 정보 준비중"
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "경북",
+      "중급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "주왕산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "coordinateStatus": "public_source",
+    "regionOriginal": "경북",
+    "coordinateType": "summit",
+    "coordinateSource": "wikidata_or_wikipedia",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%EC%A3%BC%EC%99%95%EC%82%B0",
+    "wikidataId": "Q6319107",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/47/%EC%A3%BC%EC%99%95%EC%82%B0_%28_2_%29.jpg",
+    "imageThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/%EC%A3%BC%EC%99%95%EC%82%B0_%28_2_%29.jpg/1280px-%EC%A3%BC%EC%99%95%EC%82%B0_%28_2_%29.jpg",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%EC%A3%BC%EC%99%95%EC%82%B0_%28_2_%29.jpg",
+    "imageSource": "wikimedia_pageimage",
+    "imageStatus": "exact_or_article",
+    "imageAlt": "주왕산 산 풍경",
+    "sourceExtract": "주왕산(周王山)은 대한민국 경상북도 청송군 주왕산면에 위치하고 있는 산이다. 1976년 3월 30일 12번째 대한민국의 국립공원으로 지정되었으며 청송 유네스코 세계지질공원의 일부이다. 이 산 일원의 지질은 풍화와 침식에 대한 저항력이 강한 백악기 경상 누층군 유천층군의 중성 내지 산성 화산암류로 구성되어 있다. 주왕산은 아름다운 계류와 죽순처럼 솟아오른 암봉 및 기암 괴석에다 울창한 송림이 한데 어우러져 한 폭의 산수화 같은 절경을 이루고 있다"
+  },
+  {
+    "id": "bac-029",
+    "name": "속리산",
+    "nameEn": "",
+    "region": "충청",
+    "province": "충청북도/경상북도 보은/상주",
+    "height": 1058,
+    "bac": true,
+    "level": "고급",
+    "difficultyOriginal": "중상급",
+    "time": "3.4시간",
+    "hours": 3.4,
+    "distance": "8.1km",
+    "distanceKm": 8.1,
+    "elevation": "690m",
+    "rating": "4.6",
+    "lat": 36.533333333333,
+    "lon": 127.9,
+    "summary": "속리산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "속리산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "충북 산행을 원하는 사람",
+      "중상급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "대표 코스",
+      "start": "출발지 정보 준비중",
+      "mid": "중간지점 정보 준비중",
+      "summit": "천왕봉",
+      "end": "하산지점 정보 준비중"
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "충북",
+      "중상급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "속리산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "coordinateStatus": "public_source",
+    "regionOriginal": "충북/경북",
+    "coordinateType": "summit",
+    "coordinateSource": "wikidata_or_wikipedia",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%EC%86%8D%EB%A6%AC%EC%82%B0",
+    "wikidataId": "Q482720",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/de/Songnisan_as_seen_from_Cheonwangbong_%28cropped%29.jpg",
+    "imageThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Songnisan_as_seen_from_Cheonwangbong_%28cropped%29.jpg/1280px-Songnisan_as_seen_from_Cheonwangbong_%28cropped%29.jpg",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Songnisan_as_seen_from_Cheonwangbong_%28cropped%29.jpg",
+    "imageSource": "wikimedia_pageimage",
+    "imageStatus": "exact_or_article",
+    "imageAlt": "속리산 산 풍경",
+    "sourceExtract": "속리산(俗離山, Sokri Mountain)은 대한민국 충청북도 보은군과 괴산군, 경상북도 상주시와 문경시에 걸쳐 있는 높이 1,058m의 산이다. 화강암을 기반으로 변성퇴적암이 섞여 있고 화강암 부분은 날카롭게 솟아오르고 변성퇴적암 부분은 깊게 패여 높고 깊은 봉우리와 계곡이 절경을 이루고 있어 광명산(光明山), 미지산(彌智山), 소금강산(小金剛山)으로 불리기도 한다. 1970년 3월 24일에 대한민국의 6번째 국립공원으로 지정되었다. 속리산"
+  },
+  {
+    "id": "bac-030",
+    "name": "월출산",
+    "nameEn": "",
+    "region": "전라",
+    "province": "전라남도 영암/강진",
+    "height": 809,
+    "bac": true,
+    "level": "중급",
+    "difficultyOriginal": "중급",
+    "time": "2.6시간",
+    "hours": 2.6,
+    "distance": "6.2km",
+    "distanceKm": 6.2,
+    "elevation": "530m",
+    "rating": "4.6",
+    "lat": 34.767777777778,
+    "lon": 126.70444444444,
+    "summary": "월출산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "월출산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "전남 산행을 원하는 사람",
+      "중급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "대표 코스",
+      "start": "출발지 정보 준비중",
+      "mid": "중간지점 정보 준비중",
+      "summit": "천황봉",
+      "end": "하산지점 정보 준비중"
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "전남",
+      "중급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "월출산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "coordinateStatus": "public_source",
+    "regionOriginal": "전남",
+    "coordinateType": "summit",
+    "coordinateSource": "wikidata_or_wikipedia",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%EC%9B%94%EC%B6%9C%EC%82%B0",
+    "wikidataId": "Q482741",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/27/Wolchulsan_mountain_peak.jpg",
+    "imageThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Wolchulsan_mountain_peak.jpg/1280px-Wolchulsan_mountain_peak.jpg",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Wolchulsan_mountain_peak.jpg",
+    "imageSource": "wikimedia_pageimage",
+    "imageStatus": "exact_or_article",
+    "imageAlt": "월출산 산 풍경",
+    "sourceExtract": "월출산(月出山)은 전라남도 영암군과 강진군에 걸쳐있는 산이다. 1973년 1월 29일에 도립공원으로, 1988년 6월 11일에는 국립공원으로 지정되었다. 월출산이라는 이름은 '달(月)이 뜨는(出) 산'라는 의미이다.\n가장 높은 봉우리는 천황봉(약 809m)이고 구정봉, 사자봉, 도갑봉, 주거봉 등 깎아지른 듯한 기암절벽을 이루고 있다.\n면적은 56.1km2에 암석 노출지와 급경사 계곡이 많아 생태계가 풍부하게 유지되기 어려운 조건이지만, 식물 "
+  },
+  {
+    "id": "bac-031",
+    "name": "내장산",
+    "nameEn": "",
+    "region": "전라",
+    "province": "전라북도 정읍/순창",
+    "height": 763,
+    "bac": true,
+    "level": "중급",
+    "difficultyOriginal": "중급",
+    "time": "2.5시간",
+    "hours": 2.5,
+    "distance": "5.9km",
+    "distanceKm": 5.9,
+    "elevation": "500m",
+    "rating": "4.6",
+    "lat": 35.483333333333,
+    "lon": 126.88333333333,
+    "summary": "내장산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "내장산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "전북 산행을 원하는 사람",
+      "중급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "대표 코스",
+      "start": "출발지 정보 준비중",
+      "mid": "중간지점 정보 준비중",
+      "summit": "신선봉",
+      "end": "하산지점 정보 준비중"
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "전북",
+      "중급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "내장산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "coordinateStatus": "public_source",
+    "regionOriginal": "전북",
+    "coordinateType": "summit",
+    "coordinateSource": "wikidata_or_wikipedia",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%EB%82%B4%EC%9E%A5%EC%82%B0",
+    "wikidataId": "Q626648",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a6/%EB%82%B4%EC%9E%A5%EC%82%B0_%EB%82%A8%EC%B0%BD%EA%B3%84%EA%B3%A1.jpg",
+    "imageThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/%EB%82%B4%EC%9E%A5%EC%82%B0_%EB%82%A8%EC%B0%BD%EA%B3%84%EA%B3%A1.jpg/1280px-%EB%82%B4%EC%9E%A5%EC%82%B0_%EB%82%A8%EC%B0%BD%EA%B3%84%EA%B3%A1.jpg",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%EB%82%B4%EC%9E%A5%EC%82%B0_%EB%82%A8%EC%B0%BD%EA%B3%84%EA%B3%A1.jpg",
+    "imageSource": "wikimedia_pageimage",
+    "imageStatus": "exact_or_article",
+    "imageAlt": "내장산 산 풍경",
+    "sourceExtract": "내장산(內藏山, Naejangsan)은 전북특별자치도 정읍시와 순창군 경계에 있는 호남정맥의 산이다. 호남 지방의 5대 명산(지리산·월출산·천원산·방장산)과 한국 팔경 중 하나로서 500여 년 전부터 단풍 명소로 널리 알려졌으며, 내장사가 있다. 1969년 1월 21일 관광지로 널리 지정되었으며 1971년 11월 17일 국립공원으로 지정되었다. 단풍 성수기에는 하루 10만의 인파가 단풍을 보기 위해 내장산을 찾는 외에 연중 100만 이상의 관광"
+  },
+  {
+    "id": "bac-032",
+    "name": "마이산",
+    "nameEn": "",
+    "region": "전라",
+    "province": "전라북도 진안",
+    "height": 686,
+    "bac": true,
+    "level": "중급",
+    "difficultyOriginal": "중급",
+    "time": "2.2시간",
+    "hours": 2.2,
+    "distance": "5.3km",
+    "distanceKm": 5.3,
+    "elevation": "450m",
+    "rating": "4.6",
+    "lat": 35.76111111,
+    "lon": 127.41222222,
+    "summary": "마이산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "마이산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "전북 산행을 원하는 사람",
+      "중급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "대표 코스",
+      "start": "출발지 정보 준비중",
+      "mid": "중간지점 정보 준비중",
+      "summit": "암마이봉",
+      "end": "하산지점 정보 준비중"
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "전북",
+      "중급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "마이산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "coordinateStatus": "public_source",
+    "regionOriginal": "전북",
+    "coordinateType": "summit",
+    "coordinateSource": "wikidata_or_wikipedia",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%EB%A7%88%EC%9D%B4%EC%82%B0",
+    "wikidataId": "Q562938",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Maisan.jpg",
+    "imageThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Maisan.jpg/1280px-Maisan.jpg",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Maisan.jpg",
+    "imageSource": "wikimedia_pageimage",
+    "imageStatus": "exact_or_article",
+    "imageAlt": "마이산 산 풍경",
+    "sourceExtract": "마이산(馬耳山, Maisan Mt.)은 전북특별자치도 진안군 진안읍에 있는 산이다. 1979년 10월 16일 도립공원으로 지정되었고, 2003년 10월 31일 대한민국의 명승 제12호로 지정되었다. 이 산은 신라 시대에는 서다산(西多山), 고려 시대에는 용출산(龍出山), 조선 초기에는 속금산(束金山)이라고 불렀으며, 태종 때부터 본격적으로 말의 귀를 닮았다 하여 마이산이라 불리어 왔다. 마이산은 중생대 백악기의 인리형 분지이자 육성 퇴적분지인 "
+  },
+  {
+    "id": "bac-033",
+    "name": "모악산",
+    "nameEn": "",
+    "region": "전라",
+    "province": "전라북도 완주/김제/전주",
+    "height": 793,
+    "bac": true,
+    "level": "중급",
+    "difficultyOriginal": "중급",
+    "time": "2.6시간",
+    "hours": 2.6,
+    "distance": "6.1km",
+    "distanceKm": 6.1,
+    "elevation": "520m",
+    "rating": "4.6",
+    "lat": 35.72916667,
+    "lon": 127.08527778,
+    "summary": "모악산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "모악산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "전북 산행을 원하는 사람",
+      "중급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "대표 코스",
+      "start": "출발지 정보 준비중",
+      "mid": "중간지점 정보 준비중",
+      "summit": "정상",
+      "end": "하산지점 정보 준비중"
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "전북",
+      "중급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "모악산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "coordinateStatus": "public_source",
+    "regionOriginal": "전북",
+    "coordinateType": "summit",
+    "coordinateSource": "wikidata_or_wikipedia",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%EB%AA%A8%EC%95%85%EC%82%B0",
+    "wikidataId": "Q6886370",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/cb/%EB%AA%A8%EC%95%85%EC%82%B0.jpg",
+    "imageThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/%EB%AA%A8%EC%95%85%EC%82%B0.jpg/1280px-%EB%AA%A8%EC%95%85%EC%82%B0.jpg",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%EB%AA%A8%EC%95%85%EC%82%B0.jpg",
+    "imageSource": "wikimedia_pageimage",
+    "imageStatus": "exact_or_article",
+    "imageAlt": "모악산 산 풍경",
+    "sourceExtract": "모악산(母岳山)은 전북특별자치도 김제시와 완주군에 걸쳐있는 높이 793m의 산이다. 1971년 12월 1일에 도립공원으로 지정되었다. 모악산 도립공원 입구에는 백제 법왕 원년(599년)에 창건된 〈금산사〉라는 사찰(절)이 있다.\n2002년 10월, 산림청이 모악산을 대한민국 100대 명산 중 하나로 선정키도 하였다.\n모악산 정상에 있는 구조물은, 대부분이 방송사 송신탑(JTV, KBS전주)으로 1977년 KBS전주방송국이 TV방송 전파 송출 등"
+  },
+  {
+    "id": "bac-034",
+    "name": "선운산",
+    "nameEn": "",
+    "region": "전라",
+    "province": "전라북도 고창",
+    "height": 336,
+    "bac": true,
+    "level": "초급",
+    "difficultyOriginal": "초중급",
+    "time": "2시간",
+    "hours": 2,
+    "distance": "4.5km",
+    "distanceKm": 4.5,
+    "elevation": "220m",
+    "rating": "4.6",
+    "lat": 35.50805556,
+    "lon": 126.57111111,
+    "summary": "선운산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "선운산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "전북 산행을 원하는 사람",
+      "초중급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "대표 코스",
+      "start": "출발지 정보 준비중",
+      "mid": "중간지점 정보 준비중",
+      "summit": "수리봉",
+      "end": "하산지점 정보 준비중"
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "전북",
+      "초중급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "선운산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "coordinateStatus": "public_source",
+    "regionOriginal": "전북",
+    "coordinateType": "summit",
+    "coordinateSource": "wikidata_or_wikipedia",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%EC%84%A0%EC%9A%B4%EC%82%B0",
+    "wikidataId": "Q7451618",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3c/%EC%84%A0%EC%9A%B4%EC%82%B0.jpg",
+    "imageThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/%EC%84%A0%EC%9A%B4%EC%82%B0.jpg/1280px-%EC%84%A0%EC%9A%B4%EC%82%B0.jpg",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%EC%84%A0%EC%9A%B4%EC%82%B0.jpg",
+    "imageSource": "wikimedia_pageimage",
+    "imageStatus": "exact_or_article",
+    "imageAlt": "선운산 산 풍경",
+    "sourceExtract": "선운산(禪雲山)은 전북특별자치도 고창군에 있는 높이 336 m의 산이다. 1979년 12월 27일에 도립공원으로 지정되었다. 이 산은 도솔산이라고도 불리는데 선운은 구름 속에서 참선한다는 뜻이고 도솔은 미륵불이 있는 도솔천궁이다. 선운산은 그리 높지는 않지만 다양한 비경으로 수많은 산행인들을 불러 모은다."
+  },
+  {
+    "id": "bac-035",
+    "name": "방장산",
+    "nameEn": "",
+    "region": "전라",
+    "province": "전라북도/전라남도 고창/장성",
+    "height": 742,
+    "bac": true,
+    "level": "중급",
+    "difficultyOriginal": "중급",
+    "time": "2.4시간",
+    "hours": 2.4,
+    "distance": "5.7km",
+    "distanceKm": 5.7,
+    "elevation": "480m",
+    "rating": "4.6",
+    "lat": 35.44777778,
+    "lon": 126.76,
+    "summary": "방장산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "방장산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "전북 산행을 원하는 사람",
+      "중급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "대표 코스",
+      "start": "출발지 정보 준비중",
+      "mid": "중간지점 정보 준비중",
+      "summit": "정상",
+      "end": "하산지점 정보 준비중"
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "전북",
+      "중급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "방장산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "coordinateStatus": "public_source",
+    "regionOriginal": "전북/전남",
+    "coordinateType": "summit",
+    "coordinateSource": "wikidata_or_wikipedia",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%EB%B0%A9%EC%9E%A5%EC%82%B0",
+    "wikidataId": "Q4855183",
+    "image": "assets/mountains/bac-035.svg",
+    "imageThumb": "assets/mountains/bac-035.svg",
+    "imageSourceUrl": "",
+    "imageSource": "generated_site_fallback",
+    "imageStatus": "generated_fallback",
+    "imageAlt": "방장산 산 풍경",
+    "sourceExtract": "방장산(方丈山)은 전북특별자치도 고창군과 전라남도 장성군에 걸쳐 있는 산이다.\n높이는 743m이다.\n옛 이름은 반등산(半登山, 半燈山) 또는 방등산(方登山, 方等山)으로, 지리산, 무등산과 함께 호남의 삼신산으로 불려 왔다."
+  },
+  {
+    "id": "bac-036",
+    "name": "백암산",
+    "nameEn": "",
+    "region": "전라",
+    "province": "전라남도/전라북도 장성/정읍",
+    "height": 741,
+    "bac": true,
+    "level": "중급",
+    "difficultyOriginal": "중급",
+    "time": "2.4시간",
+    "hours": 2.4,
+    "distance": "5.7km",
+    "distanceKm": 5.7,
+    "elevation": "480m",
+    "rating": "4.6",
+    "lat": 35.461111111,
+    "lon": 126.869166666,
+    "summary": "백암산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "백암산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "전남 산행을 원하는 사람",
+      "중급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "대표 코스",
+      "start": "출발지 정보 준비중",
+      "mid": "중간지점 정보 준비중",
+      "summit": "상왕봉",
+      "end": "하산지점 정보 준비중"
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "전남",
+      "중급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "백암산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "coordinateStatus": "public_source",
+    "regionOriginal": "전남/전북",
+    "coordinateType": "summit",
+    "coordinateSource": "wikidata_label_nearest_region",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%EB%B0%B1%EC%95%94%EC%82%B0",
+    "wikidataId": "Q4841226",
+    "image": "assets/mountains/bac-036.svg",
+    "imageThumb": "assets/mountains/bac-036.svg",
+    "imageSourceUrl": "",
+    "imageSource": "generated_site_fallback",
+    "imageStatus": "generated_fallback",
+    "imageAlt": "백암산 산 풍경",
+    "sourceExtract": "백암산의 다른 뜻은 다음과 같다.\n\n백암산(白巖山)은 경상북도 울진군과 영양군에 걸쳐 있는 산이다.\n백암산(白岩山)은 충청남도 금산군에 있는 산이다.\n백암산(白巖山/白岩山)은 전북특별자치도 순창군과 전라남도 장성군에 걸쳐 있는 산이다. 백양산(白羊山)은 오기이다.\n백암산(百岩山)은 강원도에 있는 산이다.\n백암산(白岩山)은 량강도에 있는 산이다.\n백암산(白岩山)은 충청북도 금수산(錦繡山)의 옛 이름이다."
+  },
+  {
+    "id": "bac-037",
+    "name": "내변산",
+    "nameEn": "",
+    "region": "전라",
+    "province": "전라북도 부안",
+    "height": 424,
+    "bac": true,
+    "level": "초급",
+    "difficultyOriginal": "초중급",
+    "time": "2시간",
+    "hours": 2,
+    "distance": "4.5km",
+    "distanceKm": 4.5,
+    "elevation": "280m",
+    "rating": "4.6",
+    "lat": 35.666667,
+    "lon": 126.566667,
+    "summary": "내변산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "내변산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "전북 산행을 원하는 사람",
+      "초중급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "대표 코스",
+      "start": "출발지 정보 준비중",
+      "mid": "중간지점 정보 준비중",
+      "summit": "관음봉",
+      "end": "하산지점 정보 준비중"
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "전북",
+      "초중급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "내변산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "coordinateStatus": "public_source",
+    "regionOriginal": "전북",
+    "coordinateType": "summit",
+    "coordinateSource": "wikidata_label_nearest_region",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%EB%82%B4%EB%B3%80%EC%82%B0",
+    "wikidataId": "Q6958069",
+    "image": "assets/mountains/bac-037.svg",
+    "imageThumb": "assets/mountains/bac-037.svg",
+    "imageSourceUrl": "",
+    "imageSource": "generated_site_fallback",
+    "imageStatus": "generated_fallback",
+    "imageAlt": "내변산 산 풍경",
+    "sourceExtract": ""
+  },
+  {
+    "id": "bac-038",
+    "name": "구봉산",
+    "nameEn": "",
+    "region": "전라",
+    "province": "전라북도 진안",
+    "height": 1002,
+    "bac": true,
+    "level": "고급",
+    "difficultyOriginal": "중상급",
+    "time": "3.2시간",
+    "hours": 3.2,
+    "distance": "7.7km",
+    "distanceKm": 7.7,
+    "elevation": "650m",
+    "rating": "4.6",
+    "lat": 36.2856,
+    "lon": 127.3352,
+    "summary": "구봉산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "구봉산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "전북 산행을 원하는 사람",
+      "중상급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "대표 코스",
+      "start": "출발지 정보 준비중",
+      "mid": "중간지점 정보 준비중",
+      "summit": "천왕봉",
+      "end": "하산지점 정보 준비중"
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "전북",
+      "중상급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "구봉산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "coordinateStatus": "public_source",
+    "regionOriginal": "전북",
+    "coordinateType": "summit",
+    "coordinateSource": "wikidata_label_nearest_region",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%EA%B5%AC%EB%B4%89%EC%82%B0",
+    "wikidataId": "Q16072894",
+    "image": "assets/mountains/bac-038.svg",
+    "imageThumb": "assets/mountains/bac-038.svg",
+    "imageSourceUrl": "",
+    "imageSource": "generated_site_fallback",
+    "imageStatus": "generated_fallback",
+    "imageAlt": "구봉산 산 풍경",
+    "sourceExtract": "구봉산의 다른 뜻은 다음과 같다.\n\n구봉산(九峰山)은 강원특별자치도 춘천시에 있는 산이다.\n구봉산(九峰山)은 대전광역시 서구에 있는 산이다.\n구봉산(九峰山)은 전라북도 진안군에 있는 산이다.\n구봉산(九鳳山)은 전라남도 여수시에 있는 산이다.\n구봉산(龜峰山)은 부산광역시 서구에 있는 산이다."
+  },
+  {
+    "id": "bac-039",
+    "name": "지리산 바래봉",
+    "nameEn": "",
+    "region": "전라",
+    "province": "전라북도 남원",
+    "height": 1165,
+    "bac": true,
+    "level": "고급",
+    "difficultyOriginal": "중상급",
+    "time": "3.8시간",
+    "hours": 3.8,
+    "distance": "9km",
+    "distanceKm": 9,
+    "elevation": "760m",
+    "rating": "4.6",
+    "lat": 35.4216041,
+    "lon": 127.5761046,
+    "summary": "지리산 바래봉 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "지리산 바래봉 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "전북 산행을 원하는 사람",
+      "중상급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "대표 코스",
+      "start": "출발지 정보 준비중",
+      "mid": "중간지점 정보 준비중",
+      "summit": "바래봉",
+      "end": "하산지점 정보 준비중"
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "전북",
+      "중상급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "지리산 바래봉",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "coordinateStatus": "public_source",
+    "regionOriginal": "전북",
+    "coordinateType": "summit",
+    "coordinateSource": "openstreetmap_nominatim_peak_name_disambiguated",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%EC%A7%80%EB%A6%AC%EC%82%B0_%EB%B0%94%EB%9E%98%EB%B4%89",
+    "wikidataId": "",
+    "image": "assets/mountains/bac-039.svg",
+    "imageThumb": "assets/mountains/bac-039.svg",
+    "imageSourceUrl": "",
+    "imageSource": "generated_site_fallback",
+    "imageStatus": "generated_fallback",
+    "imageAlt": "지리산 바래봉 산 풍경",
+    "sourceExtract": "",
+    "osmDisplayName": "바래봉, 남원시, 전북특별자치도, 대한민국"
+  },
+  {
+    "id": "bac-040",
+    "name": "두륜산",
+    "nameEn": "",
+    "region": "전라",
+    "province": "전라남도 해남",
+    "height": 703,
+    "bac": true,
+    "level": "중급",
+    "difficultyOriginal": "중급",
+    "time": "2.3시간",
+    "hours": 2.3,
+    "distance": "5.4km",
+    "distanceKm": 5.4,
+    "elevation": "460m",
+    "rating": "4.6",
+    "lat": 34.47277778,
+    "lon": 126.63777778,
+    "summary": "두륜산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "두륜산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "전남 산행을 원하는 사람",
+      "중급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "대표 코스",
+      "start": "출발지 정보 준비중",
+      "mid": "중간지점 정보 준비중",
+      "summit": "가련봉",
+      "end": "하산지점 정보 준비중"
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "전남",
+      "중급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "두륜산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "coordinateStatus": "public_source",
+    "regionOriginal": "전남",
+    "coordinateType": "summit",
+    "coordinateSource": "wikidata_or_wikipedia",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%EB%91%90%EB%A5%9C%EC%82%B0",
+    "wikidataId": "Q5316834",
+    "image": "assets/mountains/bac-040.svg",
+    "imageThumb": "assets/mountains/bac-040.svg",
+    "imageSourceUrl": "",
+    "imageSource": "generated_site_fallback",
+    "imageStatus": "generated_fallback",
+    "imageAlt": "두륜산 산 풍경",
+    "sourceExtract": "두륜산(頭輪山)은 전라남도 해남군에 있는 한국의 화강암 산이다. 가련봉(703m), 두륜봉(630m), 고계봉(638m), 노승봉(능허대 685m), 도솔봉(672m), 혈망봉(379m), 향로봉(469m), 연화봉(613m)의 8개 봉우리가 능선을 이루고 있다. 대흥산·대둔산이라고도 부른다.\n난대성 상록활엽수와 온대성 낙엽 활엽수들이 숲을 이루고 있어 식물분포 학상 중요한 가치를 지니고 있다. 1979년 12월 26일에 도립공원으로 지정되었다"
+  },
+  {
+    "id": "bac-041",
+    "name": "달마산",
+    "nameEn": "",
+    "region": "전라",
+    "province": "전라남도 해남",
+    "height": 489,
+    "bac": true,
+    "level": "초급",
+    "difficultyOriginal": "초중급",
+    "time": "2시간",
+    "hours": 2,
+    "distance": "4.5km",
+    "distanceKm": 4.5,
+    "elevation": "320m",
+    "rating": "4.6",
+    "lat": 34.3825,
+    "lon": 126.58528,
+    "summary": "달마산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "달마산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "전남 산행을 원하는 사람",
+      "초중급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "대표 코스",
+      "start": "출발지 정보 준비중",
+      "mid": "중간지점 정보 준비중",
+      "summit": "정상",
+      "end": "하산지점 정보 준비중"
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "전남",
+      "초중급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "달마산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "coordinateStatus": "public_source",
+    "regionOriginal": "전남",
+    "coordinateType": "summit",
+    "coordinateSource": "wikidata_label_nearest_region",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%EB%8B%AC%EB%A7%88%EC%82%B0",
+    "wikidataId": "Q12591012",
+    "image": "assets/mountains/bac-041.svg",
+    "imageThumb": "assets/mountains/bac-041.svg",
+    "imageSourceUrl": "",
+    "imageSource": "generated_site_fallback",
+    "imageStatus": "generated_fallback",
+    "imageAlt": "달마산 산 풍경",
+    "sourceExtract": "달마산의 다른 뜻은 다음과 같다.\n\n달마산(達摩山)은 전라남도 해남군에 있는 산이다.\n달마산(達摩山)은 황해남도에 있는 산이다.\n달마산(達摩山)은 남포직할시에 있는 산이다."
+  },
+  {
+    "id": "bac-042",
+    "name": "덕룡산",
+    "nameEn": "",
+    "region": "전라",
+    "province": "전라남도 강진",
+    "height": 432,
+    "bac": true,
+    "level": "초급",
+    "difficultyOriginal": "초중급",
+    "time": "2시간",
+    "hours": 2,
+    "distance": "4.5km",
+    "distanceKm": 4.5,
+    "elevation": "280m",
+    "rating": "4.6",
+    "lat": 34.9,
+    "lon": 126.8,
+    "summary": "덕룡산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "덕룡산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "전남 산행을 원하는 사람",
+      "초중급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "대표 코스",
+      "start": "출발지 정보 준비중",
+      "mid": "중간지점 정보 준비중",
+      "summit": "동봉",
+      "end": "하산지점 정보 준비중"
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "전남",
+      "초중급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "덕룡산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "coordinateStatus": "public_source",
+    "regionOriginal": "전남",
+    "coordinateType": "summit",
+    "coordinateSource": "wikidata_label_nearest_region",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%EB%8D%95%EB%A3%A1%EC%82%B0",
+    "wikidataId": "Q27266863",
+    "image": "assets/mountains/bac-042.svg",
+    "imageThumb": "assets/mountains/bac-042.svg",
+    "imageSourceUrl": "",
+    "imageSource": "generated_site_fallback",
+    "imageStatus": "generated_fallback",
+    "imageAlt": "덕룡산 산 풍경",
+    "sourceExtract": ""
+  },
+  {
+    "id": "bac-043",
+    "name": "동악산",
+    "nameEn": "",
+    "region": "전라",
+    "province": "전라남도 곡성",
+    "height": 735,
+    "bac": true,
+    "level": "중급",
+    "difficultyOriginal": "중급",
+    "time": "2.4시간",
+    "hours": 2.4,
+    "distance": "5.7km",
+    "distanceKm": 5.7,
+    "elevation": "480m",
+    "rating": "4.6",
+    "lat": 35.9,
+    "lon": 129.48333333,
+    "summary": "동악산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "동악산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "전남 산행을 원하는 사람",
+      "중급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "대표 코스",
+      "start": "출발지 정보 준비중",
+      "mid": "중간지점 정보 준비중",
+      "summit": "정상",
+      "end": "하산지점 정보 준비중"
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "전남",
+      "중급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "동악산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "coordinateStatus": "public_source",
+    "regionOriginal": "전남",
+    "coordinateType": "summit",
+    "coordinateSource": "wikidata_label_nearest_region",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%EB%8F%99%EC%95%85%EC%82%B0",
+    "wikidataId": "Q5295808",
+    "image": "assets/mountains/bac-043.svg",
+    "imageThumb": "assets/mountains/bac-043.svg",
+    "imageSourceUrl": "",
+    "imageSource": "generated_site_fallback",
+    "imageStatus": "generated_fallback",
+    "imageAlt": "동악산 산 풍경",
+    "sourceExtract": ""
+  },
+  {
+    "id": "bac-044",
+    "name": "불갑산",
+    "nameEn": "",
+    "region": "전라",
+    "province": "전라남도 영광/함평",
+    "height": 516,
+    "bac": true,
+    "level": "초급",
+    "difficultyOriginal": "초중급",
+    "time": "2시간",
+    "hours": 2,
+    "distance": "4.5km",
+    "distanceKm": 4.5,
+    "elevation": "340m",
+    "rating": "4.6",
+    "lat": 35.190277777,
+    "lon": 126.564722222,
+    "summary": "불갑산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "불갑산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "전남 산행을 원하는 사람",
+      "초중급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "대표 코스",
+      "start": "출발지 정보 준비중",
+      "mid": "중간지점 정보 준비중",
+      "summit": "연실봉",
+      "end": "하산지점 정보 준비중"
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "전남",
+      "초중급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "불갑산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "coordinateStatus": "public_source",
+    "regionOriginal": "전남",
+    "coordinateType": "summit",
+    "coordinateSource": "wikidata_label_nearest_region",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%EB%B6%88%EA%B0%91%EC%82%B0",
+    "wikidataId": "Q4996147",
+    "image": "assets/mountains/bac-044.svg",
+    "imageThumb": "assets/mountains/bac-044.svg",
+    "imageSourceUrl": "",
+    "imageSource": "generated_site_fallback",
+    "imageStatus": "generated_fallback",
+    "imageAlt": "불갑산 산 풍경",
+    "sourceExtract": "불갑산(佛甲山)은 대한민국 전라남도 영광군과 함평군의 경계를 이루는 높이 516m의 산이다.\n인도 승려 마라난타가 백제 침류왕 원년인 384년에 지었다는 사찰 불갑사가 있다. 본래 모악산의 일부였다가 백제에 처음 불교가 전래된 곳이라 불갑산이라 했다는 이야기가 전해온다\n봄에는 벚꽃이, 8월에는 백일홍이, 9월에는 꽃무릇이라고도 불리는 석산이 만개한다. 고창군 선운사, 함평군 용천사와 함께 한국 최대의 꽃무릇 군락지이다.\n2019년 1월 10일부"
+  },
+  {
+    "id": "bac-045",
+    "name": "조계산",
+    "nameEn": "",
+    "region": "전라",
+    "province": "전라남도 순천",
+    "height": 888,
+    "bac": true,
+    "level": "중급",
+    "difficultyOriginal": "중급",
+    "time": "2.9시간",
+    "hours": 2.9,
+    "distance": "6.8km",
+    "distanceKm": 6.8,
+    "elevation": "580m",
+    "rating": "4.6",
+    "lat": 35.0025,
+    "lon": 127.31361111,
+    "summary": "조계산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "조계산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "전남 산행을 원하는 사람",
+      "중급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "대표 코스",
+      "start": "출발지 정보 준비중",
+      "mid": "중간지점 정보 준비중",
+      "summit": "장군봉",
+      "end": "하산지점 정보 준비중"
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "전남",
+      "중급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "조계산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "coordinateStatus": "public_source",
+    "regionOriginal": "전남",
+    "coordinateType": "summit",
+    "coordinateSource": "wikidata_or_wikipedia",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%EC%A1%B0%EA%B3%84%EC%82%B0",
+    "wikidataId": "Q6214838",
+    "image": "assets/mountains/bac-045.svg",
+    "imageThumb": "assets/mountains/bac-045.svg",
+    "imageSourceUrl": "",
+    "imageSource": "generated_site_fallback",
+    "imageStatus": "generated_fallback",
+    "imageAlt": "조계산 산 풍경",
+    "sourceExtract": "조계산(曹溪山)은 전남광주통합특별시 순천시에 있는 높이 884m의 호남정맥의 산이다. 1979년 12월 26일 도립공원으로 지정되었다.\n원래 이름은 송광산(松廣山)인데, 고려 희종이 조계산으로 바꾸었다.\n봄철의 벚꽃이 대단하고 가을철의 단풍이 유명하다."
+  },
+  {
+    "id": "bac-046",
+    "name": "천관산",
+    "nameEn": "",
+    "region": "전라",
+    "province": "전라남도 장흥",
+    "height": 724,
+    "bac": true,
+    "level": "중급",
+    "difficultyOriginal": "중급",
+    "time": "2.3시간",
+    "hours": 2.3,
+    "distance": "5.6km",
+    "distanceKm": 5.6,
+    "elevation": "470m",
+    "rating": "4.6",
+    "lat": 34.53222222,
+    "lon": 126.91583333,
+    "summary": "천관산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "천관산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "전남 산행을 원하는 사람",
+      "중급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "대표 코스",
+      "start": "출발지 정보 준비중",
+      "mid": "중간지점 정보 준비중",
+      "summit": "연대봉",
+      "end": "하산지점 정보 준비중"
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "전남",
+      "중급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "천관산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "coordinateStatus": "public_source",
+    "regionOriginal": "전남",
+    "coordinateType": "summit",
+    "coordinateSource": "wikidata_or_wikipedia",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%EC%B2%9C%EA%B4%80%EC%82%B0",
+    "wikidataId": "Q5091668",
+    "image": "assets/mountains/bac-046.svg",
+    "imageThumb": "assets/mountains/bac-046.svg",
+    "imageSourceUrl": "",
+    "imageSource": "generated_site_fallback",
+    "imageStatus": "generated_fallback",
+    "imageAlt": "천관산 산 풍경",
+    "sourceExtract": "천관산(天冠山)은 전라남도 장흥군 관산읍과 대덕읍 경계에 있는 높이 723m의 한국의 화강암 산이다. 1998년 10월 13일에 도립공원으로 지정되었다. 예로부터 내장산. 월출산. 변산. 두륜산 등과 더불어 호남의 5대 명산으로 불러온 명산이다."
+  },
+  {
+    "id": "bac-047",
+    "name": "축령산",
+    "nameEn": "",
+    "region": "전라",
+    "province": "전라남도 장성",
+    "height": 621,
+    "bac": true,
+    "level": "중급",
+    "difficultyOriginal": "중급",
+    "time": "2시간",
+    "hours": 2,
+    "distance": "4.8km",
+    "distanceKm": 4.8,
+    "elevation": "400m",
+    "rating": "4.6",
+    "lat": 37.7527629,
+    "lon": 127.333886,
+    "summary": "축령산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "축령산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "전남 산행을 원하는 사람",
+      "중급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "대표 코스",
+      "start": "출발지 정보 준비중",
+      "mid": "중간지점 정보 준비중",
+      "summit": "정상",
+      "end": "하산지점 정보 준비중"
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "전남",
+      "중급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "축령산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "coordinateStatus": "public_source",
+    "regionOriginal": "전남",
+    "coordinateType": "summit",
+    "coordinateSource": "openstreetmap_nominatim_peak_name_disambiguated",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%EC%B6%95%EB%A0%B9%EC%82%B0",
+    "wikidataId": "Q12620019",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/%EB%82%A8%EC%9D%B4%EB%B0%94%EC%9C%84_%EC%B6%95%EB%A0%B9%EC%82%B0.jpg/1280px-%EB%82%A8%EC%9D%B4%EB%B0%94%EC%9C%84_%EC%B6%95%EB%A0%B9%EC%82%B0.jpg",
+    "imageThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/%EB%82%A8%EC%9D%B4%EB%B0%94%EC%9C%84_%EC%B6%95%EB%A0%B9%EC%82%B0.jpg/1280px-%EB%82%A8%EC%9D%B4%EB%B0%94%EC%9C%84_%EC%B6%95%EB%A0%B9%EC%82%B0.jpg",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%EB%82%A8%EC%9D%B4%EB%B0%94%EC%9C%84_%EC%B6%95%EB%A0%B9%EC%82%B0.jpg",
+    "imageSource": "wikimedia_commons_search",
+    "imageStatus": "commons_search",
+    "imageAlt": "축령산 산 풍경",
+    "sourceExtract": "축령산의 다른 뜻은 다음과 같다.\n\n축령산(祝靈山)은 경기도 남양주시와 가평군에 걸쳐있는 산이다.\n축령산은 전라남도 장성군에 있는 산이다.",
+    "osmDisplayName": "축령산, 남양주시, 경기도, 대한민국"
+  },
+  {
+    "id": "bac-048",
+    "name": "팔영산",
+    "nameEn": "",
+    "region": "전라",
+    "province": "전라남도 고흥",
+    "height": 608,
+    "bac": true,
+    "level": "중급",
+    "difficultyOriginal": "중급",
+    "time": "2시간",
+    "hours": 2,
+    "distance": "4.7km",
+    "distanceKm": 4.7,
+    "elevation": "400m",
+    "rating": "4.6",
+    "lat": 34.61833333,
+    "lon": 127.43416667,
+    "summary": "팔영산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "팔영산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "전남 산행을 원하는 사람",
+      "중급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "대표 코스",
+      "start": "출발지 정보 준비중",
+      "mid": "중간지점 정보 준비중",
+      "summit": "깃대봉",
+      "end": "하산지점 정보 준비중"
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "전남",
+      "중급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "팔영산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "coordinateStatus": "public_source",
+    "regionOriginal": "전남",
+    "coordinateType": "summit",
+    "coordinateSource": "wikidata_or_wikipedia",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%ED%8C%94%EC%98%81%EC%82%B0",
+    "wikidataId": "Q8533837",
+    "image": "assets/mountains/bac-048.svg",
+    "imageThumb": "assets/mountains/bac-048.svg",
+    "imageSourceUrl": "",
+    "imageSource": "generated_site_fallback",
+    "imageStatus": "generated_fallback",
+    "imageAlt": "팔영산 산 풍경",
+    "sourceExtract": ""
+  },
+  {
+    "id": "bac-049",
+    "name": "금오산",
+    "nameEn": "",
+    "region": "경상",
+    "province": "경상북도 구미/김천/칠곡",
+    "height": 977,
+    "bac": true,
+    "level": "고급",
+    "difficultyOriginal": "중상급",
+    "time": "3.2시간",
+    "hours": 3.2,
+    "distance": "7.5km",
+    "distanceKm": 7.5,
+    "elevation": "640m",
+    "rating": "4.6",
+    "lat": 36.0925,
+    "lon": 128.3,
+    "summary": "금오산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "금오산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "경북 산행을 원하는 사람",
+      "중상급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "대표 코스",
+      "start": "출발지 정보 준비중",
+      "mid": "중간지점 정보 준비중",
+      "summit": "현월봉",
+      "end": "하산지점 정보 준비중"
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "경북",
+      "중상급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "금오산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "coordinateStatus": "public_source",
+    "regionOriginal": "경북",
+    "coordinateType": "summit",
+    "coordinateSource": "wikidata_label_nearest_region",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%EA%B8%88%EC%98%A4%EC%82%B0",
+    "wikidataId": "Q16073009",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/%EA%B8%88%EC%98%A4%EC%82%B0_%EB%A7%88%EC%95%A0%EC%97%AC%EB%9E%98%EC%9E%85%EC%83%81-1.jpg/1280px-%EA%B8%88%EC%98%A4%EC%82%B0_%EB%A7%88%EC%95%A0%EC%97%AC%EB%9E%98%EC%9E%85%EC%83%81-1.jpg",
+    "imageThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/%EA%B8%88%EC%98%A4%EC%82%B0_%EB%A7%88%EC%95%A0%EC%97%AC%EB%9E%98%EC%9E%85%EC%83%81-1.jpg/1280px-%EA%B8%88%EC%98%A4%EC%82%B0_%EB%A7%88%EC%95%A0%EC%97%AC%EB%9E%98%EC%9E%85%EC%83%81-1.jpg",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%EA%B8%88%EC%98%A4%EC%82%B0_%EB%A7%88%EC%95%A0%EC%97%AC%EB%9E%98%EC%9E%85%EC%83%81-1.jpg",
+    "imageSource": "wikimedia_commons_search",
+    "imageStatus": "commons_search",
+    "imageAlt": "금오산 산 풍경",
+    "sourceExtract": "금오산은 다음을 가리키는 말이다.\n\n금오산(金烏山)은 경상북도 구미시, 김천시, 칠곡군에 걸쳐 있는 산976m이다.\n금오산(金熬山)은  경상남도 하동군에 있는 산849m이다.\n금오산(金烏山)은  경상남도 밀양시와 양산시에 걸쳐 있는 산766m이다.\n금오산(金鰲山)은 경상북도 경주시 남산의 한 봉우리468m이다.\n금오산(金鰲山)은 전라남도 여수시에 있는 산323m이다.\n금오산(金鰲山)은 용암산의 옛이름이다.\n금오산(金烏山)은 충청남도 예산군에 있"
+  },
+  {
+    "id": "bac-050",
+    "name": "청량산",
+    "nameEn": "",
+    "region": "경상",
+    "province": "경상북도 봉화",
+    "height": 870,
+    "bac": true,
+    "level": "중급",
+    "difficultyOriginal": "중급",
+    "time": "2.8시간",
+    "hours": 2.8,
+    "distance": "6.7km",
+    "distanceKm": 6.7,
+    "elevation": "570m",
+    "rating": "4.6",
+    "lat": 36.79138889,
+    "lon": 128.92694444,
+    "summary": "청량산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "청량산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "경북 산행을 원하는 사람",
+      "중급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "대표 코스",
+      "start": "출발지 정보 준비중",
+      "mid": "중간지점 정보 준비중",
+      "summit": "장인봉",
+      "end": "하산지점 정보 준비중"
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "경북",
+      "중급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "청량산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "coordinateStatus": "public_source",
+    "regionOriginal": "경북",
+    "coordinateType": "summit",
+    "coordinateSource": "wikidata_label_nearest_region",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%EC%B2%AD%EB%9F%89%EC%82%B0",
+    "wikidataId": "Q12619119",
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Korea-Bonghwa%20County-Mount%20Cheongnyangsan-01.jpg?width=1200",
+    "imageThumb": "http://commons.wikimedia.org/wiki/Special:FilePath/Korea-Bonghwa%20County-Mount%20Cheongnyangsan-01.jpg?width=1200",
+    "imageSourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Korea-Bonghwa%20County-Mount%20Cheongnyangsan-01.jpg",
+    "imageSource": "wikidata_image",
+    "imageStatus": "wikidata_label",
+    "imageAlt": "청량산 산 풍경",
+    "sourceExtract": "청량산은 다음을 의미한다."
+  },
+  {
+    "id": "bac-051",
+    "name": "주흘산",
+    "nameEn": "",
+    "region": "경상",
+    "province": "경상북도 문경",
+    "height": 1106,
+    "bac": true,
+    "level": "고급",
+    "difficultyOriginal": "중상급",
+    "time": "3.6시간",
+    "hours": 3.6,
+    "distance": "8.5km",
+    "distanceKm": 8.5,
+    "elevation": "720m",
+    "rating": "4.6",
+    "lat": 36.78861111,
+    "lon": 128.10055556,
+    "summary": "주흘산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "주흘산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "경북 산행을 원하는 사람",
+      "중상급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "대표 코스",
+      "start": "출발지 정보 준비중",
+      "mid": "중간지점 정보 준비중",
+      "summit": "주봉",
+      "end": "하산지점 정보 준비중"
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "경북",
+      "중상급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "주흘산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "coordinateStatus": "public_source",
+    "regionOriginal": "경북",
+    "coordinateType": "summit",
+    "coordinateSource": "wikidata_or_wikipedia",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%EC%A3%BC%ED%9D%98%EC%82%B0",
+    "wikidataId": "Q6305114",
+    "image": "assets/mountains/bac-051.svg",
+    "imageThumb": "assets/mountains/bac-051.svg",
+    "imageSourceUrl": "",
+    "imageSource": "generated_site_fallback",
+    "imageStatus": "generated_fallback",
+    "imageAlt": "주흘산 산 풍경",
+    "sourceExtract": "주흘산(主屹山)은 대한민국 경상북도 문경시에 있는 산으로 소백산맥의 주축에 있다. 문경의 진산(鎭山)인 이 산은 ‘우두머리 의연한 산’이란 한자 뜻 그대로 문경새재의 주산이다. 영남이란 지명은 조령, 즉 새재의 남쪽 지방이란 뜻이다."
+  },
+  {
+    "id": "bac-052",
+    "name": "도락산",
+    "nameEn": "",
+    "region": "충청",
+    "province": "충청북도 단양",
+    "height": 964,
+    "bac": true,
+    "level": "고급",
+    "difficultyOriginal": "중상급",
+    "time": "3.1시간",
+    "hours": 3.1,
+    "distance": "7.4km",
+    "distanceKm": 7.4,
+    "elevation": "630m",
+    "rating": "4.6",
+    "lat": 36.85611111,
+    "lon": 128.31166667,
+    "summary": "도락산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "도락산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "충북 산행을 원하는 사람",
+      "중상급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "대표 코스",
+      "start": "출발지 정보 준비중",
+      "mid": "중간지점 정보 준비중",
+      "summit": "정상",
+      "end": "하산지점 정보 준비중"
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "충북",
+      "중상급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "도락산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "coordinateStatus": "public_source",
+    "regionOriginal": "충북",
+    "coordinateType": "summit",
+    "coordinateSource": "wikidata_or_wikipedia",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%EB%8F%84%EB%9D%BD%EC%82%B0",
+    "wikidataId": "Q5297499",
+    "image": "assets/mountains/bac-052.svg",
+    "imageThumb": "assets/mountains/bac-052.svg",
+    "imageSourceUrl": "",
+    "imageSource": "generated_site_fallback",
+    "imageStatus": "generated_fallback",
+    "imageAlt": "도락산 산 풍경",
+    "sourceExtract": "도락산(道樂山)은 대한민국 충청북도 단양군에 있는 높이는 964m의 한국의 화강암 산이다. 소백산과 월악산의 중간쯤에 형성된 바위산으로 현재 일부가 월악산 국립공원에 포함되어 있다.\n산의 이름은 우암 송시열이 깨달음을 얻는데는 나름대로 길이 있어야하고 거기에는 필수적으로 즐거움이있어야 한다는 뜻에서 지었다는 일화가 전해온다. 산을 끼고 북으로는 단양 사인암이, 서로는 상선암. 중선암.하선암 등 이른바 단양팔경의 4경이 인접해있으므로 주변 경관이"
+  },
+  {
+    "id": "bac-053",
+    "name": "금수산",
+    "nameEn": "",
+    "region": "충청",
+    "province": "충청북도 제천/단양",
+    "height": 1016,
+    "bac": true,
+    "level": "고급",
+    "difficultyOriginal": "중상급",
+    "time": "3.3시간",
+    "hours": 3.3,
+    "distance": "7.8km",
+    "distanceKm": 7.8,
+    "elevation": "660m",
+    "rating": "4.6",
+    "lat": 36.985,
+    "lon": 128.256666666,
+    "summary": "금수산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "금수산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "충북 산행을 원하는 사람",
+      "중상급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "대표 코스",
+      "start": "출발지 정보 준비중",
+      "mid": "중간지점 정보 준비중",
+      "summit": "정상",
+      "end": "하산지점 정보 준비중"
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "충북",
+      "중상급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "금수산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "coordinateStatus": "public_source",
+    "regionOriginal": "충북",
+    "coordinateType": "summit",
+    "coordinateSource": "wikidata_label_nearest_region",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%EA%B8%88%EC%88%98%EC%82%B0",
+    "wikidataId": "Q16073005",
+    "image": "assets/mountains/bac-053.svg",
+    "imageThumb": "assets/mountains/bac-053.svg",
+    "imageSourceUrl": "",
+    "imageSource": "generated_site_fallback",
+    "imageStatus": "generated_fallback",
+    "imageAlt": "금수산 산 풍경",
+    "sourceExtract": "금수산의 다른 뜻은 다음과 같다.\n\n금수산은 평양직할시에 있는 산이다.\n금수산(錦繡山)은 충청북도 단양군에 있는 산이다."
+  },
+  {
+    "id": "bac-054",
+    "name": "대야산",
+    "nameEn": "",
+    "region": "충청",
+    "province": "경상북도/충청북도 문경/괴산",
+    "height": 931,
+    "bac": true,
+    "level": "고급",
+    "difficultyOriginal": "중상급",
+    "time": "3시간",
+    "hours": 3,
+    "distance": "7.2km",
+    "distanceKm": 7.2,
+    "elevation": "610m",
+    "rating": "4.6",
+    "lat": 36.67055556,
+    "lon": 127.9325,
+    "summary": "대야산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "대야산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "경북 산행을 원하는 사람",
+      "중상급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "대표 코스",
+      "start": "출발지 정보 준비중",
+      "mid": "중간지점 정보 준비중",
+      "summit": "정상",
+      "end": "하산지점 정보 준비중"
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "경북",
+      "중상급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "대야산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "coordinateStatus": "public_source",
+    "regionOriginal": "경북/충북",
+    "coordinateType": "summit",
+    "coordinateSource": "wikidata_or_wikipedia",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%EB%8C%80%EC%95%BC%EC%82%B0",
+    "wikidataId": "Q5208296",
+    "image": "assets/mountains/bac-054.svg",
+    "imageThumb": "assets/mountains/bac-054.svg",
+    "imageSourceUrl": "",
+    "imageSource": "generated_site_fallback",
+    "imageStatus": "generated_fallback",
+    "imageAlt": "대야산 산 풍경",
+    "sourceExtract": "대야산(大耶山)은 속리산 국립공원 안에 있는 백두대간의 한국의 화강암 산으로, 대한민국 경상북도 문경시 가은읍과 충청북도 괴산군 청천면의 경계에 있다. 대하산·대화산·대산·상대산 등으로도 불렸고, 1789년에 발행된 《문경현지》는 대야산으로 적고 있다. 용추계곡의 양쪽 옆 바위에는 신라시대 최치원이 쓴 세심대·활청담·옥하대·영차석 등의 글씨가 음각으로 새겨져 있다."
+  },
+  {
+    "id": "bac-055",
+    "name": "희양산",
+    "nameEn": "",
+    "region": "충청",
+    "province": "경상북도/충청북도 문경/괴산",
+    "height": 999,
+    "bac": true,
+    "level": "고급",
+    "difficultyOriginal": "중상급",
+    "time": "3.2시간",
+    "hours": 3.2,
+    "distance": "7.7km",
+    "distanceKm": 7.7,
+    "elevation": "650m",
+    "rating": "4.6",
+    "lat": 36.716,
+    "lon": 128.005,
+    "summary": "희양산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "희양산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "경북 산행을 원하는 사람",
+      "중상급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "대표 코스",
+      "start": "출발지 정보 준비중",
+      "mid": "중간지점 정보 준비중",
+      "summit": "정상",
+      "end": "하산지점 정보 준비중"
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "경북",
+      "중상급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "희양산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "coordinateStatus": "public_source",
+    "regionOriginal": "경북/충북",
+    "coordinateType": "summit",
+    "coordinateSource": "wikidata_or_wikipedia",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%ED%9D%AC%EC%96%91%EC%82%B0",
+    "wikidataId": "Q5701198",
+    "image": "assets/mountains/bac-055.svg",
+    "imageThumb": "assets/mountains/bac-055.svg",
+    "imageSourceUrl": "",
+    "imageSource": "generated_site_fallback",
+    "imageStatus": "generated_fallback",
+    "imageAlt": "희양산 산 풍경",
+    "sourceExtract": ""
+  },
+  {
+    "id": "bac-056",
+    "name": "황악산",
+    "nameEn": "",
+    "region": "충청",
+    "province": "경상북도/충청북도 김천/영동",
+    "height": 1111,
+    "bac": true,
+    "level": "고급",
+    "difficultyOriginal": "중상급",
+    "time": "3.6시간",
+    "hours": 3.6,
+    "distance": "8.5km",
+    "distanceKm": 8.5,
+    "elevation": "720m",
+    "rating": "4.6",
+    "lat": 36.11916667,
+    "lon": 127.96611111,
+    "summary": "황악산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "황악산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "경북 산행을 원하는 사람",
+      "중상급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "대표 코스",
+      "start": "출발지 정보 준비중",
+      "mid": "중간지점 정보 준비중",
+      "summit": "비로봉",
+      "end": "하산지점 정보 준비중"
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "경북",
+      "중상급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "황악산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "coordinateStatus": "public_source",
+    "regionOriginal": "경북/충북",
+    "coordinateType": "summit",
+    "coordinateSource": "wikidata_or_wikipedia",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%ED%99%A9%EC%95%85%EC%82%B0",
+    "wikidataId": "Q5951990",
+    "image": "assets/mountains/bac-056.svg",
+    "imageThumb": "assets/mountains/bac-056.svg",
+    "imageSourceUrl": "",
+    "imageSource": "generated_site_fallback",
+    "imageStatus": "generated_fallback",
+    "imageAlt": "황악산 산 풍경",
+    "sourceExtract": ""
+  },
+  {
+    "id": "bac-057",
+    "name": "구병산",
+    "nameEn": "",
+    "region": "충청",
+    "province": "충청북도 보은",
+    "height": 876,
+    "bac": true,
+    "level": "중급",
+    "difficultyOriginal": "중급",
+    "time": "2.8시간",
+    "hours": 2.8,
+    "distance": "6.7km",
+    "distanceKm": 6.7,
+    "elevation": "570m",
+    "rating": "4.6",
+    "lat": 36.46944444,
+    "lon": 127.86166667,
+    "summary": "구병산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "구병산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "충북 산행을 원하는 사람",
+      "중급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "대표 코스",
+      "start": "출발지 정보 준비중",
+      "mid": "중간지점 정보 준비중",
+      "summit": "정상",
+      "end": "하산지점 정보 준비중"
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "충북",
+      "중급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "구병산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "coordinateStatus": "public_source",
+    "regionOriginal": "충북",
+    "coordinateType": "summit",
+    "coordinateSource": "wikidata_or_wikipedia",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%EA%B5%AC%EB%B3%91%EC%82%B0",
+    "wikidataId": "Q5614460",
+    "image": "assets/mountains/bac-057.svg",
+    "imageThumb": "assets/mountains/bac-057.svg",
+    "imageSourceUrl": "",
+    "imageSource": "generated_site_fallback",
+    "imageStatus": "generated_fallback",
+    "imageAlt": "구병산 산 풍경",
+    "sourceExtract": "구병산(九屛山)은 대한민국 충청북도 보은군 마로면과 경상북도 상주시 화북면에 걸쳐 있는 높이 876m의 산이다. 또한 구병산은 속리산 국립공원의 남쪽에 위치하면서 국도 변 가까이 위치해 있다. 그리고 주능선이 동쪽에서 서쪽으로 길게 이어지면서 마치 병풍을 두른 듯 아홉 개의 봉우리가 이어져 있으므로 구병산 또는 구봉산(九峰山)이라고도 불린다"
+  },
+  {
+    "id": "bac-058",
+    "name": "칠갑산",
+    "nameEn": "",
+    "region": "충청",
+    "province": "충청남도 청양",
+    "height": 561,
+    "bac": true,
+    "level": "초급",
+    "difficultyOriginal": "초중급",
+    "time": "2시간",
+    "hours": 2,
+    "distance": "4.5km",
+    "distanceKm": 4.5,
+    "elevation": "360m",
+    "rating": "4.6",
+    "lat": 36.41333333,
+    "lon": 126.88416667,
+    "summary": "칠갑산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "칠갑산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "충남 산행을 원하는 사람",
+      "초중급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "대표 코스",
+      "start": "출발지 정보 준비중",
+      "mid": "중간지점 정보 준비중",
+      "summit": "정상",
+      "end": "하산지점 정보 준비중"
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "충남",
+      "초중급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "칠갑산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "coordinateStatus": "public_source",
+    "regionOriginal": "충남",
+    "coordinateType": "summit",
+    "coordinateSource": "wikidata_or_wikipedia",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%EC%B9%A0%EA%B0%91%EC%82%B0",
+    "wikidataId": "Q5098908",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/75/Map_of_Chilgap_mountain.JPG",
+    "imageThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Map_of_Chilgap_mountain.JPG/1280px-Map_of_Chilgap_mountain.JPG",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Map_of_Chilgap_mountain.JPG",
+    "imageSource": "wikimedia_pageimage",
+    "imageStatus": "exact_or_article",
+    "imageAlt": "칠갑산 산 풍경",
+    "sourceExtract": ""
+  },
+  {
+    "id": "bac-059",
+    "name": "계룡산",
+    "nameEn": "",
+    "region": "충청",
+    "province": "충청남도/대전광역시 공주/계룡/대전",
+    "height": 846,
+    "bac": true,
+    "level": "중급",
+    "difficultyOriginal": "중급",
+    "time": "2.7시간",
+    "hours": 2.7,
+    "distance": "6.5km",
+    "distanceKm": 6.5,
+    "elevation": "550m",
+    "rating": "4.6",
+    "lat": 36.343333333333,
+    "lon": 127.20611111111,
+    "summary": "계룡산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "계룡산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "충남 산행을 원하는 사람",
+      "중급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "대표 코스",
+      "start": "출발지 정보 준비중",
+      "mid": "중간지점 정보 준비중",
+      "summit": "관음봉",
+      "end": "하산지점 정보 준비중"
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "충남",
+      "중급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "계룡산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "coordinateStatus": "public_source",
+    "regionOriginal": "충청",
+    "coordinateType": "summit",
+    "coordinateSource": "wikidata_or_wikipedia",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%EA%B3%84%EB%A3%A1%EC%82%B0",
+    "wikidataId": "Q496427",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Mount_Gyeryong_from_Jang-gun_peak.jpg",
+    "imageThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Mount_Gyeryong_from_Jang-gun_peak.jpg/1280px-Mount_Gyeryong_from_Jang-gun_peak.jpg",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Mount_Gyeryong_from_Jang-gun_peak.jpg",
+    "imageSource": "wikimedia_pageimage",
+    "imageStatus": "exact_or_article",
+    "imageAlt": "계룡산 산 풍경",
+    "sourceExtract": "계룡산(鷄龍山)은 충청남도 공주시와 계룡시 그리고 대전광역시 유성구에 걸쳐 있는 높이 845m의 한국의 화강암 산이다. 1968년 12월 31일에 2번째 국립공원으로 지정되었다.\n계룡산은 충청지역에서 대표적인 산이나 높이나 면적에서 최고나 최대는 아니다. 계룡산의 천왕봉과 연천봉, 삼불봉을 잇는 능선이 닭의 볏을 쓴 용을 닮았다하여 계룡산이라는 이름이 붙여졌다. 최고봉인 천황봉의 높이는 해발 845m이고 계룡산 전체면적은 65.335km2이다."
+  },
+  {
+    "id": "bac-060",
+    "name": "광덕산",
+    "nameEn": "",
+    "region": "충청",
+    "province": "충청남도 천안/아산",
+    "height": 699,
+    "bac": true,
+    "level": "중급",
+    "difficultyOriginal": "중급",
+    "time": "2.3시간",
+    "hours": 2.3,
+    "distance": "5.4km",
+    "distanceKm": 5.4,
+    "elevation": "450m",
+    "rating": "4.6",
+    "lat": 36.687777777,
+    "lon": 127.028055555,
+    "summary": "광덕산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "광덕산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "충남 산행을 원하는 사람",
+      "중급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "대표 코스",
+      "start": "출발지 정보 준비중",
+      "mid": "중간지점 정보 준비중",
+      "summit": "정상",
+      "end": "하산지점 정보 준비중"
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "충남",
+      "중급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "광덕산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "coordinateStatus": "public_source",
+    "regionOriginal": "충남",
+    "coordinateType": "summit",
+    "coordinateSource": "wikidata_label_nearest_region",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%EA%B4%91%EB%8D%95%EC%82%B0",
+    "wikidataId": "Q16072699",
+    "image": "assets/mountains/bac-060.svg",
+    "imageThumb": "assets/mountains/bac-060.svg",
+    "imageSourceUrl": "",
+    "imageSource": "generated_site_fallback",
+    "imageStatus": "generated_fallback",
+    "imageAlt": "광덕산 산 풍경",
+    "sourceExtract": "광덕산의 다른 뜻은 다음과 같다.\n\n광덕산(廣德山)은 강원도와 경기도의 경계에 있는 산이다.\n광덕산(廣德山)은 경기도 안산시에 있는 산이다\n광덕산(廣德山)은 충청남도 아산시와 천안시에 걸쳐 있는 산이다.\n광덕산(廣德山)은 전라남도 담양군과 전라북도 순창군에 걸쳐 있는 산이다.\n광덕산(光德山)은 경상북도 청송군에 있는 산이다.\n광덕산(光德山)은 개성특별시 개풍군에 있는 산이다."
+  },
+  {
+    "id": "bac-061",
+    "name": "대둔산",
+    "nameEn": "",
+    "region": "충청",
+    "province": "충청남도/전라북도 금산/완주/논산",
+    "height": 879,
+    "bac": true,
+    "level": "중급",
+    "difficultyOriginal": "중급",
+    "time": "2.8시간",
+    "hours": 2.8,
+    "distance": "6.8km",
+    "distanceKm": 6.8,
+    "elevation": "570m",
+    "rating": "4.6",
+    "lat": 36.12,
+    "lon": 127.32333333,
+    "summary": "대둔산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "대둔산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "충남 산행을 원하는 사람",
+      "중급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "대표 코스",
+      "start": "출발지 정보 준비중",
+      "mid": "중간지점 정보 준비중",
+      "summit": "마천대",
+      "end": "하산지점 정보 준비중"
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "충남",
+      "중급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "대둔산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "coordinateStatus": "public_source",
+    "regionOriginal": "충남/전북",
+    "coordinateType": "summit",
+    "coordinateSource": "wikidata_label_nearest_region",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%EB%8C%80%EB%91%94%EC%82%B0",
+    "wikidataId": "Q20652220",
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Chilseongbong%20at%20Daedunsan.jpg?width=1200",
+    "imageThumb": "http://commons.wikimedia.org/wiki/Special:FilePath/Chilseongbong%20at%20Daedunsan.jpg?width=1200",
+    "imageSourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Chilseongbong%20at%20Daedunsan.jpg",
+    "imageSource": "wikidata_image",
+    "imageStatus": "wikidata_label",
+    "imageAlt": "대둔산 산 풍경",
+    "sourceExtract": "대둔산의 다른 뜻은 다음과 같다.\n\n대둔산(大芚山)은 충청남도 금산군과 논산시 및 전북특별자치도 완주군에 걸쳐있는 산이다.\n대둔산(大芚山)은 전라남도 해남군에 있는 산이다."
+  },
+  {
+    "id": "bac-062",
+    "name": "서대산",
+    "nameEn": "",
+    "region": "충청",
+    "province": "충청남도 금산",
+    "height": 904,
+    "bac": true,
+    "level": "고급",
+    "difficultyOriginal": "중상급",
+    "time": "2.9시간",
+    "hours": 2.9,
+    "distance": "7km",
+    "distanceKm": 7,
+    "elevation": "590m",
+    "rating": "4.6",
+    "lat": 36.22,
+    "lon": 127.53777778,
+    "summary": "서대산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "서대산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "충남 산행을 원하는 사람",
+      "중상급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "대표 코스",
+      "start": "출발지 정보 준비중",
+      "mid": "중간지점 정보 준비중",
+      "summit": "정상",
+      "end": "하산지점 정보 준비중"
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "충남",
+      "중상급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "서대산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "coordinateStatus": "public_source",
+    "regionOriginal": "충남",
+    "coordinateType": "summit",
+    "coordinateSource": "wikidata_or_wikipedia",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%EC%84%9C%EB%8C%80%EC%82%B0",
+    "wikidataId": "Q7451509",
+    "image": "assets/mountains/bac-062.svg",
+    "imageThumb": "assets/mountains/bac-062.svg",
+    "imageSourceUrl": "",
+    "imageSource": "generated_site_fallback",
+    "imageStatus": "generated_fallback",
+    "imageAlt": "서대산 산 풍경",
+    "sourceExtract": "서대산(西臺山)은 대한민국 충청남도 금산군 추부면 서대리와 군북면 보광리 사이에 있는 높이 904m의 한국의 화강암 산이다. 충청남도에서 가장 높은 산이다.\n화강암으로 이루어진 원추형 암산이다."
+  },
+  {
+    "id": "bac-063",
+    "name": "오서산",
+    "nameEn": "",
+    "region": "충청",
+    "province": "충청남도 보령/홍성/청양",
+    "height": 791,
+    "bac": true,
+    "level": "중급",
+    "difficultyOriginal": "중급",
+    "time": "2.6시간",
+    "hours": 2.6,
+    "distance": "6.1km",
+    "distanceKm": 6.1,
+    "elevation": "510m",
+    "rating": "4.6",
+    "lat": 36.45,
+    "lon": 126.66666666666667,
+    "summary": "오서산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "오서산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "충남 산행을 원하는 사람",
+      "중급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "대표 코스",
+      "start": "출발지 정보 준비중",
+      "mid": "중간지점 정보 준비중",
+      "summit": "정상",
+      "end": "하산지점 정보 준비중"
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "충남",
+      "중급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "오서산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "coordinateStatus": "public_source",
+    "regionOriginal": "충남",
+    "coordinateType": "summit",
+    "coordinateSource": "wikidata_or_wikipedia",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%EC%98%A4%EC%84%9C%EC%82%B0",
+    "wikidataId": "Q7106489",
+    "image": "assets/mountains/bac-063.svg",
+    "imageThumb": "assets/mountains/bac-063.svg",
+    "imageSourceUrl": "",
+    "imageSource": "generated_site_fallback",
+    "imageStatus": "generated_fallback",
+    "imageAlt": "오서산 산 풍경",
+    "sourceExtract": "오서산(烏棲山)은 충청남도 보령시 청소면과 청라면, 청양군 화성면, 홍성군 광천읍과 장곡면 경계에 있는 산이다."
+  },
+  {
+    "id": "bac-064",
+    "name": "용봉산",
+    "nameEn": "",
+    "region": "충청",
+    "province": "충청남도 홍성",
+    "height": 381,
+    "bac": true,
+    "level": "초급",
+    "difficultyOriginal": "초중급",
+    "time": "2시간",
+    "hours": 2,
+    "distance": "4.5km",
+    "distanceKm": 4.5,
+    "elevation": "250m",
+    "rating": "4.6",
+    "lat": 36.643611111,
+    "lon": 126.648888888,
+    "summary": "용봉산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "용봉산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "충남 산행을 원하는 사람",
+      "초중급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "대표 코스",
+      "start": "출발지 정보 준비중",
+      "mid": "중간지점 정보 준비중",
+      "summit": "정상",
+      "end": "하산지점 정보 준비중"
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "충남",
+      "초중급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "용봉산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "coordinateStatus": "public_source",
+    "regionOriginal": "충남",
+    "coordinateType": "summit",
+    "coordinateSource": "wikidata_label_nearest_region",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%EC%9A%A9%EB%B4%89%EC%82%B0",
+    "wikidataId": "Q8054985",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Yongbongsan_2005.JPG",
+    "imageThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Yongbongsan_2005.JPG/1280px-Yongbongsan_2005.JPG",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Yongbongsan_2005.JPG",
+    "imageSource": "wikimedia_pageimage",
+    "imageStatus": "exact_or_article",
+    "imageAlt": "용봉산 산 풍경",
+    "sourceExtract": "용봉산(龍鳳山)은 충청남도 홍성군 홍북읍에 있는 한국의 화강암 산이다. 이름은 용의 몸집에 봉황의 머리를 얹은 듯한 형상인데서 유래했다. 1991년 5월 18일 자연휴양림으로 고시되었다. 산 및의 너른 뜰에 내포신도시가 조성되어 충청남도 행정의 중심지로 발전하고 있다."
+  },
+  {
+    "id": "bac-065",
+    "name": "천태산",
+    "nameEn": "",
+    "region": "충청",
+    "province": "충청북도/충청남도 영동/금산",
+    "height": 715,
+    "bac": true,
+    "level": "중급",
+    "difficultyOriginal": "중급",
+    "time": "2.3시간",
+    "hours": 2.3,
+    "distance": "5.5km",
+    "distanceKm": 5.5,
+    "elevation": "460m",
+    "rating": "4.6",
+    "lat": 36.15917,
+    "lon": 127.6002,
+    "summary": "천태산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "천태산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "충북 산행을 원하는 사람",
+      "중급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "대표 코스",
+      "start": "출발지 정보 준비중",
+      "mid": "중간지점 정보 준비중",
+      "summit": "정상",
+      "end": "하산지점 정보 준비중"
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "충북",
+      "중급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "천태산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "coordinateStatus": "public_source",
+    "regionOriginal": "충북/충남",
+    "coordinateType": "summit",
+    "coordinateSource": "wikidata_label_nearest_region",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%EC%B2%9C%ED%83%9C%EC%82%B0",
+    "wikidataId": "Q6830038",
+    "image": "assets/mountains/bac-065.svg",
+    "imageThumb": "assets/mountains/bac-065.svg",
+    "imageSourceUrl": "",
+    "imageSource": "generated_site_fallback",
+    "imageStatus": "generated_fallback",
+    "imageAlt": "천태산 산 풍경",
+    "sourceExtract": ""
+  },
+  {
+    "id": "bac-066",
+    "name": "감악산",
+    "nameEn": "",
+    "region": "경기",
+    "province": "경기도 파주/양주/연천",
+    "height": 674,
+    "bac": true,
+    "level": "중급",
+    "difficultyOriginal": "중급",
+    "time": "2.2시간",
+    "hours": 2.2,
+    "distance": "5.2km",
+    "distanceKm": 5.2,
+    "elevation": "440m",
+    "rating": "4.6",
+    "lat": 37.228333333,
+    "lon": 128.141944444,
+    "summary": "감악산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "감악산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "경기 산행을 원하는 사람",
+      "중급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "대표 코스",
+      "start": "출발지 정보 준비중",
+      "mid": "중간지점 정보 준비중",
+      "summit": "정상",
+      "end": "하산지점 정보 준비중"
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "경기",
+      "중급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "감악산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "coordinateStatus": "public_source",
+    "regionOriginal": "경기",
+    "coordinateType": "summit",
+    "coordinateSource": "wikidata_label_nearest_region",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%EA%B0%90%EC%95%85%EC%82%B0",
+    "wikidataId": "Q5519549",
+    "image": "assets/mountains/bac-066.svg",
+    "imageThumb": "assets/mountains/bac-066.svg",
+    "imageSourceUrl": "",
+    "imageSource": "generated_site_fallback",
+    "imageStatus": "generated_fallback",
+    "imageAlt": "감악산 산 풍경",
+    "sourceExtract": "감악산의 다른 뜻은 다음과 같다.\n\n감악산(紺岳山)은 경기도 파주시와 양주시, 연천군에 걸쳐 있는 산이다.\n감악산(紺岳山)은 강원도 원주시와 충청북도 제천시 경계에 있는 산이다.\n감악산(紺岳山)은 경상남도 거창군에 있는 산이다."
+  },
+  {
+    "id": "bac-067",
+    "name": "관악산",
+    "nameEn": "",
+    "region": "서울",
+    "province": "서울특별시/경기도 서울 관악구/과천/안양",
+    "height": 629,
+    "bac": true,
+    "level": "중급",
+    "difficultyOriginal": "중급",
+    "time": "약 3시간 30분",
+    "hours": 3.5,
+    "distance": "7.0km",
+    "distanceKm": 7,
+    "elevation": "550m",
+    "rating": "4.6",
+    "lat": 37.445555555556,
+    "lon": 126.96361111111,
+    "summary": "관악산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "관악산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "서울 산행을 원하는 사람",
+      "중급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "연주대 정상 코스",
+      "level": "중급",
+      "distance": "7.0km",
+      "distanceKm": 7,
+      "time": "약 3시간 30분",
+      "hours": 3.5,
+      "elevation": "550m",
+      "start": "서울대 후문",
+      "mid": "제4광장 · 연주암",
+      "summit": "연주대",
+      "end": "서울대 후문",
+      "route": [
+        "서울대 후문",
+        "제4광장",
+        "연주암",
+        "연주대",
+        "서울대 후문"
+      ],
+      "terrain": [
+        "포장로",
+        "계단",
+        "돌계단",
+        "흙길",
+        "암릉"
+      ],
+      "themes": [
+        "지하철로 가는 산",
+        "능선/조망"
+      ],
+      "transport": "대중교통 가능",
+      "parking": "확인 필요",
+      "toilet": "있음",
+      "summary": "관악산의 대표 정상 코스입니다. 서울 남부 조망과 연주암 주변 분위기를 함께 느낄 수 있어 첫 관악산 코스로 좋습니다.",
+      "recommendedFor": [
+        "대표 코스",
+        "조망",
+        "중급 산행"
+      ]
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "서울",
+      "중급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "관악산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "regionOriginal": "서울",
+    "coordinateType": "summit",
+    "coordinateStatus": "public_source",
+    "coordinateSource": "wikidata_or_wikipedia",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%EA%B4%80%EC%95%85%EC%82%B0",
+    "wikidataId": "Q626275",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/81/Gwanaksan_Seoul_KR.jpg",
+    "imageThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Gwanaksan_Seoul_KR.jpg/1280px-Gwanaksan_Seoul_KR.jpg",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Gwanaksan_Seoul_KR.jpg",
+    "imageSource": "wikimedia_pageimage",
+    "imageStatus": "exact_or_article",
+    "imageAlt": "관악산 산 풍경",
+    "sourceExtract": "관악산(冠岳山)은 대한민국 서울특별시 관악구·금천구와 경기도 안양시·과천시의 경계에 있는 높이 632 m의 한국의 화강암 산이다. 한남정맥이 수원시 광교산에서 북서쪽으로 갈라져 한강 남쪽에 이르러 마지막으로 우뚝 솟아 있다. 관악이란 이름은 산의 모양이 마치 '삿갓(冠)'처럼 생겼기 때문에 붙여진 이름이다. 산의 최고봉은 현재 기상관측소 옆 연주대 불꽃바위(632m)이다. 관악산 정상 경기도 과천시에는 사찰 연주암이 있다.",
+    "courses": [
+      {
+        "name": "연주대 정상 코스",
+        "level": "중급",
+        "distance": "7.0km",
+        "distanceKm": 7,
+        "time": "약 3시간 30분",
+        "hours": 3.5,
+        "elevation": "550m",
+        "start": "서울대 후문",
+        "mid": "제4광장 · 연주암",
+        "summit": "연주대",
+        "end": "서울대 후문",
+        "route": [
+          "서울대 후문",
+          "제4광장",
+          "연주암",
+          "연주대",
+          "서울대 후문"
+        ],
+        "terrain": [
+          "포장로",
+          "계단",
+          "돌계단",
+          "흙길",
+          "암릉"
+        ],
+        "themes": [
+          "지하철로 가는 산",
+          "능선/조망"
+        ],
+        "transport": "대중교통 가능",
+        "parking": "확인 필요",
+        "toilet": "있음",
+        "summary": "관악산의 대표 정상 코스입니다. 서울 남부 조망과 연주암 주변 분위기를 함께 느낄 수 있어 첫 관악산 코스로 좋습니다.",
+        "recommendedFor": [
+          "대표 코스",
+          "조망",
+          "중급 산행"
+        ]
+      },
+      {
+        "name": "사당능선 코스",
+        "level": "상급",
+        "distance": "7.8km",
+        "distanceKm": 7.8,
+        "time": "약 4시간",
+        "hours": 4,
+        "elevation": "580m",
+        "start": "사당역 관악산 입구",
+        "mid": "깔딱고개 · 국기봉",
+        "summit": "연주대",
+        "end": "연주대",
+        "route": [
+          "사당역",
+          "깔딱고개",
+          "국기봉",
+          "연주대"
+        ],
+        "terrain": [
+          "급경사 흙길",
+          "돌계단",
+          "암릉",
+          "로프 구간",
+          "철계단"
+        ],
+        "themes": [
+          "능선/조망",
+          "포토 스팟",
+          "암릉"
+        ],
+        "transport": "대중교통 가능",
+        "parking": "제한적",
+        "toilet": "있음",
+        "summary": "능선 산행의 재미가 강한 코스입니다. 바위와 경사 구간이 이어져 체력과 집중력이 필요합니다.",
+        "recommendedFor": [
+          "경험자",
+          "능선 산행",
+          "암릉 선호"
+        ]
+      },
+      {
+        "name": "관음사 코스",
+        "level": "초급",
+        "distance": "4.6km",
+        "distanceKm": 4.6,
+        "time": "약 2시간",
+        "hours": 2,
+        "elevation": "320m",
+        "start": "신림역 관악산 입구",
+        "mid": "관악산공원 입구",
+        "summit": "관음사",
+        "end": "신림역",
+        "route": [
+          "신림역",
+          "관악산공원 입구",
+          "관음사",
+          "신림역"
+        ],
+        "terrain": [
+          "포장도로",
+          "흙길",
+          "돌계단"
+        ],
+        "themes": [
+          "초보자 추천",
+          "지하철로 가는 산"
+        ],
+        "transport": "대중교통 가능",
+        "parking": "확인 필요",
+        "toilet": "있음",
+        "summary": "짧고 부담이 낮은 관악산 입문 코스입니다. 가벼운 운동이나 주말 오전 산책에 알맞습니다.",
+        "recommendedFor": [
+          "초보",
+          "짧은 산행",
+          "지하철 접근"
+        ]
+      },
+      {
+        "name": "관악산 둘레길 코스",
+        "level": "초급",
+        "distance": "5.2km",
+        "distanceKm": 5.2,
+        "time": "약 2시간",
+        "hours": 2,
+        "elevation": "150m",
+        "start": "서울대 후문 둘레길 입구",
+        "mid": "숲속 쉼터 · 전망 포인트",
+        "summit": "둘레길 전망지",
+        "end": "서울대 후문 둘레길 입구",
+        "route": [
+          "둘레길 입구",
+          "숲속 쉼터",
+          "전망 포인트",
+          "계곡 쉼터",
+          "둘레길 입구"
+        ],
+        "terrain": [
+          "흙길",
+          "데크길",
+          "완만한 돌길"
+        ],
+        "themes": [
+          "초보자 추천",
+          "가족 나들이"
+        ],
+        "transport": "대중교통 가능",
+        "parking": "확인 필요",
+        "toilet": "있음",
+        "summary": "정상보다 숲길과 휴식에 초점을 둔 코스입니다. 가족이나 초보자에게 편안한 선택지입니다.",
+        "recommendedFor": [
+          "가족",
+          "초보",
+          "가벼운 산책"
+        ]
+      }
+    ],
+    "courseCount": 4,
+    "decisionSummary": {
+      "recommendation": "초급 코스 있음",
+      "bestFor": [
+        "대표 코스",
+        "조망",
+        "중급 산행"
+      ],
+      "quickPick": "연주대 정상 코스",
+      "transport": "대중교통 접근 가능",
+      "facilities": "주요 입구 화장실 확인",
+      "caution": "암릉/급경사 코스는 날씨와 장비 확인 필요"
+    }
+  },
+  {
+    "id": "bac-068",
+    "name": "도봉산",
+    "nameEn": "",
+    "region": "서울",
+    "province": "서울특별시/경기도 서울 도봉구/양주/의정부",
+    "height": 740,
+    "bac": true,
+    "level": "상급",
+    "difficultyOriginal": "중급",
+    "time": "약 4시간",
+    "hours": 4,
+    "distance": "7.5km",
+    "distanceKm": 7.5,
+    "elevation": "620m",
+    "rating": "4.6",
+    "lat": 37.700555555556,
+    "lon": 127.01555555556,
+    "summary": "도봉산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "도봉산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "서울 산행을 원하는 사람",
+      "중급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "자운봉 코스",
+      "level": "상급",
+      "distance": "7.5km",
+      "distanceKm": 7.5,
+      "time": "약 4시간",
+      "hours": 4,
+      "elevation": "620m",
+      "start": "도봉산역 탐방지원센터",
+      "mid": "마당바위",
+      "summit": "자운봉",
+      "end": "도봉산역 탐방지원센터",
+      "route": [
+        "도봉산역",
+        "탐방지원센터",
+        "마당바위",
+        "자운봉",
+        "탐방지원센터"
+      ],
+      "terrain": [
+        "돌길",
+        "나무계단",
+        "암릉",
+        "쇠사슬",
+        "철계단"
+      ],
+      "themes": [
+        "능선/조망",
+        "지하철로 가는 산",
+        "암릉"
+      ],
+      "transport": "대중교통 가능",
+      "parking": "가능",
+      "toilet": "있음",
+      "summary": "도봉산의 바위 능선을 제대로 느낄 수 있는 대표 상급 코스입니다. 노면 변화가 커서 날씨와 장비 확인이 중요합니다.",
+      "recommendedFor": [
+        "경험자",
+        "정상 조망",
+        "암릉 산행"
+      ]
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "서울",
+      "중급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "도봉산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "regionOriginal": "서울",
+    "coordinateType": "summit",
+    "coordinateStatus": "public_source",
+    "coordinateSource": "wikidata_or_wikipedia",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%EB%8F%84%EB%B4%89%EC%82%B0",
+    "wikidataId": "Q626000",
+    "image": "https://upload.wikimedia.org/wikipedia/ko/b/be/Dobongsan.jpg",
+    "imageThumb": "https://upload.wikimedia.org/wikipedia/ko/b/be/Dobongsan.jpg",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Dobongsan.jpg",
+    "imageSource": "wikimedia_pageimage",
+    "imageStatus": "exact_or_article",
+    "imageAlt": "도봉산 산 풍경",
+    "sourceExtract": "도봉산(道峰山, 영어: Dobongsan)은 대한민국 서울특별시 도봉구와 경기도 의정부시 호원동, 양주시 장흥면에 걸쳐 있는 한북정맥의 산이며 한국의 화강암 산이다. 북한산 국립공원의 일부이다.\n백두대간의 분수령에서 서남쪽으로 뻗은 한북정맥의 연봉을 따라 운악산·불곡산을 거쳐 남서쪽으로 내려오다가 서울 동북쪽에서 우뚝 솟아 우이령을 경계로 북한산으로 이어진다. 최고봉인 자운봉(紫雲峰, 739.5 m), 남쪽으로 만장봉(萬丈峰)·선인봉(仙人峰),",
+    "courses": [
+      {
+        "name": "자운봉 코스",
+        "level": "상급",
+        "distance": "7.5km",
+        "distanceKm": 7.5,
+        "time": "약 4시간",
+        "hours": 4,
+        "elevation": "620m",
+        "start": "도봉산역 탐방지원센터",
+        "mid": "마당바위",
+        "summit": "자운봉",
+        "end": "도봉산역 탐방지원센터",
+        "route": [
+          "도봉산역",
+          "탐방지원센터",
+          "마당바위",
+          "자운봉",
+          "탐방지원센터"
+        ],
+        "terrain": [
+          "돌길",
+          "나무계단",
+          "암릉",
+          "쇠사슬",
+          "철계단"
+        ],
+        "themes": [
+          "능선/조망",
+          "지하철로 가는 산",
+          "암릉"
+        ],
+        "transport": "대중교통 가능",
+        "parking": "가능",
+        "toilet": "있음",
+        "summary": "도봉산의 바위 능선을 제대로 느낄 수 있는 대표 상급 코스입니다. 노면 변화가 커서 날씨와 장비 확인이 중요합니다.",
+        "recommendedFor": [
+          "경험자",
+          "정상 조망",
+          "암릉 산행"
+        ]
+      },
+      {
+        "name": "오봉 코스",
+        "level": "중급",
+        "distance": "6.0km",
+        "distanceKm": 6,
+        "time": "약 3시간",
+        "hours": 3,
+        "elevation": "450m",
+        "start": "오봉 탐방로 입구",
+        "mid": "용어천 갈림길",
+        "summit": "오봉",
+        "end": "오봉 탐방로 입구",
+        "route": [
+          "오봉 입구",
+          "용어천 갈림길",
+          "오봉",
+          "오봉 입구"
+        ],
+        "terrain": [
+          "흙길",
+          "돌계단",
+          "암릉"
+        ],
+        "themes": [
+          "능선/조망",
+          "단풍"
+        ],
+        "transport": "대중교통 가능",
+        "parking": "확인 필요",
+        "toilet": "있음",
+        "summary": "오봉의 독특한 능선 풍경을 보는 중급 코스입니다. 정상부 전후로 암릉 감각이 있어 기본 장비를 갖추는 편이 좋습니다.",
+        "recommendedFor": [
+          "중급",
+          "단풍",
+          "능선 조망"
+        ]
+      },
+      {
+        "name": "도봉산 둘레길",
+        "level": "초급",
+        "distance": "5.0km",
+        "distanceKm": 5,
+        "time": "약 2시간",
+        "hours": 2,
+        "elevation": "180m",
+        "start": "도봉산 탐방지원센터",
+        "mid": "천축사",
+        "summit": "둘레길 구간",
+        "end": "도봉서원",
+        "route": [
+          "탐방지원센터",
+          "천축사",
+          "도봉서원"
+        ],
+        "terrain": [
+          "나무데크",
+          "흙길",
+          "포장길"
+        ],
+        "themes": [
+          "가족 나들이",
+          "사찰/문화",
+          "초보자 추천"
+        ],
+        "transport": "대중교통 가능",
+        "parking": "가능",
+        "toilet": "있음",
+        "summary": "정상 등정보다 산책과 문화 지점을 함께 보는 코스입니다. 부담이 낮아 초보자나 가족에게 적합합니다.",
+        "recommendedFor": [
+          "가족",
+          "초보",
+          "문화 산책"
+        ]
+      },
+      {
+        "name": "포대능선 코스",
+        "level": "상급",
+        "distance": "6.2km",
+        "distanceKm": 6.2,
+        "time": "약 3시간 30분",
+        "hours": 3.5,
+        "elevation": "550m",
+        "start": "도봉산역",
+        "mid": "도봉탐방지원센터 · 포대정상",
+        "summit": "포대능선",
+        "end": "다락능선 갈림길",
+        "route": [
+          "도봉산역",
+          "도봉탐방지원센터",
+          "포대정상",
+          "암릉 구간",
+          "다락능선 갈림길"
+        ],
+        "terrain": [
+          "포장도로",
+          "돌계단",
+          "흙길",
+          "암릉",
+          "바위"
+        ],
+        "themes": [
+          "능선/조망",
+          "포토 스팟",
+          "암릉"
+        ],
+        "transport": "대중교통 가능",
+        "parking": "가능",
+        "toilet": "있음",
+        "summary": "도봉산 능선미를 강하게 체감하는 코스입니다. 암릉 구간이 있어 비나 눈이 온 날은 피하는 것이 좋습니다.",
+        "recommendedFor": [
+          "경험자",
+          "능선",
+          "사진 포인트"
+        ]
+      }
+    ],
+    "courseCount": 4,
+    "decisionSummary": {
+      "recommendation": "초급 코스 있음",
+      "bestFor": [
+        "경험자",
+        "정상 조망",
+        "암릉 산행"
+      ],
+      "quickPick": "자운봉 코스",
+      "transport": "대중교통 접근 가능",
+      "facilities": "주요 입구 화장실 확인",
+      "caution": "암릉/급경사 코스는 날씨와 장비 확인 필요"
+    }
+  },
+  {
+    "id": "bac-069",
+    "name": "마니산",
+    "nameEn": "",
+    "region": "경기",
+    "province": "인천광역시 강화",
+    "height": 472,
+    "bac": true,
+    "level": "초급",
+    "difficultyOriginal": "초중급",
+    "time": "2시간",
+    "hours": 2,
+    "distance": "4.5km",
+    "distanceKm": 4.5,
+    "elevation": "310m",
+    "rating": "4.6",
+    "lat": 37.61666667,
+    "lon": 126.43333333,
+    "summary": "마니산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "마니산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "인천 산행을 원하는 사람",
+      "초중급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "대표 코스",
+      "start": "출발지 정보 준비중",
+      "mid": "중간지점 정보 준비중",
+      "summit": "정상",
+      "end": "하산지점 정보 준비중"
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "인천",
+      "초중급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "마니산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "coordinateStatus": "public_source",
+    "regionOriginal": "경기",
+    "coordinateType": "summit",
+    "coordinateSource": "wikidata_or_wikipedia",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%EB%A7%88%EB%8B%88%EC%82%B0",
+    "wikidataId": "Q624003",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Mt_mani_2.jpg",
+    "imageThumb": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Mt_mani_2.jpg",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Mt_mani_2.jpg",
+    "imageSource": "wikimedia_pageimage",
+    "imageStatus": "exact_or_article",
+    "imageAlt": "마니산 산 풍경",
+    "sourceExtract": "마니산(摩尼山)은 인천광역시의 강화도에 있는 해발 472.1 m의 산이다.\n《고려사》,《세종실록지리지》,《태종실록》 등에는 머리, 우두머리라는 뜻의 마리산(摩利山) 또는 두악(頭嶽)이라고 기록하고 있는데, 마리(摩利)는 머리의 중세 동형어인 마리의 취음표기이다.\n산 꼭대기에는 제단인 참성단이 있으며, 전국체육대회 성화를 이곳에서 채화한다."
+  },
+  {
+    "id": "bac-070",
+    "name": "북한산",
+    "nameEn": "",
+    "region": "서울",
+    "province": "서울특별시/경기도 서울/고양",
+    "height": 837,
+    "bac": true,
+    "level": "상급",
+    "difficultyOriginal": "중급",
+    "time": "약 4시간 30분",
+    "hours": 4.5,
+    "distance": "8.5km",
+    "distanceKm": 8.5,
+    "elevation": "720m",
+    "rating": "4.6",
+    "lat": 37.660833333333,
+    "lon": 126.99333333333,
+    "summary": "북한산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "북한산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "서울 산행을 원하는 사람",
+      "중급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "백운대 정상 코스",
+      "level": "상급",
+      "distance": "8.5km",
+      "distanceKm": 8.5,
+      "time": "약 4시간 30분",
+      "hours": 4.5,
+      "elevation": "720m",
+      "start": "북한산성 탐방지원센터",
+      "mid": "대서문 · 백운산장",
+      "summit": "백운대",
+      "end": "북한산성 탐방지원센터",
+      "route": [
+        "북한산성 탐방지원센터",
+        "대서문",
+        "백운산장",
+        "백운대",
+        "북한산성 탐방지원센터"
+      ],
+      "terrain": [
+        "포장로",
+        "돌계단",
+        "흙길",
+        "암릉",
+        "철계단"
+      ],
+      "themes": [
+        "능선/조망",
+        "포토 스팟",
+        "암릉"
+      ],
+      "transport": "대중교통 가능",
+      "parking": "가능",
+      "toilet": "있음",
+      "summary": "서울 대표 정상 조망을 노리는 코스입니다. 후반 암릉과 계단 구간이 있어 체력과 안전 장비를 갖춘 날에 선택하기 좋습니다.",
+      "recommendedFor": [
+        "정상 인증",
+        "조망 산행",
+        "경험자"
+      ]
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "서울",
+      "중급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "북한산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "regionOriginal": "서울",
+    "coordinateType": "summit",
+    "coordinateStatus": "public_source",
+    "coordinateSource": "wikidata_or_wikipedia",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%EB%B6%81%ED%95%9C%EC%82%B0",
+    "wikidataId": "Q494652",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/60/Insoo_peak.jpg",
+    "imageThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Insoo_peak.jpg/1280px-Insoo_peak.jpg",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Insoo_peak.jpg",
+    "imageSource": "wikimedia_pageimage",
+    "imageStatus": "exact_or_article",
+    "imageAlt": "북한산 산 풍경",
+    "sourceExtract": "북한산(北漢山)은 대한민국 서울특별시 강북구·도봉구·은평구·성북구·종로구와 경기도 고양시 덕양구·양주시·의정부시의 경계에 있는 높이 836.5 m(2013년 6월 국토지리정보원 지도)의 산으로, 이름은 조선 후기 시대 때의 한성의 북쪽이라는 뜻에서부터 유래되었다.\n북한산은 1억 7천만년전에 형성되었으며, 최초로는 마한의 땅으로 삼국시대 백제에서는 '한산(漢山)'이라 불렸고 인수봉은 '부아악(負兒嶽)'이라 불렸으며 시조 비류와 온조 형제가 올랐다",
+    "courses": [
+      {
+        "name": "백운대 정상 코스",
+        "level": "상급",
+        "distance": "8.5km",
+        "distanceKm": 8.5,
+        "time": "약 4시간 30분",
+        "hours": 4.5,
+        "elevation": "720m",
+        "start": "북한산성 탐방지원센터",
+        "mid": "대서문 · 백운산장",
+        "summit": "백운대",
+        "end": "북한산성 탐방지원센터",
+        "route": [
+          "북한산성 탐방지원센터",
+          "대서문",
+          "백운산장",
+          "백운대",
+          "북한산성 탐방지원센터"
+        ],
+        "terrain": [
+          "포장로",
+          "돌계단",
+          "흙길",
+          "암릉",
+          "철계단"
+        ],
+        "themes": [
+          "능선/조망",
+          "포토 스팟",
+          "암릉"
+        ],
+        "transport": "대중교통 가능",
+        "parking": "가능",
+        "toilet": "있음",
+        "summary": "서울 대표 정상 조망을 노리는 코스입니다. 후반 암릉과 계단 구간이 있어 체력과 안전 장비를 갖춘 날에 선택하기 좋습니다.",
+        "recommendedFor": [
+          "정상 인증",
+          "조망 산행",
+          "경험자"
+        ]
+      },
+      {
+        "name": "비봉 코스",
+        "level": "중급",
+        "distance": "6.2km",
+        "distanceKm": 6.2,
+        "time": "약 3시간",
+        "hours": 3,
+        "elevation": "430m",
+        "start": "진관사 입구",
+        "mid": "진관사 · 비봉 갈림길",
+        "summit": "비봉",
+        "end": "진관사 입구",
+        "route": [
+          "진관사 입구",
+          "진관사",
+          "비봉 갈림길",
+          "비봉",
+          "진관사 입구"
+        ],
+        "terrain": [
+          "포장로",
+          "흙길",
+          "돌계단",
+          "암릉"
+        ],
+        "themes": [
+          "사찰/문화",
+          "능선/조망"
+        ],
+        "transport": "대중교통 가능",
+        "parking": "확인 필요",
+        "toilet": "있음",
+        "summary": "진관사 주변 문화 경관과 능선 조망을 함께 보는 코스입니다. 길의 흐름이 비교적 단순해 중급 산행 입문에 적합합니다.",
+        "recommendedFor": [
+          "문화 산행",
+          "중급 입문",
+          "가을 산행"
+        ]
+      },
+      {
+        "name": "족두리봉 코스",
+        "level": "초급",
+        "distance": "5.2km",
+        "distanceKm": 5.2,
+        "time": "약 2시간 30분",
+        "hours": 2.5,
+        "elevation": "280m",
+        "start": "북한산우이역",
+        "mid": "솔밭근린공원",
+        "summit": "족두리봉",
+        "end": "북한산우이역",
+        "route": [
+          "북한산우이역",
+          "솔밭근린공원",
+          "족두리봉",
+          "북한산우이역"
+        ],
+        "terrain": [
+          "포장도로",
+          "흙길",
+          "데크 계단",
+          "짧은 암릉"
+        ],
+        "themes": [
+          "초보자 추천",
+          "지하철로 가는 산"
+        ],
+        "transport": "대중교통 가능",
+        "parking": "확인 필요",
+        "toilet": "있음",
+        "summary": "접근성과 난이도 균형이 좋아 처음 북한산을 경험하기 좋은 코스입니다. 짧은 바위 구간이 있어 운동화보다는 등산화를 권합니다.",
+        "recommendedFor": [
+          "초보",
+          "반나절 산행",
+          "지하철 접근"
+        ]
+      },
+      {
+        "name": "우이령길 코스",
+        "level": "초급",
+        "distance": "6.8km",
+        "distanceKm": 6.8,
+        "time": "약 2시간 30분",
+        "hours": 2.5,
+        "elevation": "180m",
+        "start": "우이동 탐방지원센터",
+        "mid": "우이령",
+        "summit": "우이령길",
+        "end": "교현리 탐방지원센터",
+        "route": [
+          "우이동 탐방지원센터",
+          "우이령",
+          "교현리 탐방지원센터"
+        ],
+        "terrain": [
+          "완만한 흙길",
+          "나무데크"
+        ],
+        "themes": [
+          "초보자 추천",
+          "가족 나들이",
+          "단풍"
+        ],
+        "transport": "대중교통 가능",
+        "parking": "확인 필요",
+        "toilet": "있음",
+        "summary": "정상 등정 대신 숲길 산책에 가까운 코스입니다. 체력 부담이 낮아 가족 산행이나 가벼운 계절 산책에 잘 맞습니다.",
+        "recommendedFor": [
+          "가족",
+          "초보",
+          "가벼운 산책"
+        ]
+      }
+    ],
+    "courseCount": 4,
+    "decisionSummary": {
+      "recommendation": "초급 코스 있음",
+      "bestFor": [
+        "정상 인증",
+        "조망 산행",
+        "경험자"
+      ],
+      "quickPick": "백운대 정상 코스",
+      "transport": "대중교통 접근 가능",
+      "facilities": "주요 입구 화장실 확인",
+      "caution": "암릉/급경사 코스는 날씨와 장비 확인 필요"
+    }
+  },
+  {
+    "id": "bac-071",
+    "name": "수락산",
+    "nameEn": "",
+    "region": "서울",
+    "province": "서울특별시/경기도 서울 노원구/남양주/의정부",
+    "height": 640,
+    "bac": true,
+    "level": "중급",
+    "difficultyOriginal": "중급",
+    "time": "약 3시간 30분",
+    "hours": 3.5,
+    "distance": "6.8km",
+    "distanceKm": 6.8,
+    "elevation": "520m",
+    "rating": "4.6",
+    "lat": 37.6961,
+    "lon": 127.082,
+    "summary": "수락산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "수락산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "서울 산행을 원하는 사람",
+      "중급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "주봉 코스",
+      "level": "중급",
+      "distance": "6.8km",
+      "distanceKm": 6.8,
+      "time": "약 3시간 30분",
+      "hours": 3.5,
+      "elevation": "520m",
+      "start": "수락산역 등산로 입구",
+      "mid": "철모바위",
+      "summit": "주봉",
+      "end": "수락산역 등산로 입구",
+      "route": [
+        "수락산역 입구",
+        "철모바위",
+        "주봉",
+        "수락산역 입구"
+      ],
+      "terrain": [
+        "흙길",
+        "돌계단",
+        "암릉",
+        "철계단"
+      ],
+      "themes": [
+        "능선/조망",
+        "지하철로 가는 산"
+      ],
+      "transport": "대중교통 가능",
+      "parking": "확인 필요",
+      "toilet": "있음",
+      "summary": "수락산의 대표 능선 조망 코스입니다. 중급 난이도지만 암릉과 계단이 있어 초반 페이스 조절이 필요합니다.",
+      "recommendedFor": [
+        "중급",
+        "지하철 접근",
+        "조망"
+      ]
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "서울",
+      "중급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "수락산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "regionOriginal": "서울",
+    "coordinateType": "summit",
+    "coordinateStatus": "public_source",
+    "coordinateSource": "wikidata_or_wikipedia",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%EC%88%98%EB%9D%BD%EC%82%B0",
+    "wikidataId": "Q626151",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Suraksan.JPG",
+    "imageThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Suraksan.JPG/1280px-Suraksan.JPG",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Suraksan.JPG",
+    "imageSource": "wikimedia_pageimage",
+    "imageStatus": "exact_or_article",
+    "imageAlt": "수락산 산 풍경",
+    "sourceExtract": "수락산(水落山)은 대한민국 서울특별시 노원구 상계동, 경기도 의정부시, 남양주시 별내면(別內面)의 경계에 있는 한국의 화강암 산으로 높이는 638 m이고 서울과 의정부간의 국도를 사이에 두고 서쪽에 자리잡은 북한산(北漢山, 837 m), 도봉산(道峰山, 739.5 m)과 함께 서울의 북쪽 경계를 이룬다. 거대한 화강암 암벽이 노출되어 있다. 바위산으로 1977년 7월 9일에 공원으로 지정되었는데 둘레의 전체 면적은 6,692,795 m2이다.",
+    "courses": [
+      {
+        "name": "주봉 코스",
+        "level": "중급",
+        "distance": "6.8km",
+        "distanceKm": 6.8,
+        "time": "약 3시간 30분",
+        "hours": 3.5,
+        "elevation": "520m",
+        "start": "수락산역 등산로 입구",
+        "mid": "철모바위",
+        "summit": "주봉",
+        "end": "수락산역 등산로 입구",
+        "route": [
+          "수락산역 입구",
+          "철모바위",
+          "주봉",
+          "수락산역 입구"
+        ],
+        "terrain": [
+          "흙길",
+          "돌계단",
+          "암릉",
+          "철계단"
+        ],
+        "themes": [
+          "능선/조망",
+          "지하철로 가는 산"
+        ],
+        "transport": "대중교통 가능",
+        "parking": "확인 필요",
+        "toilet": "있음",
+        "summary": "수락산의 대표 능선 조망 코스입니다. 중급 난이도지만 암릉과 계단이 있어 초반 페이스 조절이 필요합니다.",
+        "recommendedFor": [
+          "중급",
+          "지하철 접근",
+          "조망"
+        ]
+      },
+      {
+        "name": "기차바위 코스",
+        "level": "상급",
+        "distance": "5.5km",
+        "distanceKm": 5.5,
+        "time": "약 3시간",
+        "hours": 3,
+        "elevation": "500m",
+        "start": "장암역 등산로 입구",
+        "mid": "기차바위 입구",
+        "summit": "기차바위",
+        "end": "장암역 등산로 입구",
+        "route": [
+          "장암역 입구",
+          "기차바위 입구",
+          "기차바위",
+          "장암역 입구"
+        ],
+        "terrain": [
+          "흙길",
+          "돌계단",
+          "암릉",
+          "쇠사슬",
+          "철계단"
+        ],
+        "themes": [
+          "능선/조망",
+          "포토 스팟",
+          "암릉"
+        ],
+        "transport": "대중교통 가능",
+        "parking": "확인 필요",
+        "toilet": "있음",
+        "summary": "암릉 산행의 재미가 뚜렷한 상급 코스입니다. 손을 써야 하는 구간이 있어 장갑과 접지 좋은 등산화를 권합니다.",
+        "recommendedFor": [
+          "경험자",
+          "암릉",
+          "사진 포인트"
+        ]
+      },
+      {
+        "name": "수락산 계곡 코스",
+        "level": "초급",
+        "distance": "4.0km",
+        "distanceKm": 4,
+        "time": "약 1시간 50분",
+        "hours": 1.8,
+        "elevation": "200m",
+        "start": "수락계곡 입구",
+        "mid": "너른바위",
+        "summit": "수락폭포 왕복",
+        "end": "수락계곡 입구",
+        "route": [
+          "수락계곡 입구",
+          "너른바위",
+          "수락폭포",
+          "수락계곡 입구"
+        ],
+        "terrain": [
+          "흙길",
+          "돌길",
+          "계곡길"
+        ],
+        "themes": [
+          "계곡 산행",
+          "가족 나들이",
+          "초보자 추천"
+        ],
+        "transport": "대중교통 가능",
+        "parking": "확인 필요",
+        "toilet": "있음",
+        "summary": "계곡 분위기를 가볍게 즐기는 짧은 코스입니다. 여름철 산책이나 가족 나들이에 특히 잘 맞습니다.",
+        "recommendedFor": [
+          "가족",
+          "초보",
+          "여름 계곡"
+        ]
+      },
+      {
+        "name": "도솔봉 코스",
+        "level": "중급",
+        "distance": "5.5km",
+        "distanceKm": 5.5,
+        "time": "약 3시간",
+        "hours": 3,
+        "elevation": "420m",
+        "start": "당고개역 1번 출구",
+        "mid": "중간 전망대",
+        "summit": "도솔봉",
+        "end": "당고개역",
+        "route": [
+          "당고개역",
+          "수락산 입구",
+          "중간 전망대",
+          "도솔봉",
+          "당고개역"
+        ],
+        "terrain": [
+          "포장도로",
+          "돌계단",
+          "흙길",
+          "암릉"
+        ],
+        "themes": [
+          "능선/조망",
+          "지하철로 가는 산"
+        ],
+        "transport": "대중교통 가능",
+        "parking": "제한적",
+        "toilet": "있음",
+        "summary": "당고개역에서 접근하는 중급 코스입니다. 중간 전망대 이후 바위 능선 느낌이 살아나며 운동량도 적당합니다.",
+        "recommendedFor": [
+          "중급",
+          "지하철 접근",
+          "조망"
+        ]
+      }
+    ],
+    "courseCount": 4,
+    "decisionSummary": {
+      "recommendation": "초급 코스 있음",
+      "bestFor": [
+        "중급",
+        "지하철 접근",
+        "조망"
+      ],
+      "quickPick": "주봉 코스",
+      "transport": "대중교통 접근 가능",
+      "facilities": "주요 입구 화장실 확인",
+      "caution": "암릉/급경사 코스는 날씨와 장비 확인 필요"
+    }
+  },
+  {
+    "id": "bac-072",
+    "name": "소요산",
+    "nameEn": "",
+    "region": "경기",
+    "province": "경기도 동두천",
+    "height": 587,
+    "bac": true,
+    "level": "초급",
+    "difficultyOriginal": "초중급",
+    "time": "2시간",
+    "hours": 2,
+    "distance": "4.5km",
+    "distanceKm": 4.5,
+    "elevation": "380m",
+    "rating": "4.6",
+    "lat": 37.941944444444,
+    "lon": 127.08888888889,
+    "summary": "소요산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "소요산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "경기 산행을 원하는 사람",
+      "초중급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "대표 코스",
+      "start": "출발지 정보 준비중",
+      "mid": "중간지점 정보 준비중",
+      "summit": "의상대",
+      "end": "하산지점 정보 준비중"
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "경기",
+      "초중급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "소요산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "coordinateStatus": "public_source",
+    "regionOriginal": "경기",
+    "coordinateType": "summit",
+    "coordinateSource": "wikidata_or_wikipedia",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%EC%86%8C%EC%9A%94%EC%82%B0",
+    "wikidataId": "Q623938",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Soyosan.jpg",
+    "imageThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Soyosan.jpg/1280px-Soyosan.jpg",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Soyosan.jpg",
+    "imageSource": "wikimedia_pageimage",
+    "imageStatus": "exact_or_article",
+    "imageAlt": "소요산 산 풍경",
+    "sourceExtract": "소요산(逍遙山)은 대한민국 경기도 동두천시에 있는 해발 고도 587m의 산이다. 산세가 수려해 경기의 소금강이라고도 불린다. 645년, 신라고승 원효가 세운 자재암이 있다. 단풍으로 유명한 산이며, 1981년에 국민관광지로 지정되었다. 화담 서경덕, 봉래 양사언과 매월당 김시습이 자주 소요하였다 하여 '소요산'이라 불리게 되었다.\n2002년 세계 산의 해를 기념하여 산림청이 선정한 한국 100명산 중 한 곳이다.\n또한 한국의 산하 인기 명산 1"
+  },
+  {
+    "id": "bac-073",
+    "name": "운악산",
+    "nameEn": "",
+    "region": "경기",
+    "province": "경기도 가평/포천",
+    "height": 936,
+    "bac": true,
+    "level": "고급",
+    "difficultyOriginal": "중상급",
+    "time": "3시간",
+    "hours": 3,
+    "distance": "7.2km",
+    "distanceKm": 7.2,
+    "elevation": "610m",
+    "rating": "4.6",
+    "lat": 37.878055555556,
+    "lon": 127.325,
+    "summary": "운악산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "운악산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "경기 산행을 원하는 사람",
+      "중상급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "대표 코스",
+      "start": "출발지 정보 준비중",
+      "mid": "중간지점 정보 준비중",
+      "summit": "서봉",
+      "end": "하산지점 정보 준비중"
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "경기",
+      "중상급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "운악산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "coordinateStatus": "public_source",
+    "regionOriginal": "경기",
+    "coordinateType": "summit",
+    "coordinateSource": "wikidata_or_wikipedia",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%EC%9A%B4%EC%95%85%EC%82%B0",
+    "wikidataId": "Q8528375",
+    "image": "assets/mountains/bac-073.svg",
+    "imageThumb": "assets/mountains/bac-073.svg",
+    "imageSourceUrl": "",
+    "imageSource": "generated_site_fallback",
+    "imageStatus": "generated_fallback",
+    "imageAlt": "운악산 산 풍경",
+    "sourceExtract": "운악산(雲岳山)은 대한민국 경기도 포천시 화현면과 가평군 조종면의 경계에 있는 높이 936m의 한국의 화강암 산이다.\n일명 현등산이라고도 부르며 지도상에  현등산으로 표기된 것도 많다. 예로부터 기암 괴봉으로 이뤄진 산세가 아름다워 경기의 소금강이라고 불리어 왔다.\n경기의 5악의 하나로 화악산, 관악산, 감악산 송악산과 함께 이름난 바위산이지만, 그 중에서도 제일 수려한 산으로 꼽힌다."
+  },
+  {
+    "id": "bac-074",
+    "name": "유명산",
+    "nameEn": "",
+    "region": "경기",
+    "province": "경기도 가평/양평",
+    "height": 862,
+    "bac": true,
+    "level": "중급",
+    "difficultyOriginal": "중급",
+    "time": "2.8시간",
+    "hours": 2.8,
+    "distance": "6.6km",
+    "distanceKm": 6.6,
+    "elevation": "560m",
+    "rating": "4.6",
+    "lat": 37.576388888889,
+    "lon": 127.4875,
+    "summary": "유명산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "유명산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "경기 산행을 원하는 사람",
+      "중급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "대표 코스",
+      "start": "출발지 정보 준비중",
+      "mid": "중간지점 정보 준비중",
+      "summit": "정상",
+      "end": "하산지점 정보 준비중"
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "경기",
+      "중급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "유명산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "coordinateStatus": "public_source",
+    "regionOriginal": "경기",
+    "coordinateType": "summit",
+    "coordinateSource": "wikidata_or_wikipedia",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%EC%9C%A0%EB%AA%85%EC%82%B0",
+    "wikidataId": "Q626674",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/42/Peak_of_Yumyeong_Mountain.JPG",
+    "imageThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Peak_of_Yumyeong_Mountain.JPG/1280px-Peak_of_Yumyeong_Mountain.JPG",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Peak_of_Yumyeong_Mountain.JPG",
+    "imageSource": "wikimedia_pageimage",
+    "imageStatus": "exact_or_article",
+    "imageAlt": "유명산 산 풍경",
+    "sourceExtract": "유명산(有明山)은 대한민국 경기도 양평군과 가평군 사이에 있는 높이 862m의 산이다. 산 정상에서는 멀리 북한강과 청평호를 비롯해 용문산, 화악산, 명지산 등의 모습이 보이고 발 아래로 남한강도 보인다. 경기 육괴의 선캄브리아기 경기변성암복합체 호상 흑운모 편마암으로 구성된다.\n유명산에는 대한민국에서 최초로(1989년) 개장한 휴양림인 유명산휴양림이 있다."
+  },
+  {
+    "id": "bac-075",
+    "name": "천마산",
+    "nameEn": "",
+    "region": "경기",
+    "province": "경기도 남양주",
+    "height": 812,
+    "bac": true,
+    "level": "중급",
+    "difficultyOriginal": "중급",
+    "time": "2.6시간",
+    "hours": 2.6,
+    "distance": "6.2km",
+    "distanceKm": 6.2,
+    "elevation": "530m",
+    "rating": "4.6",
+    "lat": 37.305277777,
+    "lon": 127.831111111,
+    "summary": "천마산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "천마산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "경기 산행을 원하는 사람",
+      "중급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "대표 코스",
+      "start": "출발지 정보 준비중",
+      "mid": "중간지점 정보 준비중",
+      "summit": "정상석",
+      "end": "하산지점 정보 준비중"
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "경기",
+      "중급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "천마산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "coordinateStatus": "public_source",
+    "regionOriginal": "경기",
+    "coordinateType": "summit",
+    "coordinateSource": "wikidata_label_nearest_region",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%EC%B2%9C%EB%A7%88%EC%82%B0",
+    "wikidataId": "Q16168241",
+    "image": "assets/mountains/bac-075.svg",
+    "imageThumb": "assets/mountains/bac-075.svg",
+    "imageSourceUrl": "",
+    "imageSource": "generated_site_fallback",
+    "imageStatus": "generated_fallback",
+    "imageAlt": "천마산 산 풍경",
+    "sourceExtract": ""
+  },
+  {
+    "id": "bac-076",
+    "name": "화악산",
+    "nameEn": "",
+    "region": "경기",
+    "province": "경기도/강원특별자치도 가평/화천",
+    "height": 1468,
+    "bac": true,
+    "level": "고급",
+    "difficultyOriginal": "상급",
+    "time": "4.7시간",
+    "hours": 4.7,
+    "distance": "11.3km",
+    "distanceKm": 11.3,
+    "elevation": "950m",
+    "rating": "4.6",
+    "lat": 37.995,
+    "lon": 127.5032,
+    "summary": "화악산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "화악산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "경기 산행을 원하는 사람",
+      "상급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "대표 코스",
+      "start": "출발지 정보 준비중",
+      "mid": "중간지점 정보 준비중",
+      "summit": "중봉",
+      "end": "하산지점 정보 준비중"
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "경기",
+      "상급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "화악산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "coordinateStatus": "public_source",
+    "regionOriginal": "경기",
+    "coordinateType": "summit",
+    "coordinateSource": "wikidata_label_nearest_region",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%ED%99%94%EC%95%85%EC%82%B0",
+    "wikidataId": "Q16181367",
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Broadcast%20Transmitter%20Station%20and%20ROKAF%20Radar%20Site%20in%20Hwaaksan.jpg?width=1200",
+    "imageThumb": "http://commons.wikimedia.org/wiki/Special:FilePath/Broadcast%20Transmitter%20Station%20and%20ROKAF%20Radar%20Site%20in%20Hwaaksan.jpg?width=1200",
+    "imageSourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Broadcast%20Transmitter%20Station%20and%20ROKAF%20Radar%20Site%20in%20Hwaaksan.jpg",
+    "imageSource": "wikidata_image",
+    "imageStatus": "wikidata_label",
+    "imageAlt": "화악산 산 풍경",
+    "sourceExtract": ""
+  },
+  {
+    "id": "bac-077",
+    "name": "가리산",
+    "nameEn": "",
+    "region": "강원",
+    "province": "강원특별자치도 홍천/춘천",
+    "height": 1051,
+    "bac": true,
+    "level": "고급",
+    "difficultyOriginal": "중상급",
+    "time": "3.4시간",
+    "hours": 3.4,
+    "distance": "8.1km",
+    "distanceKm": 8.1,
+    "elevation": "680m",
+    "rating": "4.6",
+    "lat": 37.871944444,
+    "lon": 127.956944444,
+    "summary": "가리산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "가리산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "강원 산행을 원하는 사람",
+      "중상급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "대표 코스",
+      "start": "출발지 정보 준비중",
+      "mid": "중간지점 정보 준비중",
+      "summit": "정상",
+      "end": "하산지점 정보 준비중"
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "강원",
+      "중상급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "가리산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "coordinateStatus": "public_source",
+    "regionOriginal": "강원",
+    "coordinateType": "summit",
+    "coordinateSource": "wikidata_label_nearest_region",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%EA%B0%80%EB%A6%AC%EC%82%B0",
+    "wikidataId": "Q138864401",
+    "image": "assets/mountains/bac-077.svg",
+    "imageThumb": "assets/mountains/bac-077.svg",
+    "imageSourceUrl": "",
+    "imageSource": "generated_site_fallback",
+    "imageStatus": "generated_fallback",
+    "imageAlt": "가리산 산 풍경",
+    "sourceExtract": "가리산(加里山)의 다른 뜻은 다음과 같다.\n\n가리산(加里山)은 강원특별자치도 춘천시와 홍천군에 걸쳐있는 산이다.\n가리산(加里山)은 경기도 포천시에 있는 산이다."
+  },
+  {
+    "id": "bac-078",
+    "name": "공작산",
+    "nameEn": "",
+    "region": "강원",
+    "province": "강원특별자치도 홍천",
+    "height": 887,
+    "bac": true,
+    "level": "중급",
+    "difficultyOriginal": "중급",
+    "time": "2.9시간",
+    "hours": 2.9,
+    "distance": "6.8km",
+    "distanceKm": 6.8,
+    "elevation": "580m",
+    "rating": "4.6",
+    "lat": 37.715555555556,
+    "lon": 128.01,
+    "summary": "공작산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "공작산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "강원 산행을 원하는 사람",
+      "중급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "대표 코스",
+      "start": "출발지 정보 준비중",
+      "mid": "중간지점 정보 준비중",
+      "summit": "정상",
+      "end": "하산지점 정보 준비중"
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "강원",
+      "중급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "공작산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "coordinateStatus": "public_source",
+    "regionOriginal": "강원",
+    "coordinateType": "summit",
+    "coordinateSource": "wikidata_or_wikipedia",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%EA%B3%B5%EC%9E%91%EC%82%B0",
+    "wikidataId": "Q626966",
+    "image": "assets/mountains/bac-078.svg",
+    "imageThumb": "assets/mountains/bac-078.svg",
+    "imageSourceUrl": "",
+    "imageSource": "generated_site_fallback",
+    "imageStatus": "generated_fallback",
+    "imageAlt": "공작산 산 풍경",
+    "sourceExtract": "공작산(孔雀山)은 대한민국 강원특별자치도 홍천군에 있는 높이 887m의 한국의 화강암 산이다. 이곳 산기슭에는 수타사가 있다."
+  },
+  {
+    "id": "bac-079",
+    "name": "두타산",
+    "nameEn": "",
+    "region": "강원",
+    "province": "강원특별자치도 동해/삼척",
+    "height": 1353,
+    "bac": true,
+    "level": "고급",
+    "difficultyOriginal": "중상급",
+    "time": "4.4시간",
+    "hours": 4.4,
+    "distance": "10.4km",
+    "distanceKm": 10.4,
+    "elevation": "880m",
+    "rating": "4.6",
+    "lat": 37.42663,
+    "lon": 129.00388,
+    "summary": "두타산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "두타산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "강원 산행을 원하는 사람",
+      "중상급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "대표 코스",
+      "start": "출발지 정보 준비중",
+      "mid": "중간지점 정보 준비중",
+      "summit": "정상",
+      "end": "하산지점 정보 준비중"
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "강원",
+      "중상급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "두타산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "coordinateStatus": "public_source",
+    "regionOriginal": "강원",
+    "coordinateType": "summit",
+    "coordinateSource": "wikidata_label_nearest_region",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%EB%91%90%ED%83%80%EC%82%B0",
+    "wikidataId": "Q16075182",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Samhwasa_and_murung_velley.jpg/1280px-Samhwasa_and_murung_velley.jpg",
+    "imageThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Samhwasa_and_murung_velley.jpg/1280px-Samhwasa_and_murung_velley.jpg",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Samhwasa_and_murung_velley.jpg",
+    "imageSource": "wikimedia_commons_search",
+    "imageStatus": "commons_search",
+    "imageAlt": "두타산 산 풍경",
+    "sourceExtract": "두타산은 다음의 산들을 가리키는 말이다.\n\n두타산 - 강원특별자치도 동해시와 삼척시 사이에 걸쳐 있는 산이다.\n두타산 - 충청북도 진천군과 괴산군 사이에 걸쳐 있는 산이다."
+  },
+  {
+    "id": "bac-080",
+    "name": "마대산",
+    "nameEn": "",
+    "region": "강원",
+    "province": "강원특별자치도 영월",
+    "height": 1052,
+    "bac": true,
+    "level": "고급",
+    "difficultyOriginal": "중상급",
+    "time": "3.4시간",
+    "hours": 3.4,
+    "distance": "8.1km",
+    "distanceKm": 8.1,
+    "elevation": "680m",
+    "rating": "4.6",
+    "lat": 37.088738,
+    "lon": 128.573243,
+    "summary": "마대산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "마대산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "강원 산행을 원하는 사람",
+      "중상급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "대표 코스",
+      "start": "출발지 정보 준비중",
+      "mid": "중간지점 정보 준비중",
+      "summit": "정상",
+      "end": "하산지점 정보 준비중"
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "강원",
+      "중상급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "마대산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "coordinateStatus": "public_source",
+    "regionOriginal": "강원",
+    "coordinateType": "summit",
+    "coordinateSource": "wikidata_or_wikipedia",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%EB%A7%88%EB%8C%80%EC%82%B0",
+    "wikidataId": "Q6726118",
+    "image": "assets/mountains/bac-080.svg",
+    "imageThumb": "assets/mountains/bac-080.svg",
+    "imageSourceUrl": "",
+    "imageSource": "generated_site_fallback",
+    "imageStatus": "generated_fallback",
+    "imageAlt": "마대산 산 풍경",
+    "sourceExtract": "마대산(馬垈山)은 대한민국 강원특별자치도 영월군과 충청북도 단양군에 걸쳐 있는 산으로 표고는 1,052.2 m이다."
+  },
+  {
+    "id": "bac-081",
+    "name": "명성산",
+    "nameEn": "",
+    "region": "경기",
+    "province": "경기도/강원특별자치도 포천/철원",
+    "height": 923,
+    "bac": true,
+    "level": "고급",
+    "difficultyOriginal": "중상급",
+    "time": "3시간",
+    "hours": 3,
+    "distance": "7.1km",
+    "distanceKm": 7.1,
+    "elevation": "600m",
+    "rating": "4.6",
+    "lat": 38.106944444444,
+    "lon": 127.33777777778,
+    "summary": "명성산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "명성산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "경기 산행을 원하는 사람",
+      "중상급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "대표 코스",
+      "start": "출발지 정보 준비중",
+      "mid": "중간지점 정보 준비중",
+      "summit": "정상",
+      "end": "하산지점 정보 준비중"
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "경기",
+      "중상급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "명성산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "coordinateStatus": "public_source",
+    "regionOriginal": "경기",
+    "coordinateType": "summit",
+    "coordinateSource": "wikidata_or_wikipedia",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%EB%AA%85%EC%84%B1%EC%82%B0",
+    "wikidataId": "Q6947377",
+    "image": "assets/mountains/bac-081.svg",
+    "imageThumb": "assets/mountains/bac-081.svg",
+    "imageSourceUrl": "",
+    "imageSource": "generated_site_fallback",
+    "imageStatus": "generated_fallback",
+    "imageAlt": "명성산 산 풍경",
+    "sourceExtract": "명성산 (鳴聲山)은 대한민국 강원특별자치도 철원군 갈말읍과 경기도 포천시의 경계에 있는 높이 923m의 한국의 화강암 산이다."
+  },
+  {
+    "id": "bac-082",
+    "name": "방태산",
+    "nameEn": "",
+    "region": "강원",
+    "province": "강원특별자치도 인제/홍천",
+    "height": 1444,
+    "bac": true,
+    "level": "고급",
+    "difficultyOriginal": "상급",
+    "time": "4.7시간",
+    "hours": 4.7,
+    "distance": "11.1km",
+    "distanceKm": 11.1,
+    "elevation": "940m",
+    "rating": "4.6",
+    "lat": 37.894722222222,
+    "lon": 128.35555555556,
+    "summary": "방태산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "방태산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "강원 산행을 원하는 사람",
+      "상급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "대표 코스",
+      "start": "출발지 정보 준비중",
+      "mid": "중간지점 정보 준비중",
+      "summit": "주억봉",
+      "end": "하산지점 정보 준비중"
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "강원",
+      "상급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "방태산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "coordinateStatus": "public_source",
+    "regionOriginal": "강원",
+    "coordinateType": "summit",
+    "coordinateSource": "wikidata_or_wikipedia",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%EB%B0%A9%ED%83%9C%EC%82%B0",
+    "wikidataId": "Q626912",
+    "image": "assets/mountains/bac-082.svg",
+    "imageThumb": "assets/mountains/bac-082.svg",
+    "imageSourceUrl": "",
+    "imageSource": "generated_site_fallback",
+    "imageStatus": "generated_fallback",
+    "imageAlt": "방태산 산 풍경",
+    "sourceExtract": "방태산(芳台山)은 대한민국 강원특별자치도 인제군에 있는 산이다. 가칠봉(1,241m), 응복산(1,156m), 구룡덕봉(1,388m), 주걱봉(1,444m) 등 고산준봉을 거느리고 있다.\n인제군과 홍천군의 경계를 이루고, 북쪽으로 설악산, 점봉산, 남쪽으로 개인산과 접하고 있다. 긴 능선과 깊은 골짜기를 뻗고 있는 풍광이 뛰어나 《정감록》 산세에 대해 여러 번 언급하고 있다.\n높이 1,300m를 넘는 봉우리만도 8개에 이르고 산아래 남쪽으로는 "
+  },
+  {
+    "id": "bac-083",
+    "name": "백덕산",
+    "nameEn": "",
+    "region": "강원",
+    "province": "강원특별자치도 평창/영월/횡성",
+    "height": 1350,
+    "bac": true,
+    "level": "고급",
+    "difficultyOriginal": "중상급",
+    "time": "4.4시간",
+    "hours": 4.4,
+    "distance": "10.4km",
+    "distanceKm": 10.4,
+    "elevation": "880m",
+    "rating": "4.6",
+    "lat": 37.396666666667,
+    "lon": 128.29333333333,
+    "summary": "백덕산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "백덕산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "강원 산행을 원하는 사람",
+      "중상급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "대표 코스",
+      "start": "출발지 정보 준비중",
+      "mid": "중간지점 정보 준비중",
+      "summit": "정상",
+      "end": "하산지점 정보 준비중"
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "강원",
+      "중상급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "백덕산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "coordinateStatus": "public_source",
+    "regionOriginal": "강원",
+    "coordinateType": "summit",
+    "coordinateSource": "wikidata_or_wikipedia",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%EB%B0%B1%EB%8D%95%EC%82%B0",
+    "wikidataId": "Q4841252",
+    "image": "assets/mountains/bac-083.svg",
+    "imageThumb": "assets/mountains/bac-083.svg",
+    "imageSourceUrl": "",
+    "imageSource": "generated_site_fallback",
+    "imageStatus": "generated_fallback",
+    "imageAlt": "백덕산 산 풍경",
+    "sourceExtract": "백덕산(白德山)은 강원특별자치도 영월군과 평창군 사이에 있는 차령산맥 줄기의 이름난 산이다.\n능선 곳곳에 절벽이 깎아지른 듯 서 있고, 바위 틈에서 자라는 소나무는 분재와 같이 장관을 이루고 있다.\n해발 800m 이상에는 천연침엽수와 활엽수의 혼합림으로 이루어져 있으며 멧돼지와 꿩이\n많아 사냥터로서도 널리 알려진 곳이다."
+  },
+  {
+    "id": "bac-084",
+    "name": "삼악산",
+    "nameEn": "",
+    "region": "강원",
+    "province": "강원특별자치도 춘천",
+    "height": 654,
+    "bac": true,
+    "level": "중급",
+    "difficultyOriginal": "중급",
+    "time": "2.1시간",
+    "hours": 2.1,
+    "distance": "5km",
+    "distanceKm": 5,
+    "elevation": "430m",
+    "rating": "4.6",
+    "lat": 36.039166666,
+    "lon": 128.014722222,
+    "summary": "삼악산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "삼악산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "강원 산행을 원하는 사람",
+      "중급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "대표 코스",
+      "start": "출발지 정보 준비중",
+      "mid": "중간지점 정보 준비중",
+      "summit": "용화봉",
+      "end": "하산지점 정보 준비중"
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "강원",
+      "중급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "삼악산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "coordinateStatus": "public_source",
+    "regionOriginal": "강원",
+    "coordinateType": "summit",
+    "coordinateSource": "wikidata_label_nearest_region",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%EC%82%BC%EC%95%85%EC%82%B0",
+    "wikidataId": "Q117415922",
+    "image": "assets/mountains/bac-084.svg",
+    "imageThumb": "assets/mountains/bac-084.svg",
+    "imageSourceUrl": "",
+    "imageSource": "generated_site_fallback",
+    "imageStatus": "generated_fallback",
+    "imageAlt": "삼악산 산 풍경",
+    "sourceExtract": "삼악산의 다른 뜻은 다음과 같다.\n\n삼악산 (강원)\n삼악산 (경북)"
+  },
+  {
+    "id": "bac-085",
+    "name": "오봉산",
+    "nameEn": "",
+    "region": "강원",
+    "province": "강원특별자치도 춘천/화천",
+    "height": 779,
+    "bac": true,
+    "level": "중급",
+    "difficultyOriginal": "중급",
+    "time": "2.5시간",
+    "hours": 2.5,
+    "distance": "6km",
+    "distanceKm": 6,
+    "elevation": "510m",
+    "rating": "4.6",
+    "lat": 37.704722222,
+    "lon": 128.8075,
+    "summary": "오봉산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "오봉산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "강원 산행을 원하는 사람",
+      "중급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "대표 코스",
+      "start": "출발지 정보 준비중",
+      "mid": "중간지점 정보 준비중",
+      "summit": "정상",
+      "end": "하산지점 정보 준비중"
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "강원",
+      "중급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "오봉산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "coordinateStatus": "public_source",
+    "regionOriginal": "강원",
+    "coordinateType": "summit",
+    "coordinateSource": "wikidata_label_nearest_region",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%EC%98%A4%EB%B4%89%EC%82%B0",
+    "wikidataId": "Q7075284",
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%EC%98%A4%EB%B4%89%EC%82%B0%20%EC%95%BD%EC%88%98%ED%84%B0.jpg?width=1200",
+    "imageThumb": "http://commons.wikimedia.org/wiki/Special:FilePath/%EC%98%A4%EB%B4%89%EC%82%B0%20%EC%95%BD%EC%88%98%ED%84%B0.jpg?width=1200",
+    "imageSourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/%EC%98%A4%EB%B4%89%EC%82%B0%20%EC%95%BD%EC%88%98%ED%84%B0.jpg",
+    "imageSource": "wikidata_image",
+    "imageStatus": "wikidata_label",
+    "imageAlt": "오봉산 산 풍경",
+    "sourceExtract": "오봉산은 다음을 가리키는 말이다.\n\n오봉산(五峰山)은 강원특별자치도 춘천시에 있는 해발 779m의 산이다.\n오봉산(五峰山)은 경기도 양주시에 있는 해발 675m의 산이다.\n오봉산(五峯山)은 경기도 의왕시에 있는 해발 205m의 산이다.\n오봉산(五峯山)은 강원도 회양군과 통천군에 걸쳐 있는 해발 1,264m 산이다.\n오봉산은 강원특별자치도 고성군에 있는 산이다.\n오봉산은 대전광역시에 있는 산이다.\n오봉산은 전북특별자치도 완주군에 있는 해발 879"
+  },
+  {
+    "id": "bac-086",
+    "name": "용화산",
+    "nameEn": "",
+    "region": "강원",
+    "province": "강원특별자치도 춘천/화천",
+    "height": 878,
+    "bac": true,
+    "level": "중급",
+    "difficultyOriginal": "중급",
+    "time": "2.8시간",
+    "hours": 2.8,
+    "distance": "6.8km",
+    "distanceKm": 6.8,
+    "elevation": "570m",
+    "rating": "4.6",
+    "lat": 38.037222222222,
+    "lon": 127.75305555556,
+    "summary": "용화산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "용화산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "강원 산행을 원하는 사람",
+      "중급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "대표 코스",
+      "start": "출발지 정보 준비중",
+      "mid": "중간지점 정보 준비중",
+      "summit": "정상",
+      "end": "하산지점 정보 준비중"
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "강원",
+      "중급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "용화산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "coordinateStatus": "public_source",
+    "regionOriginal": "강원",
+    "coordinateType": "summit",
+    "coordinateSource": "wikidata_or_wikipedia",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%EC%9A%A9%ED%99%94%EC%82%B0",
+    "wikidataId": "Q8055011",
+    "image": "assets/mountains/bac-086.svg",
+    "imageThumb": "assets/mountains/bac-086.svg",
+    "imageSourceUrl": "",
+    "imageSource": "generated_site_fallback",
+    "imageStatus": "generated_fallback",
+    "imageAlt": "용화산 산 풍경",
+    "sourceExtract": "용화산(龍華山)은 대한민국 강원특별자치도 화천군과 춘천시의 경계에 있는 높이 875m의 한국의 화강암 산이다. 주봉은 만장봉이며 정상에 화강암 바위인 새남바위가 드러나 있다."
+  },
+  {
+    "id": "bac-087",
+    "name": "응봉산",
+    "nameEn": "",
+    "region": "강원",
+    "province": "강원특별자치도/경상북도 삼척/울진",
+    "height": 999,
+    "bac": true,
+    "level": "고급",
+    "difficultyOriginal": "중상급",
+    "time": "3.2시간",
+    "hours": 3.2,
+    "distance": "7.7km",
+    "distanceKm": 7.7,
+    "elevation": "650m",
+    "rating": "4.6",
+    "lat": 37.928611111,
+    "lon": 128.108611111,
+    "summary": "응봉산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "응봉산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "강원 산행을 원하는 사람",
+      "중상급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "대표 코스",
+      "start": "출발지 정보 준비중",
+      "mid": "중간지점 정보 준비중",
+      "summit": "정상",
+      "end": "하산지점 정보 준비중"
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "강원",
+      "중상급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "응봉산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "coordinateStatus": "public_source",
+    "regionOriginal": "강원",
+    "coordinateType": "summit",
+    "coordinateSource": "wikidata_label_nearest_region",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%EC%9D%91%EB%B4%89%EC%82%B0",
+    "wikidataId": "Q5409713",
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/View%20from%20Eungbongsan.jpg?width=1200",
+    "imageThumb": "http://commons.wikimedia.org/wiki/Special:FilePath/View%20from%20Eungbongsan.jpg?width=1200",
+    "imageSourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/View%20from%20Eungbongsan.jpg",
+    "imageSource": "wikidata_image",
+    "imageStatus": "wikidata_label",
+    "imageAlt": "응봉산 산 풍경",
+    "sourceExtract": "응봉산의 다른 뜻은 다음과 같다.\n\n응봉산(應峰山)은 강원특별자치도 삼척시와 경상북도 울진군의 경계에 있는 산이다.\n응봉산(應峰山)은 강원특별자치도 홍천군에 있는 산이다.\n응봉산(鷹峰山)은 서울특별시 성동구 응봉동에 있는 산이다.\n응봉산(鷹峰山)은 대전광역시에 있는 산이다.\n응봉산(鷹峰山)은 강원특별자치도 영월군에 있는 산이다.\n응봉산(鷹峰山)은 인천 중구에 있는 산이다."
+  },
+  {
+    "id": "bac-088",
+    "name": "점봉산",
+    "nameEn": "",
+    "region": "강원",
+    "province": "강원특별자치도 인제/양양",
+    "height": 1424,
+    "bac": true,
+    "level": "고급",
+    "difficultyOriginal": "상급",
+    "time": "4.6시간",
+    "hours": 4.6,
+    "distance": "11km",
+    "distanceKm": 11,
+    "elevation": "930m",
+    "rating": "4.6",
+    "lat": 38.049172222222,
+    "lon": 128.42742777778,
+    "summary": "점봉산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "점봉산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "강원 산행을 원하는 사람",
+      "상급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "대표 코스",
+      "start": "출발지 정보 준비중",
+      "mid": "중간지점 정보 준비중",
+      "summit": "정상",
+      "end": "하산지점 정보 준비중"
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "강원",
+      "상급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "점봉산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "coordinateStatus": "public_source",
+    "regionOriginal": "강원",
+    "coordinateType": "summit",
+    "coordinateSource": "wikidata_or_wikipedia",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%EC%A0%90%EB%B4%89%EC%82%B0",
+    "wikidataId": "Q6180125",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sunrise_Of_Coral_Reefs_(44577582).jpeg?width=1200",
+    "imageThumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Sunrise_Of_Coral_Reefs_(44577582).jpeg?width=1200",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Sunrise_Of_Coral_Reefs_(44577582).jpeg",
+    "imageSource": "wikimedia_pageimage",
+    "imageStatus": "exact_or_article",
+    "imageAlt": "점봉산 산 풍경",
+    "sourceExtract": "점봉산(點鳳山)은 대한민국 강원특별자치도 인제군 기린면 진동리과 양양군 서면에 걸쳐 있는 산으로 높이는 1,424m이다.\n한계령에서 북쪽이 설악산이고, 남쪽이 점봉산이다. 등벙산 또는 등붕산(登朋山)이라고도 불리는 점봉산은 태백산맥의 중추를 이루며 오색약수와 점봉산이 사실상 남설악 관광의 핵을 이루고 있다."
+  },
+  {
+    "id": "bac-089",
+    "name": "치악산",
+    "nameEn": "",
+    "region": "강원",
+    "province": "강원특별자치도 원주/횡성",
+    "height": 1288,
+    "bac": true,
+    "level": "고급",
+    "difficultyOriginal": "중상급",
+    "time": "4.2시간",
+    "hours": 4.2,
+    "distance": "9.9km",
+    "distanceKm": 9.9,
+    "elevation": "840m",
+    "rating": "4.6",
+    "lat": 37.365,
+    "lon": 128.05527777778,
+    "summary": "치악산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "치악산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "강원 산행을 원하는 사람",
+      "중상급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "대표 코스",
+      "start": "출발지 정보 준비중",
+      "mid": "중간지점 정보 준비중",
+      "summit": "비로봉",
+      "end": "하산지점 정보 준비중"
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "강원",
+      "중상급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "치악산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "coordinateStatus": "public_source",
+    "regionOriginal": "강원",
+    "coordinateType": "summit",
+    "coordinateSource": "wikidata_or_wikipedia",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%EC%B9%98%EC%95%85%EC%82%B0",
+    "wikidataId": "Q5095160",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Chiaksan_as_seen_from_Birobong_Peak.jpg",
+    "imageThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Chiaksan_as_seen_from_Birobong_Peak.jpg/1280px-Chiaksan_as_seen_from_Birobong_Peak.jpg",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Chiaksan_as_seen_from_Birobong_Peak.jpg",
+    "imageSource": "wikimedia_pageimage",
+    "imageStatus": "exact_or_article",
+    "imageAlt": "치악산 산 풍경",
+    "sourceExtract": "치악산(雉岳山, Chiaksan)은 대한민국 강원특별자치도 원주시와 횡성군의 경계에 있는 산이다. 주봉인 해발 1,288 m의 비로봉을 중심으로 남북으로 뻗어 내린 치악산은 남대봉(1,181 m)과 매화산 (1,085 m) 등 1천여 미터의 고봉들이 연이어 있고 곳곳에 가파른 계곡들과 산성(금대산성, 영원산성, 해미산성)과 사찰(구룡사·상원사·석경사·국형사·보문사·입석사), 사적지가 산재하고 있다. 주능선 서쪽이 급경사를 이루고 있으며 동쪽은 "
+  },
+  {
+    "id": "bac-090",
+    "name": "팔봉산",
+    "nameEn": "",
+    "region": "강원",
+    "province": "강원특별자치도 홍천",
+    "height": 328,
+    "bac": true,
+    "level": "초급",
+    "difficultyOriginal": "초중급",
+    "time": "2시간",
+    "hours": 2,
+    "distance": "4.5km",
+    "distanceKm": 4.5,
+    "elevation": "210m",
+    "rating": "4.6",
+    "lat": 37.695833333,
+    "lon": 127.696666666,
+    "summary": "팔봉산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "팔봉산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "강원 산행을 원하는 사람",
+      "초중급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "대표 코스",
+      "start": "출발지 정보 준비중",
+      "mid": "중간지점 정보 준비중",
+      "summit": "정상",
+      "end": "하산지점 정보 준비중"
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "강원",
+      "초중급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "팔봉산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "coordinateStatus": "public_source",
+    "regionOriginal": "강원",
+    "coordinateType": "summit",
+    "coordinateSource": "wikidata_label_nearest_region",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%ED%8C%94%EB%B4%89%EC%82%B0",
+    "wikidataId": "Q7127023",
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%EC%A0%9C5%EA%B2%BD%20%ED%8C%94%EB%B4%89%EC%82%B0.jpg?width=1200",
+    "imageThumb": "http://commons.wikimedia.org/wiki/Special:FilePath/%EC%A0%9C5%EA%B2%BD%20%ED%8C%94%EB%B4%89%EC%82%B0.jpg?width=1200",
+    "imageSourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/%EC%A0%9C5%EA%B2%BD%20%ED%8C%94%EB%B4%89%EC%82%B0.jpg",
+    "imageSource": "wikidata_image",
+    "imageStatus": "wikidata_label",
+    "imageAlt": "팔봉산 산 풍경",
+    "sourceExtract": ""
+  },
+  {
+    "id": "bac-091",
+    "name": "화왕산",
+    "nameEn": "",
+    "region": "경상",
+    "province": "경상남도 창녕",
+    "height": 757,
+    "bac": true,
+    "level": "중급",
+    "difficultyOriginal": "중급",
+    "time": "2.4시간",
+    "hours": 2.4,
+    "distance": "5.8km",
+    "distanceKm": 5.8,
+    "elevation": "490m",
+    "rating": "4.6",
+    "lat": 35.54777778,
+    "lon": 128.53277778,
+    "summary": "화왕산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "화왕산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "경남 산행을 원하는 사람",
+      "중급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "대표 코스",
+      "start": "출발지 정보 준비중",
+      "mid": "중간지점 정보 준비중",
+      "summit": "정상",
+      "end": "하산지점 정보 준비중"
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "경남",
+      "중급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "화왕산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "coordinateStatus": "public_source",
+    "regionOriginal": "경남",
+    "coordinateType": "summit",
+    "coordinateSource": "wikidata_or_wikipedia",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%ED%99%94%EC%99%95%EC%82%B0",
+    "wikidataId": "Q5952091",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Changnyeong_Hwawangsan_wide.jpg?width=1200",
+    "imageThumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Changnyeong_Hwawangsan_wide.jpg?width=1200",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Changnyeong_Hwawangsan_wide.jpg",
+    "imageSource": "wikimedia_pageimage",
+    "imageStatus": "exact_or_article",
+    "imageAlt": "화왕산 산 풍경",
+    "sourceExtract": ""
+  },
+  {
+    "id": "bac-092",
+    "name": "금정산",
+    "nameEn": "",
+    "region": "경상",
+    "province": "부산광역시 부산",
+    "height": 801,
+    "bac": true,
+    "level": "중급",
+    "difficultyOriginal": "중급",
+    "time": "2.6시간",
+    "hours": 2.6,
+    "distance": "6.2km",
+    "distanceKm": 6.2,
+    "elevation": "520m",
+    "rating": "4.6",
+    "lat": 35.283055555556,
+    "lon": 129.05555555556,
+    "summary": "금정산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "금정산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "부산 산행을 원하는 사람",
+      "중급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "대표 코스",
+      "start": "출발지 정보 준비중",
+      "mid": "중간지점 정보 준비중",
+      "summit": "고당봉",
+      "end": "하산지점 정보 준비중"
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "부산",
+      "중급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "금정산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "coordinateStatus": "public_source",
+    "regionOriginal": "경상",
+    "coordinateType": "summit",
+    "coordinateSource": "wikidata_or_wikipedia",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%EA%B8%88%EC%A0%95%EC%82%B0",
+    "wikidataId": "Q482647",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/51/%EA%B8%88%EC%A0%95%EC%82%B0.jpg",
+    "imageThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/%EA%B8%88%EC%A0%95%EC%82%B0.jpg/1280px-%EA%B8%88%EC%A0%95%EC%82%B0.jpg",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%EA%B8%88%EC%A0%95%EC%82%B0.jpg",
+    "imageSource": "wikimedia_pageimage",
+    "imageStatus": "exact_or_article",
+    "imageAlt": "금정산 산 풍경",
+    "sourceExtract": "금정산(金井山)은 대한민국 부산광역시 금정구·북구와 양산시 동면과의 경계에 있는 한국의 화강암 산이다. 이 산은 중생대 백악기의 불국사 화강암으로 구성된 산이며, 가장 높은 지점은 고당봉 801.5 미터이다.\n많은 사람들이 등산을 하며 주말에 많이 온다. 정상은 케이블 카를 통해서 갈 수 있다. 다양한 등산로가 있는데, 명륜역 근처의 금강공원에서 올라가거나, 온천장역 근처에서 버스를 타고 산성마을로 가거나 화명역, 수정역, 덕천역 근처에서 버스"
+  },
+  {
+    "id": "bac-093",
+    "name": "남산제일봉",
+    "nameEn": "",
+    "region": "경상",
+    "province": "경상남도 합천",
+    "height": 1010,
+    "bac": true,
+    "level": "고급",
+    "difficultyOriginal": "중상급",
+    "time": "3.3시간",
+    "hours": 3.3,
+    "distance": "7.8km",
+    "distanceKm": 7.8,
+    "elevation": "660m",
+    "rating": "4.6",
+    "lat": 35.7725,
+    "lon": 128.095277777,
+    "summary": "남산제일봉 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "남산제일봉 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "경남 산행을 원하는 사람",
+      "중상급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "대표 코스",
+      "start": "출발지 정보 준비중",
+      "mid": "중간지점 정보 준비중",
+      "summit": "정상",
+      "end": "하산지점 정보 준비중"
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "경남",
+      "중상급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "남산제일봉",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "coordinateStatus": "public_source",
+    "regionOriginal": "경남",
+    "coordinateType": "summit",
+    "coordinateSource": "wikidata_label_nearest_region",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%EB%82%A8%EC%82%B0%EC%A0%9C%EC%9D%BC%EB%B4%89",
+    "wikidataId": "Q27324987",
+    "image": "assets/mountains/bac-093.svg",
+    "imageThumb": "assets/mountains/bac-093.svg",
+    "imageSourceUrl": "",
+    "imageSource": "generated_site_fallback",
+    "imageStatus": "generated_fallback",
+    "imageAlt": "남산제일봉 산 풍경",
+    "sourceExtract": ""
+  },
+  {
+    "id": "bac-094",
+    "name": "미륵산",
+    "nameEn": "",
+    "region": "경상",
+    "province": "경상남도 통영",
+    "height": 461,
+    "bac": true,
+    "level": "초급",
+    "difficultyOriginal": "초중급",
+    "time": "2시간",
+    "hours": 2,
+    "distance": "4.5km",
+    "distanceKm": 4.5,
+    "elevation": "300m",
+    "rating": "4.6",
+    "lat": 36.02472,
+    "lon": 127.03972,
+    "summary": "미륵산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "미륵산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "경남 산행을 원하는 사람",
+      "초중급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "대표 코스",
+      "start": "출발지 정보 준비중",
+      "mid": "중간지점 정보 준비중",
+      "summit": "정상",
+      "end": "하산지점 정보 준비중"
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "경남",
+      "초중급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "미륵산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "coordinateStatus": "public_source",
+    "regionOriginal": "경남",
+    "coordinateType": "summit",
+    "coordinateSource": "wikidata_label_nearest_region",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%EB%AF%B8%EB%A5%B5%EC%82%B0",
+    "wikidataId": "Q6873179",
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Iksan%20Mireuksan%2020250224%20%2803%29.jpg?width=1200",
+    "imageThumb": "http://commons.wikimedia.org/wiki/Special:FilePath/Iksan%20Mireuksan%2020250224%20%2803%29.jpg?width=1200",
+    "imageSourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Iksan%20Mireuksan%2020250224%20%2803%29.jpg",
+    "imageSource": "wikidata_image",
+    "imageStatus": "wikidata_label",
+    "imageAlt": "미륵산 산 풍경",
+    "sourceExtract": "미륵산의 다른 뜻은 다음과 같다.\n\n미륵산(彌勒山)은 경상남도 통영시에 있는 산이다.\n미륵산(彌勒山)은 경상북도 울릉군에 있는 산이다.\n미륵산(彌勒山)은 전북특별자치도 익산시에 있는 산이다.\n미륵산(彌勒山)은 강원특별자치도 원주시에 있는 산이다."
+  },
+  {
+    "id": "bac-095",
+    "name": "무학산",
+    "nameEn": "",
+    "region": "경상",
+    "province": "경상남도 창원",
+    "height": 761,
+    "bac": true,
+    "level": "중급",
+    "difficultyOriginal": "중급",
+    "time": "2.5시간",
+    "hours": 2.5,
+    "distance": "5.9km",
+    "distanceKm": 5.9,
+    "elevation": "490m",
+    "rating": "4.6",
+    "lat": 35.211063,
+    "lon": 128.535774,
+    "summary": "무학산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "무학산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "경남 산행을 원하는 사람",
+      "중급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "대표 코스",
+      "start": "출발지 정보 준비중",
+      "mid": "중간지점 정보 준비중",
+      "summit": "정상",
+      "end": "하산지점 정보 준비중"
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "경남",
+      "중급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "무학산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "coordinateStatus": "public_source",
+    "regionOriginal": "경남",
+    "coordinateType": "summit",
+    "coordinateSource": "wikidata_label_nearest_region",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%EB%AC%B4%ED%95%99%EC%82%B0",
+    "wikidataId": "Q117415570",
+    "image": "assets/mountains/bac-095.svg",
+    "imageThumb": "assets/mountains/bac-095.svg",
+    "imageSourceUrl": "",
+    "imageSource": "generated_site_fallback",
+    "imageStatus": "generated_fallback",
+    "imageAlt": "무학산 산 풍경",
+    "sourceExtract": "무학산은 다음의 지명을 가리킨다.\n\n무학산(舞鶴山)은 경상남도 창원시에 위치한 산이다.\n무학산(舞鶴山)은 경상북도 경주시에 위치한 산이다."
+  },
+  {
+    "id": "bac-096",
+    "name": "신불산",
+    "nameEn": "",
+    "region": "경상",
+    "province": "울산광역시 울주",
+    "height": 1159,
+    "bac": true,
+    "level": "고급",
+    "difficultyOriginal": "중상급",
+    "time": "3.7시간",
+    "hours": 3.7,
+    "distance": "8.9km",
+    "distanceKm": 8.9,
+    "elevation": "750m",
+    "rating": "4.6",
+    "lat": 35.54,
+    "lon": 129.056,
+    "summary": "신불산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "신불산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "울산 산행을 원하는 사람",
+      "중상급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "대표 코스",
+      "start": "출발지 정보 준비중",
+      "mid": "중간지점 정보 준비중",
+      "summit": "정상",
+      "end": "하산지점 정보 준비중"
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "울산",
+      "중상급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "신불산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "coordinateStatus": "public_source",
+    "regionOriginal": "경상",
+    "coordinateType": "summit",
+    "coordinateSource": "wikidata_or_wikipedia",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%EC%8B%A0%EB%B6%88%EC%82%B0",
+    "wikidataId": "Q7521890",
+    "image": "https://upload.wikimedia.org/wikipedia/ko/7/74/%EC%8B%A0%EB%B6%88%EC%82%B0_%EB%B0%B0%EB%82%B4%EA%B3%A0%EA%B0%9C_%EC%A0%95%EC%83%81_2.jpg",
+    "imageThumb": "https://upload.wikimedia.org/wikipedia/ko/thumb/7/74/%EC%8B%A0%EB%B6%88%EC%82%B0_%EB%B0%B0%EB%82%B4%EA%B3%A0%EA%B0%9C_%EC%A0%95%EC%83%81_2.jpg/1280px-%EC%8B%A0%EB%B6%88%EC%82%B0_%EB%B0%B0%EB%82%B4%EA%B3%A0%EA%B0%9C_%EC%A0%95%EC%83%81_2.jpg",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%EC%8B%A0%EB%B6%88%EC%82%B0_%EB%B0%B0%EB%82%B4%EA%B3%A0%EA%B0%9C_%EC%A0%95%EC%83%81_2.jpg",
+    "imageSource": "wikimedia_pageimage",
+    "imageStatus": "exact_or_article",
+    "imageAlt": "신불산 산 풍경",
+    "sourceExtract": "신불산(神佛山)은 대한민국 울산광역시 울주군 상북면과 삼남면과 경상남도 양산시 하북면의 경계를 이루는 낙동정맥의 산이다.\n태백산맥의 남쪽 끝에 있는 내방산맥 줄기에 있다. 영남 알프스에서 가지산에 이어 두 번째로 높은 산이다. 정상에 암봉이 솟은 가지산과는 달리 토산이며, 1983년 11월 3일 간월산과 함께 군립공원으로 지정되었다.\n동쪽은 절벽이고 서쪽은 완만한 구릉으로 이루어져 있다. 설악산의 공룡능선보다 작은 규모의 암릉길인 신불산 공룡릉"
+  },
+  {
+    "id": "bac-097",
+    "name": "연화산",
+    "nameEn": "",
+    "region": "경상",
+    "province": "경상남도 고성",
+    "height": 528,
+    "bac": true,
+    "level": "초급",
+    "difficultyOriginal": "초중급",
+    "time": "2시간",
+    "hours": 2,
+    "distance": "4.5km",
+    "distanceKm": 4.5,
+    "elevation": "340m",
+    "rating": "4.6",
+    "lat": 35.535555555,
+    "lon": 127.794722222,
+    "summary": "연화산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "연화산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "경남 산행을 원하는 사람",
+      "초중급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "대표 코스",
+      "start": "출발지 정보 준비중",
+      "mid": "중간지점 정보 준비중",
+      "summit": "정상",
+      "end": "하산지점 정보 준비중"
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "경남",
+      "초중급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "연화산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "coordinateStatus": "public_source",
+    "regionOriginal": "경남",
+    "coordinateType": "summit",
+    "coordinateSource": "wikidata_label_nearest_region",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%EC%97%B0%ED%99%94%EC%82%B0",
+    "wikidataId": "Q12607189",
+    "image": "assets/mountains/bac-097.svg",
+    "imageThumb": "assets/mountains/bac-097.svg",
+    "imageSourceUrl": "",
+    "imageSource": "generated_site_fallback",
+    "imageStatus": "generated_fallback",
+    "imageAlt": "연화산 산 풍경",
+    "sourceExtract": "연화산의 다른 뜻은 다음과 같다.\n\n연화산(蓮華山)은 경상남도 고성군에 있는 산이다.\n연화산(蓮花山)은 울산광역시 언양읍에 있는 산이다."
+  },
+  {
+    "id": "bac-098",
+    "name": "천성산",
+    "nameEn": "",
+    "region": "경상",
+    "province": "경상남도 양산",
+    "height": 922,
+    "bac": true,
+    "level": "고급",
+    "difficultyOriginal": "중상급",
+    "time": "3시간",
+    "hours": 3,
+    "distance": "7.1km",
+    "distanceKm": 7.1,
+    "elevation": "600m",
+    "rating": "4.6",
+    "lat": 35.42027778,
+    "lon": 129.11222222,
+    "summary": "천성산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "천성산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "경남 산행을 원하는 사람",
+      "중상급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "대표 코스",
+      "start": "출발지 정보 준비중",
+      "mid": "중간지점 정보 준비중",
+      "summit": "정상",
+      "end": "하산지점 정보 준비중"
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "경남",
+      "중상급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "천성산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "coordinateStatus": "public_source",
+    "regionOriginal": "경남",
+    "coordinateType": "summit",
+    "coordinateSource": "wikidata_or_wikipedia",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%EC%B2%9C%EC%84%B1%EC%82%B0",
+    "wikidataId": "Q5091685",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/be/Cheonsung.JPG",
+    "imageThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Cheonsung.JPG/1280px-Cheonsung.JPG",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Cheonsung.JPG",
+    "imageSource": "wikimedia_pageimage",
+    "imageStatus": "exact_or_article",
+    "imageAlt": "천성산 산 풍경",
+    "sourceExtract": "천성산(千聖山)은 대한민국 경상남도 양산시에 있는 높이 920.17m의 산이며 낙동정맥의 일부이다. 산 정상에는 초원과 습지가 발달해 있으며 습지에는 도룡뇽을 비롯한 희귀한 동식물들이 많이 서식하고 있다.\n대구와 부산을 연결하는 경부고속철도 2단계 사업 때 건설된 원효터널이 천성산을 관통하고 있다. 원효터널 공사 당시 지율 스님을 비롯한 환경 단체 관계자와 시민들은 늪지 훼손, 생태계 파괴 등을 이유로 공사 착공 금지 가처분 신청을 법원에 제출"
+  },
+  {
+    "id": "bac-099",
+    "name": "청화산",
+    "nameEn": "",
+    "region": "충청",
+    "province": "경상북도/충청북도 상주/괴산",
+    "height": 984,
+    "bac": true,
+    "level": "고급",
+    "difficultyOriginal": "중상급",
+    "time": "3.2시간",
+    "hours": 3.2,
+    "distance": "7.6km",
+    "distanceKm": 7.6,
+    "elevation": "640m",
+    "rating": "4.6",
+    "lat": 36.625363,
+    "lon": 127.919721,
+    "summary": "청화산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "청화산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "경북 산행을 원하는 사람",
+      "중상급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "대표 코스",
+      "start": "출발지 정보 준비중",
+      "mid": "중간지점 정보 준비중",
+      "summit": "정상",
+      "end": "하산지점 정보 준비중"
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "경북",
+      "중상급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "청화산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "coordinateStatus": "public_source",
+    "regionOriginal": "경북/충북",
+    "coordinateType": "summit",
+    "coordinateSource": "wikidata_label_nearest_region",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%EC%B2%AD%ED%99%94%EC%82%B0",
+    "wikidataId": "Q5091640",
+    "image": "assets/mountains/bac-099.svg",
+    "imageThumb": "assets/mountains/bac-099.svg",
+    "imageSourceUrl": "",
+    "imageSource": "generated_site_fallback",
+    "imageStatus": "generated_fallback",
+    "imageAlt": "청화산 산 풍경",
+    "sourceExtract": ""
+  },
+  {
+    "id": "bac-100",
+    "name": "조령산",
+    "nameEn": "",
+    "region": "충청",
+    "province": "경상북도/충청북도 문경/괴산",
+    "height": 1026,
+    "bac": true,
+    "level": "고급",
+    "difficultyOriginal": "중상급",
+    "time": "3.3시간",
+    "hours": 3.3,
+    "distance": "7.9km",
+    "distanceKm": 7.9,
+    "elevation": "670m",
+    "rating": "4.6",
+    "lat": 36.76666667,
+    "lon": 128.05,
+    "summary": "조령산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "desc": "조령산 BAC 명산100 인증지, 난이도, 예상 거리와 산행 전 체크포인트를 정리한 등산 대시보드용 데이터입니다.",
+    "recommendedFor": [
+      "BAC 명산100 산행을 원하는 사람",
+      "경북 산행을 원하는 사람",
+      "중상급 산행을 원하는 사람"
+    ],
+    "transport": "대중교통 정보 준비중",
+    "facilities": {
+      "toilet": "확인 필요",
+      "convenienceStore": "확인 필요",
+      "dustCleaner": "확인 필요",
+      "parking": "확인 필요",
+      "water": "확인 필요",
+      "busStop": "확인 필요"
+    },
+    "course": {
+      "name": "대표 코스",
+      "start": "출발지 정보 준비중",
+      "mid": "중간지점 정보 준비중",
+      "summit": "정상",
+      "end": "하산지점 정보 준비중"
+    },
+    "sections": [],
+    "photoSpots": [
+      "BAC 명산100",
+      "경북",
+      "중상급"
+    ],
+    "hardSection": "상세 난이도 정보 준비중",
+    "supplies": [
+      "기상 확인",
+      "물과 행동식 준비",
+      "BAC 인증지와 탐방 가능 여부 확인",
+      "하산 교통편 확인"
+    ],
+    "cautions": [
+      "코스와 편의시설은 방문 전 최신 정보 확인 권장"
+    ],
+    "reviewSummary": "프로토타입용 추정값. 실제 서비스 전 지도/트랙 데이터로 검수 필요.",
+    "keywords": [
+      "조령산",
+      "BAC 명산100",
+      "등산코스",
+      "블랙야크"
+    ],
+    "dataQuality": {
+      "level": "v1_seed",
+      "needsVerification": [
+        "GPS 좌표",
+        "대표 코스",
+        "거리/소요시간",
+        "편의시설",
+        "주차/대중교통",
+        "사진 라이선스"
+      ]
+    },
+    "coordinateStatus": "public_source",
+    "regionOriginal": "경북/충북",
+    "coordinateType": "summit",
+    "coordinateSource": "wikidata_or_wikipedia",
+    "wikipediaUrl": "https://ko.wikipedia.org/wiki/%EC%A1%B0%EB%A0%B9%EC%82%B0",
+    "wikidataId": "Q12616652",
+    "image": "assets/mountains/bac-100.svg",
+    "imageThumb": "assets/mountains/bac-100.svg",
+    "imageSourceUrl": "",
+    "imageSource": "generated_site_fallback",
+    "imageStatus": "generated_fallback",
+    "imageAlt": "조령산 산 풍경",
+    "sourceExtract": "조령산(鳥嶺山)은 대한민국 충청북도 괴산군과 경상북도 문경시의 경계에 있는 높이 1,017m의 산이다."
+  }
+];

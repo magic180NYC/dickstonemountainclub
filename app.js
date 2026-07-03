@@ -2,11 +2,12 @@
 let mountains=[];
 let openedCourseParam=false;
 async function loadMountains(){
+  if(Array.isArray(window.DMC_MOUNTAINS)) mountains=window.DMC_MOUNTAINS;
   try{
     const res=await fetch('data/mountains.json',{cache:'no-store'});
-    mountains=await res.json();
+    if(res.ok) mountains=await res.json();
   }catch(e){
-    console.warn('산 데이터 파일을 불러오지 못했습니다.',e);
+    console.warn('산 데이터 파일을 보조 데이터로 표시합니다.',e);
   }
 }
 const $=(s,r=document)=>r.querySelector(s);const $$=(s,r=document)=>Array.from(r.querySelectorAll(s));
@@ -32,8 +33,8 @@ function activeFilterState(){
   return {
     region:$('.filter-btn.active[data-region]')?.dataset.region||'전체',
     level:$('.filter-btn.active[data-level]')?.dataset.level||'전체',
-    themes:$('.filter-btn.active[data-theme]').map(b=>b.dataset.theme),
-    features:$('.filter-btn.active[data-feature]').map(b=>b.dataset.feature)
+    themes:$$('.filter-btn.active[data-theme]').map(b=>b.dataset.theme),
+    features:$$('.filter-btn.active[data-feature]').map(b=>b.dataset.feature)
   };
 }
 function resetFilterControls(){
@@ -41,6 +42,7 @@ function resetFilterControls(){
   $$('.filter-btn[data-theme],.filter-btn[data-feature]').forEach(b=>b.classList.remove('active'));
 }
 function clearSearchInput(){const input=$('[data-search-input]');if(input)input.value=''}
+function updateResultLabel(mode){const label=$('[data-result-label]');if(!label)return;label.textContent=mode==='search'?'검색 결과':mode==='filter'?'필터 결과':'전체 산'}
 function applyFilters(){
   const q=($('[data-search-input]')?.value||'').trim().toLowerCase();
   const {region,level,themes,features}=activeFilterState();
