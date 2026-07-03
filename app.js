@@ -24,7 +24,20 @@ function renderMountainList(list=mountains){
   $('[data-open]',box).forEach(a=>a.addEventListener('click',()=>localStorage.setItem('dmc.lastMountain',a.dataset.open)));
 }
 function applyFilters(){const q=($('[data-search-input]')?.value||'').trim().toLowerCase();const region=$('.filter-btn.active[data-region]')?.dataset.region||'전체';const level=$('.filter-btn.active[data-level]')?.dataset.level||'전체';let list=mountains.filter(m=>(region==='전체'||m.region===region)&&(level==='전체'||m.level===level)&&(!q||[m.name,m.region,m.level,m.desc,m.summary,m.course?.summit].join(' ').toLowerCase().includes(q)));renderMountainList(list)}
-function setupArchive(){if(!$('[data-mountain-list]'))return;renderMountainList();$$('.filter-btn').forEach(btn=>btn.addEventListener('click',()=>{if(btn.dataset.theme){btn.classList.toggle('active');return}const group=btn.dataset.region?'data-region':'data-level';$$('.filter-btn['+group+']').forEach(b=>b.classList.remove('active'));btn.classList.add('active');applyFilters()}));$('[data-search-input]')?.addEventListener('input',applyFilters)}
+function setupArchive(){
+  const list=$('[data-mountain-list]'); if(!list)return;
+  renderMountainList();
+  document.addEventListener('click',e=>{
+    const btn=e.target.closest('.filter-btn');
+    if(!btn)return;
+    if(btn.dataset.theme){btn.classList.toggle('active');applyFilters();return}
+    const group=btn.dataset.region?'data-region':'data-level';
+    $('.filter-btn['+group+']').forEach(b=>b.classList.remove('active'));
+    btn.classList.add('active');
+    applyFilters();
+  });
+  $('[data-search-input]')?.addEventListener('input',applyFilters);
+}
 
 function setupClubBanner(){
   const record=$('[data-club-record]');
@@ -45,8 +58,7 @@ function mapUrl(m,type){
   return 'https://map.naver.com/p/search/'+name;
 }
 function openMap(m,type){
-  const url=mapUrl(m,type);
-  window.open(url,'_blank','noopener');
+  location.href=mapUrl(m,type);
 }
 
 function renderLocationInfo(m){
@@ -54,7 +66,7 @@ function renderLocationInfo(m){
   const end=$('[data-route-end]');
   if(start)start.textContent=m.course?.start&&m.course.start!=='출발지 정보 준비중'?m.course.start:'대표 등산로 입구';
   if(end)end.textContent=m.course?.end&&m.course.end!=='하산지점 정보 준비중'?m.course.end:(m.course?.summit||m.name+' 정상');
-  $('[data-map-placeholder]').forEach(btn=>{
+  $$('[data-map-placeholder]').forEach(btn=>{
     const type=btn.dataset.mapPlaceholder;
     btn.onclick=()=>{btn.classList.add('tapped');setTimeout(()=>btn.classList.remove('tapped'),220);openMap(m,type)};
     btn.title=(type==='kakao'?'카카오맵':'네이버지도')+'에서 '+m.name+' 보기';

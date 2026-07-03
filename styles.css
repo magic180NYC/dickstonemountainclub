@@ -241,3 +241,16 @@
   .course-meta{grid-template-columns:1fr}
   .course-meta span:last-child{grid-column:auto}
 }
+
+
+/* Search helper placeholders */
+.tool-callouts{display:grid;gap:8px;margin-top:16px}
+.tool-mini{width:100%;border:1px solid #badbc5;border-radius:8px;background:#fff;display:grid;grid-template-columns:auto minmax(0,1fr);align-items:center;column-gap:10px;text-align:left;padding:11px 12px;color:var(--ink);cursor:pointer;box-shadow:0 4px 12px rgba(20,45,28,.03)}
+.tool-mini::before{content:"";width:30px;height:30px;border-radius:8px;background:#eaf6ee;display:block;background-repeat:no-repeat;background-position:center;background-size:18px;grid-row:1/3}
+.tool-mini[data-tool-placeholder="checklist"]::before{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 24 24' fill='none' stroke='%230f8b4c' stroke-width='2.3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M9 11l2 2 4-5'/%3E%3Cpath d='M20 6v14H4V4h10'/%3E%3Cpath d='M14 4h6v6'/%3E%3C/svg%3E")}
+.tool-mini[data-tool-placeholder="compare"]::before{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 24 24' fill='none' stroke='%230f8b4c' stroke-width='2.3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 4v16'/%3E%3Cpath d='M18 4v16'/%3E%3Cpath d='M8 7h8'/%3E%3Cpath d='M8 17h8'/%3E%3Cpath d='M10 10l-2 3 2 3'/%3E%3Cpath d='M14 10l2 3-2 3'/%3E%3C/svg%3E")}
+.tool-mini strong{display:block;color:var(--deep);font-size:14px;line-height:1.25;word-break:keep-all}
+.tool-mini span{display:block;color:var(--sub);font-size:12px;line-height:1.35;margin-top:2px;word-break:keep-all}
+.tool-mini:hover{border-color:var(--green);background:#f8fcf9;box-shadow:0 8px 18px rgba(13,45,27,.07)}
+.tool-mini:focus-visible{outline:3px solid rgba(15,139,76,.18);outline-offset:2px}
+@media(max-width:760px){.tool-callouts{gap:7px;margin-top:14px}.tool-mini{padding:10px 11px}.tool-mini strong{font-size:13px}.tool-mini span{font-size:12px}}
