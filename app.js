@@ -39,7 +39,27 @@ function setupHomeSearch(){const form=$('[data-home-search]');if(!form)return;fo
 async function renderWeather(m){const box=$('[data-weather]');if(!box)return;box.innerHTML='<p class="muted">실시간 날씨를 불러오는 중입니다.</p>';try{const url=`https://api.open-meteo.com/v1/forecast?latitude=${m.lat}&longitude=${m.lon}&current=temperature_2m,relative_humidity_2m,wind_speed_10m,uv_index,weather_code&timezone=Asia%2FSeoul`;const res=await fetch(url);if(!res.ok)throw new Error('weather');const data=await res.json();const c=data.current;box.innerHTML=`<div class="stats"><div class="stat"><strong>${Math.round(c.temperature_2m)}°C</strong><span class="muted">기온</span></div><div class="stat"><strong>${c.relative_humidity_2m}%</strong><span class="muted">습도</span></div><div class="stat"><strong>${Math.round(c.wind_speed_10m)}km/h</strong><span class="muted">바람</span></div></div><p class="muted">Open-Meteo 무료 API 기준 · UV ${c.uv_index ?? '정보 없음'}</p>`}catch(e){box.innerHTML='<p class="note">날씨 API를 불러오지 못했습니다. GitHub Pages에 올린 뒤 네트워크가 허용되면 자동으로 다시 동작합니다.</p>'}}
 function renderDashboard(){const page=$('[data-dashboard]');if(!page)return;const m=selectedMountain();if(!m){page.innerHTML='<div class="empty">산 데이터 파일을 불러오지 못했습니다. GitHub Pages 또는 로컬 서버에서 다시 열어주세요.</div>';return}document.title=m.name+' | 딕소톤 마운틴 클럽';$('[data-m-title]').textContent=m.name;$('[data-m-desc]').textContent=m.desc;const photo=$('[data-m-photo]');if(photo){photo.src=mountainImage(m);photo.alt=m.imageAlt||m.name+' 산 이미지'}const credit=$('[data-image-credit]');if(credit){credit.innerHTML=imageCredit(m)}$('[data-m-spec]').innerHTML='<li>지역: '+escapeHtml(m.region)+'</li><li>난이도: '+escapeHtml(m.level)+'</li><li>예상 소요 시간: '+escapeHtml(m.time)+'</li><li>왕복 거리: '+escapeHtml(m.distance)+'</li><li>누적 고도: '+escapeHtml(m.elevation)+'</li><li>좌표: '+Number(m.lat).toFixed(5)+', '+Number(m.lon).toFixed(5)+'</li><li>좌표 출처: '+(m.coordinateSource==='openstreetmap_nominatim_peak'||m.coordinateSource==='openstreetmap_nominatim_peak_name_disambiguated'?'OpenStreetMap':String(m.coordinateSource||'').startsWith('wikidata')?'Wikidata':'공개 데이터')+'</li>';$('[data-map]').src=`https://www.openstreetmap.org/export/embed.html?bbox=${m.lon-0.04}%2C${m.lat-0.03}%2C${m.lon+0.04}%2C${m.lat+0.03}&layer=mapnik&marker=${m.lat}%2C${m.lon}`;renderLocationInfo(m);renderFacilities(m);renderCourseInfo(m);renderRecommended(m);$('[data-save]').textContent=isSaved(m.id)?'저장 해제':'저장하기';$('[data-save]').onclick=()=>toggleSave(m.id);$('[data-gpx]').onclick=()=>downloadGpx(m);renderWeather(m);renderReviews(m.id)}
 
-function renderLocationInfo(m){const start=$('[data-route-start]');const end=$('[data-route-end]');if(start)start.textContent=m.course?.start&&m.course.start!=='출발지 정보 준비중'?m.course.start:'대표 등산로 입구';if(end)end.textContent=m.course?.end&&m.course.end!=='하산지점 정보 준비중'?m.course.end:(m.course?.summit||m.name+' 정상');$$('[data-map-placeholder]').forEach(btn=>{btn.onclick=()=>{btn.classList.add('tapped');setTimeout(()=>btn.classList.remove('tapped'),220)}})}
+function mapUrl(m,type){
+  const name=encodeURIComponent(m.name||'산');
+  if(type==='kakao')return 'https://map.kakao.com/link/map/'+name+','+m.lat+','+m.lon;
+  return 'https://map.naver.com/p/search/'+name;
+}
+function openMap(m,type){
+  const url=mapUrl(m,type);
+  window.open(url,'_blank','noopener');
+}
+
+function renderLocationInfo(m){
+  const start=$('[data-route-start]');
+  const end=$('[data-route-end]');
+  if(start)start.textContent=m.course?.start&&m.course.start!=='출발지 정보 준비중'?m.course.start:'대표 등산로 입구';
+  if(end)end.textContent=m.course?.end&&m.course.end!=='하산지점 정보 준비중'?m.course.end:(m.course?.summit||m.name+' 정상');
+  $('[data-map-placeholder]').forEach(btn=>{
+    const type=btn.dataset.mapPlaceholder;
+    btn.onclick=()=>{btn.classList.add('tapped');setTimeout(()=>btn.classList.remove('tapped'),220);openMap(m,type)};
+    btn.title=(type==='kakao'?'카카오맵':'네이버지도')+'에서 '+m.name+' 보기';
+  });
+}
 
 const facilityDefs=[['toilet','화장실','있음','toilet.svg'],['convenienceStore','편의점','입구 5분','store.svg'],['dustCleaner','먼지털이','하산지점','dust-cleaner.svg'],['parking','주차','가능','parking.svg'],['busStop','버스정류장','300m','bus-stop.svg'],['water','식수','없음','water.svg']];
 function facilityValue(raw, fallback){const value=String(raw||'').trim();return !value||value==='확인 필요'||value==='정보 준비중'?fallback:value}
