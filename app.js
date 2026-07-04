@@ -19,6 +19,9 @@ function imageCredit(m){if(!m.imageSource)return '';if(m.imageStatus==='generate
 function selectedMountain(){const id=new URLSearchParams(location.search).get('mountain')||localStorage.getItem('dmc.lastMountain')||'bukhansan';return mountains.find(m=>m.id===id)||mountains[0]}
 function goDashboard(id){localStorage.setItem('dmc.lastMountain',id);location.href='dashboard.html?mountain='+encodeURIComponent(id)}
 function goCourseDashboard(id,courseIndex){localStorage.setItem('dmc.lastMountain',id);location.href='dashboard.html?mountain='+encodeURIComponent(id)+'&course='+encodeURIComponent(courseIndex)}
+function normalizeSearchQuery(value){return String(value||'').replace(/\s+/g,'').toLowerCase()}
+function exactMountainMatch(query){const q=normalizeSearchQuery(query);if(!q)return null;return mountains.find(m=>normalizeSearchQuery(m.name)===q||normalizeSearchQuery(m.id)===q)||null}
+function goIfExactMountain(query){const m=exactMountainMatch(query);if(!m)return false;goDashboard(m.id);return true}
 window.goDashboard=goDashboard;
 function renderMountainList(list=mountains){
   const box=$('[data-mountain-list]'); if(!box)return;
@@ -64,7 +67,7 @@ function setupArchive(){
   const searchInput=$('[data-search-input]');
   const params=new URLSearchParams(location.search);
   const initialQuery=(params.get('q')||'').trim();
-  if(initialQuery&&searchInput){searchInput.value=initialQuery;resetFilterControls();applyFilters();scrollToFirstResult()}
+  if(initialQuery&&searchInput){if(goIfExactMountain(initialQuery))return;searchInput.value=initialQuery;resetFilterControls();applyFilters();scrollToFirstResult()}
   else{renderMountainList();updateResultLabel('all')}
   document.addEventListener('click',e=>{
     const btn=e.target.closest('.filter-btn');
@@ -81,7 +84,9 @@ function setupArchive(){
   searchInput?.addEventListener('keydown',e=>{
     if(e.key!=='Enter')return;
     e.preventDefault();
+    const q=searchInput.value.trim();
     searchInput.blur();
+    if(goIfExactMountain(q))return;
     applyFilters();
     scrollToFirstResult();
   });
@@ -96,7 +101,7 @@ function setupClubBanner(){
   if(leader) leader.addEventListener('click',()=>{location.href='mypage.html#leader'});
 }
 
-function setupHomeSearch(){const form=$('[data-home-search]');if(!form)return;form.addEventListener('submit',e=>{e.preventDefault();const q=$('[data-home-query]').value.trim();location.href='archive.html'+(q?'?q='+encodeURIComponent(q)+'#results':'#results')})}
+function setupHomeSearch(){const form=$('[data-home-search]');if(!form)return;form.addEventListener('submit',e=>{e.preventDefault();const q=$('[data-home-query]').value.trim();if(goIfExactMountain(q))return;location.href='archive.html'+(q?'?q='+encodeURIComponent(q)+'#results':'#results')})}
 async function renderWeather(m){const box=$('[data-weather]');if(!box)return;box.innerHTML='<p class="muted">실시간 날씨를 불러오는 중입니다.</p>';try{const url=`https://api.open-meteo.com/v1/forecast?latitude=${m.lat}&longitude=${m.lon}&current=temperature_2m,relative_humidity_2m,wind_speed_10m,uv_index,weather_code&timezone=Asia%2FSeoul`;const res=await fetch(url);if(!res.ok)throw new Error('weather');const data=await res.json();const c=data.current;box.innerHTML=`<div class="stats"><div class="stat"><strong>${Math.round(c.temperature_2m)}°C</strong><span class="muted">기온</span></div><div class="stat"><strong>${c.relative_humidity_2m}%</strong><span class="muted">습도</span></div><div class="stat"><strong>${Math.round(c.wind_speed_10m)}km/h</strong><span class="muted">바람</span></div></div><p class="muted">Open-Meteo 무료 API 기준 · UV ${c.uv_index ?? '정보 없음'}</p>`}catch(e){box.innerHTML='<p class="note">날씨 API를 불러오지 못했습니다. GitHub Pages에 올린 뒤 네트워크가 허용되면 자동으로 다시 동작합니다.</p>'}}
 function renderDashboard(){const page=$('[data-dashboard]');if(!page)return;const m=selectedMountain();if(!m){page.innerHTML='<div class="empty">산 데이터 파일을 불러오지 못했습니다. GitHub Pages 또는 로컬 서버에서 다시 열어주세요.</div>';return}document.title=m.name+' | 딕소톤 마운틴 클럽';$('[data-m-title]').textContent=m.name;$('[data-m-desc]').textContent=m.desc;const photo=$('[data-m-photo]');if(photo){photo.src=mountainImage(m);photo.alt=m.imageAlt||m.name+' 산 이미지'}const credit=$('[data-image-credit]');if(credit){credit.innerHTML=imageCredit(m)}$('[data-m-spec]').innerHTML='<li>지역: '+escapeHtml(m.region)+'</li><li>난이도: '+escapeHtml(m.level)+'</li><li>예상 소요 시간: '+escapeHtml(m.time)+'</li><li>왕복 거리: '+escapeHtml(m.distance)+'</li><li>누적 고도: '+escapeHtml(m.elevation)+'</li><li>좌표: '+Number(m.lat).toFixed(5)+', '+Number(m.lon).toFixed(5)+'</li><li>좌표 출처: '+(m.coordinateSource==='openstreetmap_nominatim_peak'||m.coordinateSource==='openstreetmap_nominatim_peak_name_disambiguated'?'OpenStreetMap':String(m.coordinateSource||'').startsWith('wikidata')?'Wikidata':'공개 데이터')+'</li>';$('[data-map]').src=`https://www.openstreetmap.org/export/embed.html?bbox=${m.lon-0.04}%2C${m.lat-0.03}%2C${m.lon+0.04}%2C${m.lat+0.03}&layer=mapnik&marker=${m.lat}%2C${m.lon}`;renderLocationInfo(m);renderDecisionSummary(m);renderFacilities(m);renderCourseInfo(m);renderRecommended(m);$('[data-save]').textContent=isSaved(m.id)?'저장 해제':'저장하기';$('[data-save]').onclick=()=>toggleSave(m.id);$('[data-gpx]').onclick=()=>downloadGpx(m);renderWeather(m);renderReviews(m.id)}
 
