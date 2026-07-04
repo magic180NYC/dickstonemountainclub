@@ -23540,287 +23540,205 @@
     "sourceExtract": "수락산(水落山)은 대한민국 서울특별시 노원구 상계동, 경기도 의정부시, 남양주시 별내면(別內面)의 경계에 있는 한국의 화강암 산으로 높이는 638 m이고 서울과 의정부간의 국도를 사이에 두고 서쪽에 자리잡은 북한산(北漢山, 837 m), 도봉산(道峰山, 739.5 m)과 함께 서울의 북쪽 경계를 이룬다. 거대한 화강암 암벽이 노출되어 있다. 바위산으로 1977년 7월 9일에 공원으로 지정되었는데 둘레의 전체 면적은 6,692,795 m2이다.",
     "courses": [
       {
-        "name": "주봉 코스",
+        "transport": "대중교통 가능",
+        "parking": "지도 확인 필요",
+        "toilet": "지도 확인 필요",
+        "verificationStatus": "사용자 제공 이미지 기준",
+        "sourceSummary": {
+          "official": "사용자가 제공한 이미지의 코스명·경로·거리·소요시간을 그대로 반영",
+          "map": "출발지·도착지·주차·화장실은 지도 링크로 현장 확인 필요",
+          "review": "이미지에 표시된 블로그/영상 기반 특징을 사이트 문장으로 정리"
+        },
+        "sources": {
+          "official": [
+            {
+              "label": "사용자 제공 수락산 코스 이미지",
+              "url": "dashboard.html?mountain=bac-071"
+            }
+          ],
+          "map": [
+            {
+              "label": "카카오맵 수락산역 3번 출구",
+              "url": "https://map.kakao.com/link/search/%EC%88%98%EB%9D%BD%EC%82%B0%EC%97%AD%203%EB%B2%88%20%EC%B6%9C%EA%B5%AC"
+            },
+            {
+              "label": "네이버지도 수락산역 3번 출구",
+              "url": "https://map.naver.com/p/search/%EC%88%98%EB%9D%BD%EC%82%B0%EC%97%AD%203%EB%B2%88%20%EC%B6%9C%EA%B5%AC"
+            }
+          ],
+          "review": []
+        },
+        "sourceNote": "수락산은 사용자가 제공한 이미지의 코스와 경로를 우선 기준으로 반영했습니다.",
+        "needsFinalReview": true,
+        "name": "수락산역 원점회귀 코스",
         "level": "중급",
-        "distance": "6.8km",
-        "distanceKm": 6.8,
-        "time": "약 3시간 30분",
-        "hours": 3.5,
-        "elevation": "520m",
-        "start": "수락산역 등산로 입구",
-        "mid": "철모바위",
-        "summit": "주봉",
-        "end": "수락산역 등산로 입구",
+        "distance": "편도 약 4.2km",
+        "distanceKm": 4.2,
+        "time": "왕복 4시간~4시간 30분",
+        "hours": 4.25,
+        "elevation": "638m",
+        "start": "수락산역 3번 출구",
+        "mid": "벽운계곡 · 깔딱고개 · 철모바위",
+        "summit": "정상(주봉)",
+        "end": "원점회귀",
         "route": [
-          "수락산역 입구",
+          "수락산역 3번 출구",
+          "벽운계곡",
+          "깔딱고개",
           "철모바위",
-          "주봉",
-          "수락산역 입구"
+          "정상(주봉)",
+          "원점회귀"
         ],
         "terrain": [
-          "흙길",
-          "돌계단",
+          "계곡길",
+          "계단",
           "암릉",
-          "철계단"
+          "능선",
+          "원점회귀"
         ],
         "themes": [
-          "능선/조망",
-          "지하철로 가는 산"
+          "대중교통",
+          "대표 코스",
+          "정상 인증"
         ],
-        "transport": "대중교통 가능",
-        "parking": "확인 필요",
-        "toilet": "있음",
-        "summary": "수락산의 대표 능선 조망 코스입니다. 중급 난이도지만 암릉과 계단이 있어 초반 페이스 조절이 필요합니다.",
+        "summary": "가장 많은 사람이 이용하는 수락산 기본 코스입니다. 초반은 완만한 계곡길이지만 깔딱고개부터 가파른 계단과 암릉이 시작되어 체력 소모가 큽니다.",
         "recommendedFor": [
-          "중급",
-          "지하철 접근",
-          "조망"
-        ],
-        "verificationStatus": "후기/가이드 기반 초안",
+          "가장 대중적인 코스",
+          "정상 인증",
+          "첫 방문"
+        ]
+      },
+      {
+        "transport": "대중교통 가능",
+        "parking": "지도 확인 필요",
+        "toilet": "지도 확인 필요",
+        "verificationStatus": "사용자 제공 이미지 기준",
         "sourceSummary": {
-          "official": "부분 확인 필요",
-          "map": "수락산역·장암역·계곡 입구 지도 확인 필요",
-          "review": "코스명·거리·시간·난이도 참고"
+          "official": "사용자가 제공한 이미지의 코스명·경로·거리·소요시간을 그대로 반영",
+          "map": "출발지·도착지·주차·화장실은 지도 링크로 현장 확인 필요",
+          "review": "이미지에 표시된 블로그/영상 기반 특징을 사이트 문장으로 정리"
         },
         "sources": {
           "official": [
             {
-              "label": "서울/지자체 공식 정보 재검수 대상",
-              "url": "https://www.seoul.go.kr/"
+              "label": "사용자 제공 수락산 코스 이미지",
+              "url": "dashboard.html?mountain=bac-071"
             }
           ],
           "map": [
             {
-              "label": "카카오맵 수락산",
-              "url": "https://map.kakao.com/link/search/수락산"
+              "label": "카카오맵 장암역",
+              "url": "https://map.kakao.com/link/search/%EC%9E%A5%EC%95%94%EC%97%AD"
             },
             {
-              "label": "네이버지도 수락산",
-              "url": "https://map.naver.com/p/search/수락산"
+              "label": "네이버지도 장암역",
+              "url": "https://map.naver.com/p/search/%EC%9E%A5%EC%95%94%EC%97%AD"
             }
           ],
-          "review": [
-            {
-              "label": "등산가이드 수락산 코스",
-              "url": "https://www.hiking-beginner.com/mountain/suraksan"
-            }
-          ]
+          "review": []
         },
-        "sourceNote": "코스 설명문은 출처 문장을 복사하지 않고 딕소톤 마운틴 클럽 톤으로 재작성했습니다.",
-        "needsFinalReview": true
-      },
-      {
-        "name": "기차바위 코스",
-        "level": "상급",
-        "distance": "5.5km",
-        "distanceKm": 5.5,
-        "time": "약 3시간",
-        "hours": 3,
-        "elevation": "500m",
-        "start": "장암역 등산로 입구",
-        "mid": "기차바위 입구",
-        "summit": "기차바위",
-        "end": "장암역 등산로 입구",
-        "route": [
-          "장암역 입구",
-          "기차바위 입구",
-          "기차바위",
-          "장암역 입구"
-        ],
-        "terrain": [
-          "흙길",
-          "돌계단",
-          "암릉",
-          "쇠사슬",
-          "철계단"
-        ],
-        "themes": [
-          "능선/조망",
-          "포토 스팟",
-          "암릉"
-        ],
-        "transport": "대중교통 가능",
-        "parking": "확인 필요",
-        "toilet": "있음",
-        "summary": "암릉 산행의 재미가 뚜렷한 상급 코스입니다. 손을 써야 하는 구간이 있어 장갑과 접지 좋은 등산화를 권합니다.",
-        "recommendedFor": [
-          "경험자",
-          "암릉",
-          "사진 포인트"
-        ],
-        "verificationStatus": "후기/가이드 기반 초안",
-        "sourceSummary": {
-          "official": "부분 확인 필요",
-          "map": "수락산역·장암역·계곡 입구 지도 확인 필요",
-          "review": "코스명·거리·시간·난이도 참고"
-        },
-        "sources": {
-          "official": [
-            {
-              "label": "서울/지자체 공식 정보 재검수 대상",
-              "url": "https://www.seoul.go.kr/"
-            }
-          ],
-          "map": [
-            {
-              "label": "카카오맵 수락산",
-              "url": "https://map.kakao.com/link/search/수락산"
-            },
-            {
-              "label": "네이버지도 수락산",
-              "url": "https://map.naver.com/p/search/수락산"
-            }
-          ],
-          "review": [
-            {
-              "label": "등산가이드 수락산 코스",
-              "url": "https://www.hiking-beginner.com/mountain/suraksan"
-            }
-          ]
-        },
-        "sourceNote": "코스 설명문은 출처 문장을 복사하지 않고 딕소톤 마운틴 클럽 톤으로 재작성했습니다.",
-        "needsFinalReview": true
-      },
-      {
-        "name": "수락산 계곡 코스",
-        "level": "초급",
-        "distance": "4.0km",
-        "distanceKm": 4,
-        "time": "약 1시간 50분",
-        "hours": 1.8,
-        "elevation": "200m",
-        "start": "수락계곡 입구",
-        "mid": "너른바위",
-        "summit": "수락폭포 왕복",
-        "end": "수락계곡 입구",
-        "route": [
-          "수락계곡 입구",
-          "너른바위",
-          "수락폭포",
-          "수락계곡 입구"
-        ],
-        "terrain": [
-          "흙길",
-          "돌길",
-          "계곡길"
-        ],
-        "themes": [
-          "계곡 산행",
-          "가족 나들이",
-          "초보자 추천"
-        ],
-        "transport": "대중교통 가능",
-        "parking": "확인 필요",
-        "toilet": "있음",
-        "summary": "계곡 분위기를 가볍게 즐기는 짧은 코스입니다. 여름철 산책이나 가족 나들이에 특히 잘 맞습니다.",
-        "recommendedFor": [
-          "가족",
-          "초보",
-          "여름 계곡"
-        ],
-        "verificationStatus": "후기/가이드 기반 초안",
-        "sourceSummary": {
-          "official": "부분 확인 필요",
-          "map": "수락산역·장암역·계곡 입구 지도 확인 필요",
-          "review": "코스명·거리·시간·난이도 참고"
-        },
-        "sources": {
-          "official": [
-            {
-              "label": "서울/지자체 공식 정보 재검수 대상",
-              "url": "https://www.seoul.go.kr/"
-            }
-          ],
-          "map": [
-            {
-              "label": "카카오맵 수락산",
-              "url": "https://map.kakao.com/link/search/수락산"
-            },
-            {
-              "label": "네이버지도 수락산",
-              "url": "https://map.naver.com/p/search/수락산"
-            }
-          ],
-          "review": [
-            {
-              "label": "등산가이드 수락산 코스",
-              "url": "https://www.hiking-beginner.com/mountain/suraksan"
-            }
-          ]
-        },
-        "sourceNote": "코스 설명문은 출처 문장을 복사하지 않고 딕소톤 마운틴 클럽 톤으로 재작성했습니다.",
-        "needsFinalReview": true
-      },
-      {
-        "name": "도솔봉 코스",
+        "sourceNote": "수락산은 사용자가 제공한 이미지의 코스와 경로를 우선 기준으로 반영했습니다.",
+        "needsFinalReview": true,
+        "name": "장암역 석림사 최단 코스",
         "level": "중급",
-        "distance": "5.5km",
-        "distanceKm": 5.5,
-        "time": "약 3시간",
-        "hours": 3,
-        "elevation": "420m",
-        "start": "당고개역 1번 출구",
-        "mid": "중간 전망대",
-        "summit": "도솔봉",
-        "end": "당고개역",
+        "distance": "편도 약 4km",
+        "distanceKm": 4,
+        "time": "왕복 3시간~3시간 30분",
+        "hours": 3.25,
+        "elevation": "638m",
+        "start": "장암역",
+        "mid": "석림사 · 기차바위(홈통바위)",
+        "summit": "정상(주봉)",
+        "end": "정상(주봉)",
         "route": [
-          "당고개역",
-          "수락산 입구",
-          "중간 전망대",
-          "도솔봉",
-          "당고개역"
+          "장암역",
+          "석림사",
+          "기차바위(홈통바위)",
+          "정상(주봉)"
         ],
         "terrain": [
-          "포장도로",
-          "돌계단",
-          "흙길",
-          "암릉"
+          "사찰길",
+          "암릉",
+          "최단 코스",
+          "급경사"
         ],
         "themes": [
-          "능선/조망",
-          "지하철로 가는 산"
+          "최단 코스",
+          "암릉",
+          "정상 인증"
         ],
-        "transport": "대중교통 가능",
-        "parking": "제한적",
-        "toilet": "있음",
-        "summary": "당고개역에서 접근하는 중급 코스입니다. 중간 전망대 이후 바위 능선 느낌이 살아나며 운동량도 적당합니다.",
+        "summary": "정상에 가장 빠르게 오를 수 있는 코스입니다. 암릉 구간을 포함하며, 기차바위는 안전을 위한 재정비가 이루어진 구간이므로 산행 전 개방 여부 확인을 권장합니다.",
         "recommendedFor": [
-          "중급",
-          "지하철 접근",
-          "조망"
-        ],
-        "verificationStatus": "후기/가이드 기반 초안",
+          "빠른 정상 등정",
+          "짧은 산행",
+          "중급자"
+        ]
+      },
+      {
+        "transport": "대중교통 가능",
+        "parking": "지도 확인 필요",
+        "toilet": "지도 확인 필요",
+        "verificationStatus": "사용자 제공 이미지 기준",
         "sourceSummary": {
-          "official": "부분 확인 필요",
-          "map": "수락산역·장암역·계곡 입구 지도 확인 필요",
-          "review": "코스명·거리·시간·난이도 참고"
+          "official": "사용자가 제공한 이미지의 코스명·경로·거리·소요시간을 그대로 반영",
+          "map": "출발지·도착지·주차·화장실은 지도 링크로 현장 확인 필요",
+          "review": "이미지에 표시된 블로그/영상 기반 특징을 사이트 문장으로 정리"
         },
         "sources": {
           "official": [
             {
-              "label": "서울/지자체 공식 정보 재검수 대상",
-              "url": "https://www.seoul.go.kr/"
+              "label": "사용자 제공 수락산 코스 이미지",
+              "url": "dashboard.html?mountain=bac-071"
             }
           ],
           "map": [
             {
-              "label": "카카오맵 수락산",
-              "url": "https://map.kakao.com/link/search/수락산"
+              "label": "카카오맵 수락산역 1번 출구(노원골)",
+              "url": "https://map.kakao.com/link/search/%EC%88%98%EB%9D%BD%EC%82%B0%EC%97%AD%201%EB%B2%88%20%EC%B6%9C%EA%B5%AC(%EB%85%B8%EC%9B%90%EA%B3%A8)"
             },
             {
-              "label": "네이버지도 수락산",
-              "url": "https://map.naver.com/p/search/수락산"
+              "label": "네이버지도 수락산역 1번 출구(노원골)",
+              "url": "https://map.naver.com/p/search/%EC%88%98%EB%9D%BD%EC%82%B0%EC%97%AD%201%EB%B2%88%20%EC%B6%9C%EA%B5%AC(%EB%85%B8%EC%9B%90%EA%B3%A8)"
             }
           ],
-          "review": [
-            {
-              "label": "등산가이드 수락산 코스",
-              "url": "https://www.hiking-beginner.com/mountain/suraksan"
-            }
-          ]
+          "review": []
         },
-        "sourceNote": "코스 설명문은 출처 문장을 복사하지 않고 딕소톤 마운틴 클럽 톤으로 재작성했습니다.",
-        "needsFinalReview": true
+        "sourceNote": "수락산은 사용자가 제공한 이미지의 코스와 경로를 우선 기준으로 반영했습니다.",
+        "needsFinalReview": true,
+        "name": "당고개역/수락산역 노원골 코스",
+        "level": "초급",
+        "distance": "편도 약 4.2km",
+        "distanceKm": 4.2,
+        "time": "왕복 4시간 30분",
+        "hours": 4.5,
+        "elevation": "638m",
+        "start": "수락산역 1번 출구(노원골)",
+        "mid": "노원골 약수터 · 도솔봉",
+        "summit": "정상(주봉)",
+        "end": "정상(주봉)",
+        "route": [
+          "수락산역 1번 출구(노원골)",
+          "노원골 약수터",
+          "도솔봉",
+          "정상(주봉)"
+        ],
+        "terrain": [
+          "숲길",
+          "완만한 오르막",
+          "능선",
+          "초보 추천"
+        ],
+        "themes": [
+          "초보 추천",
+          "대중교통",
+          "숲길"
+        ],
+        "summary": "깔딱고개가 없어 상대적으로 수월하게 오를 수 있는 코스입니다. 숲길이 잘 조성되어 있어 등린이와 초보자에게 인기가 많습니다.",
+        "recommendedFor": [
+          "초보 추천",
+          "등린이",
+          "가벼운 산행"
+        ]
       }
     ],
     "courseCount": 4,
@@ -23837,11 +23755,9 @@
       "caution": "암릉/급경사 코스는 날씨와 장비 확인 필요"
     },
     "dataVerification": {
-      "status": "후기/가이드 기반 초안",
-      "officialCheck": "부분 확인 필요",
-      "mapCheck": "수락산역·장암역·계곡 입구 지도 확인 필요",
-      "reviewCheck": "코스명·거리·시간·난이도 참고",
-      "updatedAt": "2026-07-03"
+      "status": "사용자 제공 이미지 기준",
+      "updatedAt": "2026-07-04",
+      "note": "사용자가 제공한 이미지의 수락산 대표 코스 3개, 경로, 거리, 소요시간, 특징을 그대로 우선 반영했습니다."
     }
   },
   {
