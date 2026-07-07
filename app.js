@@ -12,7 +12,72 @@ async function loadMountains(){
 }
 const $=(s,r=document)=>r.querySelector(s);const $$=(s,r=document)=>Array.from(r.querySelectorAll(s));
 function toast(msg){let el=$('.toast');if(!el){el=document.createElement('div');el.className='toast';document.body.appendChild(el)}el.textContent=msg;el.classList.add('show');setTimeout(()=>el.classList.remove('show'),1800)}
-function getSaved(){return JSON.parse(localStorage.getItem('dmc.saved')||'[]')}function setSaved(v){localStorage.setItem('dmc.saved',JSON.stringify(v));updateSavedCounts()}function isSaved(id){return getSaved().includes(id)}function toggleSave(id){const s=getSaved();const next=s.includes(id)?s.filter(x=>x!==id):[...s,id];setSaved(next);toast(next.includes(id)?'저장했습니다':'저장을 해제했습니다');renderDynamic()}function getSavedCourses(){return JSON.parse(localStorage.getItem('dmc.savedCourses')||'[]')}function setSavedCourses(v){localStorage.setItem('dmc.savedCourses',JSON.stringify(v));updateSavedCounts()}function courseSaveKey(mountainId,courseIndex){return mountainId+':'+courseIndex}function isCourseSaved(mountainId,courseIndex){const key=courseSaveKey(mountainId,courseIndex);return getSavedCourses().some(x=>x.key===key)}function toggleCourseSave(m,courseIndex){const c=courseList(m)[courseIndex]||courseList(m)[0];const key=courseSaveKey(m.id,courseIndex);const saved=getSavedCourses();const exists=saved.some(x=>x.key===key);const next=exists?saved.filter(x=>x.key!==key):[{key,mountainId:m.id,courseIndex,courseName:c.name||((courseIndex+1)+'코스'),savedAt:new Date().toISOString()},...saved];setSavedCourses(next);toast(exists?'코스 저장을 해제했습니다':'코스를 저장했습니다');return !exists}function updateSavedCounts(){const count=getSaved().length+getSavedCourses().length;document.querySelectorAll('[data-saved-count]').forEach(el=>el.textContent=count)}
+let currentUser=null;
+async function initAuth(){
+  const {data:{session}}=await supabaseClient.auth.getSession();
+  currentUser=session?.user||null;
+  supabaseClient.auth.onAuthStateChange((_event,session)=>{currentUser=session?.user||null;renderAuthNav();renderDynamic()});
+  renderAuthNav();
+}
+function renderAuthNav(){
+  $$('.nav-auth').forEach(nav=>{
+    if(currentUser){
+      nav.innerHTML='<a class="auth-login" href="mypage.html"><span>'+escapeHtml(currentUser.email)+'</span></a><button class="btn ghost" type="button" data-logout>로그아웃</button>';
+      const btn=$('[data-logout]',nav);
+      if(btn)btn.onclick=async()=>{await supabaseClient.auth.signOut();location.href='index.html'};
+    }else{
+      nav.innerHTML='<a class="auth-login" href="login.html" aria-label="로그인"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></svg><span>로그인</span></a>';
+    }
+  });
+}
+function setupLoginForm(){
+  const form=$('[data-login-form]');if(!form)return;
+  const toggle=$('[data-login-toggle]');
+  const submitBtn=$('[data-login-submit]');
+  const msg=$('[data-login-message]');
+  let mode='signin';
+  if(toggle)toggle.onclick=e=>{
+    e.preventDefault();
+    mode=mode==='signin'?'signup':'signin';
+    submitBtn.textContent=mode==='signin'?'로그인':'회원가입';
+    toggle.textContent=mode==='signin'?'회원가입':'로그인으로 돌아가기';
+    if(msg)msg.textContent='';
+  };
+  form.onsubmit=async e=>{
+    e.preventDefault();
+    const email=$('[data-login-email]').value.trim();
+    const password=$('[data-login-password]').value;
+    if(!email||!password){if(msg)msg.textContent='이메일과 비밀번호를 입력해주세요';return}
+    submitBtn.disabled=true;
+    const {error}=mode==='signin'
+      ?await supabaseClient.auth.signInWithPassword({email,password})
+      :await supabaseClient.auth.signUp({email,password});
+    submitBtn.disabled=false;
+    if(error){if(msg)msg.textContent=error.message;return}
+    if(mode==='signup'){if(msg)msg.textContent='가입 확인 이메일을 확인해주세요. 이메일 인증 후 로그인할 수 있습니다.';return}
+    location.href='mypage.html';
+  };
+}
+async function getSavedIds(){
+  if(!currentUser)return [];
+  const {data,error}=await supabaseClient.from('saved_mountains').select('mountain_id').eq('user_id',currentUser.id);
+  if(error){console.warn(error);return []}
+  return data.map(r=>r.mountain_id);
+}
+async function isSaved(id){return (await getSavedIds()).includes(id)}
+async function toggleSave(id){
+  if(!currentUser){toast('로그인이 필요합니다');location.href='login.html';return}
+  const saved=await getSavedIds();
+  if(saved.includes(id)){
+    await supabaseClient.from('saved_mountains').delete().eq('user_id',currentUser.id).eq('mountain_id',id);
+    toast('저장을 해제했습니다');
+  }else{
+    await supabaseClient.from('saved_mountains').insert({user_id:currentUser.id,mountain_id:id});
+    toast('저장했습니다');
+  }
+  await renderDynamic();
+}
+function getSavedCourses(){return JSON.parse(localStorage.getItem('dmc.savedCourses')||'[]')}function setSavedCourses(v){localStorage.setItem('dmc.savedCourses',JSON.stringify(v));updateSavedCounts()}function courseSaveKey(mountainId,courseIndex){return mountainId+':'+courseIndex}function isCourseSaved(mountainId,courseIndex){const key=courseSaveKey(mountainId,courseIndex);return getSavedCourses().some(x=>x.key===key)}function toggleCourseSave(m,courseIndex){const c=courseList(m)[courseIndex]||courseList(m)[0];const key=courseSaveKey(m.id,courseIndex);const saved=getSavedCourses();const exists=saved.some(x=>x.key===key);const next=exists?saved.filter(x=>x.key!==key):[{key,mountainId:m.id,courseIndex,courseName:c.name||((courseIndex+1)+'코스'),savedAt:new Date().toISOString()},...saved];setSavedCourses(next);toast(exists?'코스 저장을 해제했습니다':'코스를 저장했습니다');return !exists}async function updateSavedCounts(){const savedIds=await getSavedIds();const count=savedIds.length+getSavedCourses().length;document.querySelectorAll('[data-saved-count]').forEach(el=>el.textContent=count)}
 function escapeHtml(value){return String(value??'').replace(/[&<>"']/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]))}
 function mountainImage(m){return m.imageThumb||m.image||'assets/hero.jpg'}
 function imageCredit(m){if(!m.imageSource)return '';if(m.imageStatus==='generated_fallback')return '대체 이미지';if(m.imageSourceUrl)return '<a href="'+escapeHtml(m.imageSourceUrl)+'" target="_blank" rel="noopener">공개 이미지 출처</a>';return '공개 이미지'}
@@ -103,7 +168,7 @@ function setupClubBanner(){
 
 function setupHomeSearch(){const form=$('[data-home-search]');if(!form)return;form.addEventListener('submit',e=>{e.preventDefault();const q=$('[data-home-query]').value.trim();if(goIfExactMountain(q))return;location.href='archive.html'+(q?'?q='+encodeURIComponent(q)+'#results':'#results')})}
 async function renderWeather(m){const box=$('[data-weather]');if(!box)return;box.innerHTML='<p class="muted">실시간 날씨를 불러오는 중입니다.</p>';try{const url=`https://api.open-meteo.com/v1/forecast?latitude=${m.lat}&longitude=${m.lon}&current=temperature_2m,relative_humidity_2m,wind_speed_10m,uv_index,weather_code&timezone=Asia%2FSeoul`;const res=await fetch(url);if(!res.ok)throw new Error('weather');const data=await res.json();const c=data.current;box.innerHTML=`<div class="stats"><div class="stat"><strong>${Math.round(c.temperature_2m)}°C</strong><span class="muted">기온</span></div><div class="stat"><strong>${c.relative_humidity_2m}%</strong><span class="muted">습도</span></div><div class="stat"><strong>${Math.round(c.wind_speed_10m)}km/h</strong><span class="muted">바람</span></div></div><p class="muted">Open-Meteo 무료 API 기준 · UV ${c.uv_index ?? '정보 없음'}</p>`}catch(e){box.innerHTML='<p class="note">날씨 API를 불러오지 못했습니다. GitHub Pages에 올린 뒤 네트워크가 허용되면 자동으로 다시 동작합니다.</p>'}}
-function renderDashboard(){const page=$('[data-dashboard]');if(!page)return;const m=selectedMountain();if(!m){page.innerHTML='<div class="empty">산 데이터 파일을 불러오지 못했습니다. GitHub Pages 또는 로컬 서버에서 다시 열어주세요.</div>';return}document.title=m.name+' | 딕소톤 마운틴 클럽';$('[data-m-title]').textContent=m.name;$('[data-m-desc]').textContent=m.desc;const photo=$('[data-m-photo]');if(photo){photo.src=mountainImage(m);photo.alt=m.imageAlt||m.name+' 산 이미지'}const credit=$('[data-image-credit]');if(credit){credit.innerHTML=imageCredit(m)}$('[data-m-spec]').innerHTML='<li>지역: '+escapeHtml(m.region)+'</li><li>난이도: '+escapeHtml(m.level)+'</li><li>예상 소요 시간: '+escapeHtml(m.time)+'</li><li>왕복 거리: '+escapeHtml(m.distance)+'</li><li>누적 고도: '+escapeHtml(m.elevation)+'</li><li>좌표: '+Number(m.lat).toFixed(5)+', '+Number(m.lon).toFixed(5)+'</li><li>좌표 출처: '+(m.coordinateSource==='openstreetmap_nominatim_peak'||m.coordinateSource==='openstreetmap_nominatim_peak_name_disambiguated'?'OpenStreetMap':String(m.coordinateSource||'').startsWith('wikidata')?'Wikidata':'공개 데이터')+'</li>';renderLocationInfo(m);renderDecisionSummary(m);renderFacilities(m);renderCourseInfo(m);renderRecommended(m);$('[data-save]').textContent=isSaved(m.id)?'저장 해제':'저장하기';$('[data-save]').onclick=()=>toggleSave(m.id);$('[data-gpx]').onclick=()=>downloadGpx(m);renderWeather(m);renderReviews(m.id)}
+async function renderDashboard(){const page=$('[data-dashboard]');if(!page)return;const m=selectedMountain();if(!m){page.innerHTML='<div class="empty">산 데이터 파일을 불러오지 못했습니다. GitHub Pages 또는 로컬 서버에서 다시 열어주세요.</div>';return}document.title=m.name+' | 딕소톤 마운틴 클럽';$('[data-m-title]').textContent=m.name;$('[data-m-desc]').textContent=m.desc;const photo=$('[data-m-photo]');if(photo){photo.src=mountainImage(m);photo.alt=m.imageAlt||m.name+' 산 이미지'}const credit=$('[data-image-credit]');if(credit){credit.innerHTML=imageCredit(m)}$('[data-m-spec]').innerHTML='<li>지역: '+escapeHtml(m.region)+'</li><li>난이도: '+escapeHtml(m.level)+'</li><li>예상 소요 시간: '+escapeHtml(m.time)+'</li><li>왕복 거리: '+escapeHtml(m.distance)+'</li><li>누적 고도: '+escapeHtml(m.elevation)+'</li><li>좌표: '+Number(m.lat).toFixed(5)+', '+Number(m.lon).toFixed(5)+'</li><li>좌표 출처: '+(m.coordinateSource==='openstreetmap_nominatim_peak'||m.coordinateSource==='openstreetmap_nominatim_peak_name_disambiguated'?'OpenStreetMap':String(m.coordinateSource||'').startsWith('wikidata')?'Wikidata':'공개 데이터')+'</li>';renderLocationInfo(m);renderDecisionSummary(m);renderFacilities(m);renderCourseInfo(m);renderRecommended(m);$('[data-save]').textContent=(await isSaved(m.id))?'저장 해제':'저장하기';$('[data-save]').onclick=()=>toggleSave(m.id);$('[data-gpx]').onclick=()=>downloadGpx(m);renderWeather(m);renderReviews(m.id)}
 
 function mapUrl(m,type){
   const name=encodeURIComponent(m.name||'산');
@@ -180,8 +245,8 @@ function renderCourseInfo(m){
 }
 
 function downloadGpx(m){const gpx=`<?xml version="1.0" encoding="UTF-8"?><gpx version="1.1" creator="딕소톤 마운틴 클럽"><wpt lat="${m.lat}" lon="${m.lon}"><name>${m.name}</name></wpt><trk><name>${m.name} sample route</name><trkseg><trkpt lat="${m.lat-0.01}" lon="${m.lon-0.01}"></trkpt><trkpt lat="${m.lat}" lon="${m.lon}"></trkpt><trkpt lat="${m.lat+0.01}" lon="${m.lon+0.01}"></trkpt></trkseg></trk></gpx>`;const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([gpx],{type:'application/gpx+xml'}));a.download=m.id+'.gpx';a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000)}
-function reviewKey(id){return 'dmc.reviews.'+id}function getReviews(id){return JSON.parse(localStorage.getItem(reviewKey(id))||'[]')}function setReviews(id,v){localStorage.setItem(reviewKey(id),JSON.stringify(v))}
-function renderReviews(id){const list=$('[data-review-list]');if(!list)return;const reviews=getReviews(id);list.innerHTML=reviews.length?reviews.map(r=>`<div class="review"><strong>${r.name}</strong><p class="muted">${r.text}</p></div>`).join(''):'<div class="empty">아직 저장된 후기가 없습니다. 첫 후기를 남겨보세요.</div>';const form=$('[data-review-form]');if(!form)return;form.onsubmit=e=>{e.preventDefault();const name=$('[data-review-name]').value.trim()||'익명 회원';const text=$('[data-review-text]').value.trim();if(!text){toast('후기를 입력해주세요');return}setReviews(id,[{name,text,date:new Date().toISOString()},...getReviews(id)]);$('[data-review-text]').value='';toast('후기를 저장했습니다');renderReviews(id)}}
-function renderMyPage(){if(!$('[data-my-page]'))return;const saved=getSaved().map(id=>mountains.find(m=>m.id===id)).filter(Boolean);const savedCourses=getSavedCourses().map(item=>{const m=mountains.find(x=>x.id===item.mountainId);return m?{...item,m}:null}).filter(Boolean);const mountainHtml=saved.map(m=>`<li><button class="btn ghost" data-open="${m.id}"><strong>${m.name}</strong><span>저장한 산</span></button></li>`).join('');const courseHtml=savedCourses.map(item=>`<li><button class="btn ghost saved-course-link" data-course-open="${item.mountainId}" data-course-index="${item.courseIndex}"><strong>${item.m.name}</strong><span>${item.courseName}</span></button></li>`).join('');$('[data-saved-list]').innerHTML=(mountainHtml+courseHtml)||'<li class="muted">저장한 산이나 코스가 없습니다.</li>';$$('[data-open]').forEach(b=>b.addEventListener('click',()=>goDashboard(b.dataset.open)));$$('[data-course-open]').forEach(b=>b.addEventListener('click',()=>goCourseDashboard(b.dataset.courseOpen,b.dataset.courseIndex)));let reviewCount=mountains.reduce((n,m)=>n+getReviews(m.id).length,0);$('[data-review-count]').textContent=reviewCount;$('[data-saved-count]').textContent=saved.length+savedCourses.length}
-function renderDynamic(){updateSavedCounts();renderDashboard();renderMyPage()}
-document.addEventListener('DOMContentLoaded',async()=>{await loadMountains();const params=new URLSearchParams(location.search);const q=params.get('q');if(q&&$('[data-search-input]'))$('[data-search-input]').value=q;setupHomeSearch();setupClubBanner();setupArchive();if(q)applyFilters();renderDynamic()});
+async function getReviews(id){const {data,error}=await supabaseClient.from('reviews').select('*').eq('mountain_id',id).order('created_at',{ascending:false});if(error){console.warn(error);return []}return data}
+async function renderReviews(id){const list=$('[data-review-list]');if(!list)return;const reviews=await getReviews(id);list.innerHTML=reviews.length?reviews.map(r=>`<div class="review"><strong>${escapeHtml(r.author_name)}</strong><p class="muted">${escapeHtml(r.body)}</p></div>`).join(''):'<div class="empty">아직 저장된 후기가 없습니다. 첫 후기를 남겨보세요.</div>';const form=$('[data-review-form]');if(!form)return;form.onsubmit=async e=>{e.preventDefault();if(!currentUser){toast('로그인이 필요합니다');location.href='login.html';return}const name=$('[data-review-name]').value.trim()||currentUser.email;const text=$('[data-review-text]').value.trim();if(!text){toast('후기를 입력해주세요');return}const{error}=await supabaseClient.from('reviews').insert({user_id:currentUser.id,mountain_id:id,author_name:name,body:text});if(error){toast('저장 실패: '+error.message);return}$('[data-review-text]').value='';toast('후기를 저장했습니다');renderReviews(id)}}
+async function renderMyPage(){if(!$('[data-my-page]'))return;const savedIds=await getSavedIds();const saved=savedIds.map(id=>mountains.find(m=>m.id===id)).filter(Boolean);const savedCourses=getSavedCourses().map(item=>{const m=mountains.find(x=>x.id===item.mountainId);return m?{...item,m}:null}).filter(Boolean);const mountainHtml=saved.map(m=>`<li><button class="btn ghost" data-open="${m.id}"><strong>${m.name}</strong><span>저장한 산</span></button></li>`).join('');const courseHtml=savedCourses.map(item=>`<li><button class="btn ghost saved-course-link" data-course-open="${item.mountainId}" data-course-index="${item.courseIndex}"><strong>${item.m.name}</strong><span>${item.courseName}</span></button></li>`).join('');$('[data-saved-list]').innerHTML=(mountainHtml+courseHtml)||'<li class="muted">저장한 산이나 코스가 없습니다.</li>';$$('[data-open]').forEach(b=>b.addEventListener('click',()=>goDashboard(b.dataset.open)));$$('[data-course-open]').forEach(b=>b.addEventListener('click',()=>goCourseDashboard(b.dataset.courseOpen,b.dataset.courseIndex)));let reviewCount=0;if(currentUser){const{count}=await supabaseClient.from('reviews').select('*',{count:'exact',head:true}).eq('user_id',currentUser.id);reviewCount=count||0}$('[data-review-count]').textContent=reviewCount;$('[data-saved-count]').textContent=saved.length+savedCourses.length}
+async function renderDynamic(){await updateSavedCounts();await renderDashboard();await renderMyPage()}
+document.addEventListener('DOMContentLoaded',async()=>{await initAuth();await loadMountains();const params=new URLSearchParams(location.search);const q=params.get('q');if(q&&$('[data-search-input]'))$('[data-search-input]').value=q;setupHomeSearch();setupClubBanner();setupArchive();setupLoginForm();if(q)applyFilters();await renderDynamic()});
