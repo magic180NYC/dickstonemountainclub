@@ -22,7 +22,7 @@ async function initAuth(){
 function renderAuthNav(){
   $$('.nav-auth').forEach(nav=>{
     if(currentUser){
-      nav.innerHTML='<a class="auth-login" href="mypage.html" aria-label="마이페이지"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></svg><span>마이페이지</span></a><button class="btn ghost" type="button" data-logout>로그아웃</button>';
+      nav.innerHTML='<button class="auth-login" type="button" data-logout aria-label="로그아웃"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></svg><span>로그아웃</span></button>';
       const btn=$('[data-logout]',nav);
       if(btn)btn.onclick=async()=>{await supabaseClient.auth.signOut();location.href='index.html'};
     }else{
