@@ -1774,6 +1774,79 @@ window.DMC_MOUNTAINS = [
           "긴 산행",
           "종주형 코스"
         ]
+      },
+      {
+        "transport": "대중교통 확인 필요",
+        "parking": "가능(주말 만차 주의)",
+        "toilet": "있음",
+        "verificationStatus": "언론사(월간산) 추천 코스 기반 초안",
+        "sourceSummary": {
+          "official": "공식/지자체 관광 정보로 최종 재검수 필요",
+          "map": "출발지·주차·화장실·대중교통은 지도 링크로 확인",
+          "review": "월간산 2026년 7월호 '7월의 산 BEST4' 추천 코스 인용"
+        },
+        "sources": {
+          "official": [
+            {
+              "label": "공식/지자체 관광 정보 최종 재검수 필요",
+              "url": "https://korean.visitkorea.or.kr/"
+            }
+          ],
+          "map": [
+            {
+              "label": "카카오맵 계방산",
+              "url": "https://map.kakao.com/link/search/%EA%B3%84%EB%B0%A9%EC%82%B0"
+            },
+            {
+              "label": "네이버지도 계방산",
+              "url": "https://map.naver.com/p/search/%EA%B3%84%EB%B0%A9%EC%82%B0"
+            }
+          ],
+          "review": [
+            {
+              "label": "월간산 '7월의 산 BEST4' 기사",
+              "url": "https://n.news.naver.com/article/094/0000013635"
+            }
+          ]
+        },
+        "sourceNote": "코스 설명문은 출처 문장을 복사하지 않고 딕소톤 마운틴 클럽 톤으로 재작성했습니다.",
+        "needsFinalReview": true,
+        "badge": "월간산 추천",
+        "name": "월간산 추천 코스 (운두령~오토캠핑장)",
+        "level": "상급",
+        "distance": "10.5km",
+        "distanceKm": 10.5,
+        "time": "약 5시간",
+        "hours": 5,
+        "elevation": "정보 준비중",
+        "start": "운두령",
+        "mid": "전망대 · 주목군락지",
+        "summit": "계방산 정상",
+        "end": "계방산 오토캠핑장",
+        "route": [
+          "운두령",
+          "전망대",
+          "계방산 정상",
+          "주목군락지",
+          "노동계곡",
+          "계방산 오토캠핑장"
+        ],
+        "terrain": [
+          "능선",
+          "숲길",
+          "흙길"
+        ],
+        "themes": [
+          "여름 야생화",
+          "능선/조망",
+          "포토 스팟"
+        ],
+        "summary": "운두령에서 출발해 전망대를 지나 정상에 오른 뒤 주목군락지와 노동계곡을 거쳐 오토캠핑장으로 내려오는 코스입니다. 7월에는 능선 곳곳에서 동자꽃, 말나리 등 여름 야생화를 볼 수 있고, 정상부 초원 지대와 파노라마 조망이 매력입니다. 시작·하산 지점이 달라 차량 회수나 하산 교통을 미리 정해두는 것이 좋습니다.",
+        "recommendedFor": [
+          "여름 야생화 감상",
+          "능선 조망 산행",
+          "BAC 인증"
+        ]
       }
     ],
     "dataVerification": {
@@ -17582,6 +17655,80 @@ window.DMC_MOUNTAINS = [
         },
         "sourceNote": "전체 테스트를 위해 우선 배치한 초안입니다. 라이브 서비스 전 실제 코스명·거리·동선·편의시설을 산별로 재검수해야 합니다.",
         "needsFinalReview": true
+      },
+      {
+        "transport": "대중교통 확인 필요",
+        "parking": "가능(상학주차장)",
+        "toilet": "있음",
+        "verificationStatus": "언론사(월간산) 추천 코스 기반 초안",
+        "sourceSummary": {
+          "official": "공식/지자체 관광 정보로 최종 재검수 필요",
+          "map": "출발지·주차·화장실·대중교통은 지도 링크로 확인",
+          "review": "월간산 2026년 7월호 '7월의 산 BEST4' 추천 코스 인용"
+        },
+        "sources": {
+          "official": [
+            {
+              "label": "대한민국 구석구석 관광 정보 검색",
+              "url": "https://korean.visitkorea.or.kr/search/search_list.do?keyword=%EA%B8%88%EC%88%98%EC%82%B0"
+            }
+          ],
+          "map": [
+            {
+              "label": "카카오맵 금수산",
+              "url": "https://map.kakao.com/link/search/%EA%B8%88%EC%88%98%EC%82%B0"
+            },
+            {
+              "label": "네이버지도 금수산",
+              "url": "https://map.naver.com/p/search/%EA%B8%88%EC%88%98%EC%82%B0"
+            }
+          ],
+          "review": [
+            {
+              "label": "월간산 '7월의 산 BEST4' 기사",
+              "url": "https://n.news.naver.com/article/094/0000013635"
+            }
+          ]
+        },
+        "sourceNote": "코스 설명문은 출처 문장을 복사하지 않고 딕소톤 마운틴 클럽 톤으로 재작성했습니다.",
+        "needsFinalReview": true,
+        "badge": "월간산 추천",
+        "name": "월간산 추천 코스 (상학주차장~정상 원점회귀)",
+        "level": "중급",
+        "distance": "4.6km",
+        "distanceKm": 4.6,
+        "time": "약 3시간",
+        "hours": 3,
+        "elevation": "정보 준비중",
+        "start": "상학주차장",
+        "mid": "남근석 공원 · 설금구교 · 삼거리",
+        "summit": "금수산 정상",
+        "end": "상학주차장(원점회귀)",
+        "route": [
+          "상학주차장",
+          "남근석 공원",
+          "설금구교",
+          "삼거리",
+          "금수산 정상",
+          "상학주차장"
+        ],
+        "terrain": [
+          "숲길",
+          "계곡길",
+          "바위",
+          "흙길"
+        ],
+        "themes": [
+          "피서 산행",
+          "충주호 조망",
+          "계곡 탁족"
+        ],
+        "summary": "상학주차장에서 남근석 공원과 설금구교를 지나 정상까지 오른 뒤 같은 길로 내려오는 짧은 원점회귀 코스입니다. 정상에서는 충주호가 시원하게 펼쳐지고, 서쪽 능강계곡 방향의 얼음골은 한여름에도 서늘해 산행 후 더위를 식히기 좋습니다.",
+        "recommendedFor": [
+          "여름 피서 산행",
+          "단시간 정상 등정",
+          "충주호 조망"
+        ]
       }
     ],
     "dataVerification": {
@@ -25352,6 +25499,79 @@ window.DMC_MOUNTAINS = [
         },
         "sourceNote": "전체 테스트를 위해 우선 배치한 초안입니다. 라이브 서비스 전 실제 코스명·거리·동선·편의시설을 산별로 재검수해야 합니다.",
         "needsFinalReview": true
+      },
+      {
+        "transport": "대중교통 확인 필요",
+        "parking": "가능(화악터널 앞)",
+        "toilet": "확인 필요",
+        "verificationStatus": "언론사(월간산) 추천 코스 기반 초안",
+        "sourceSummary": {
+          "official": "공식/지자체 관광 정보로 최종 재검수 필요",
+          "map": "출발지·주차·화장실·대중교통은 지도 링크로 확인",
+          "review": "월간산 2026년 7월호 '7월의 산 BEST4' 추천 코스 인용"
+        },
+        "sources": {
+          "official": [
+            {
+              "label": "대한민국 구석구석 관광 정보 검색",
+              "url": "https://korean.visitkorea.or.kr/search/search_list.do?keyword=%ED%99%94%EC%95%85%EC%82%B0"
+            }
+          ],
+          "map": [
+            {
+              "label": "카카오맵 화악산",
+              "url": "https://map.kakao.com/link/search/%ED%99%94%EC%95%85%EC%82%B0"
+            },
+            {
+              "label": "네이버지도 화악산",
+              "url": "https://map.naver.com/p/search/%ED%99%94%EC%95%85%EC%82%B0"
+            }
+          ],
+          "review": [
+            {
+              "label": "월간산 '7월의 산 BEST4' 기사",
+              "url": "https://n.news.naver.com/article/094/0000013635"
+            }
+          ]
+        },
+        "sourceNote": "코스 설명문은 출처 문장을 복사하지 않고 딕소톤 마운틴 클럽 톤으로 재작성했습니다.",
+        "needsFinalReview": true,
+        "badge": "월간산 추천",
+        "name": "월간산 추천 코스 (화악터널~중봉 원점회귀)",
+        "level": "중급",
+        "distance": "10km",
+        "distanceKm": 10,
+        "time": "약 4시간",
+        "hours": 4,
+        "elevation": "정보 준비중",
+        "start": "화악터널 앞(포장도로 초입)",
+        "mid": "실운현 고개 · 군부대 정문 삼거리",
+        "summit": "중봉 정상",
+        "end": "화악터널 앞(원점회귀)",
+        "route": [
+          "화악터널 앞",
+          "실운현 고개",
+          "군부대 정문 삼거리",
+          "중봉 정상",
+          "화악터널 앞"
+        ],
+        "terrain": [
+          "포장도로",
+          "고갯길",
+          "능선",
+          "흙길"
+        ],
+        "themes": [
+          "여름 야생화",
+          "원점회귀",
+          "군사통제구역 인근"
+        ],
+        "summary": "화악터널 앞에서 실운현 고개를 넘어 군부대 정문 삼거리를 지나 중봉 정상까지 올랐다가 같은 길로 내려오는 원점회귀 코스입니다. 정상부는 군사 통제구역이라 중봉까지만 오를 수 있으며, 7월에는 고갯길과 능선 주변에서 동자꽃, 말나리 등 다양한 여름 야생화를 볼 수 있습니다.",
+        "recommendedFor": [
+          "여름 야생화 감상",
+          "당일 산행",
+          "원점회귀 선호자"
+        ]
       }
     ],
     "dataVerification": {
@@ -26277,6 +26497,84 @@ window.DMC_MOUNTAINS = [
           "입문자",
           "가족",
           "여름 산행"
+        ]
+      },
+      {
+        "transport": "대중교통 확인 필요",
+        "parking": "가능(무릉계곡 관리사무소 인근)",
+        "toilet": "있음",
+        "verificationStatus": "언론사(월간산) 추천 코스 기반 초안",
+        "sourceSummary": {
+          "official": "공식/지자체 관광 정보로 최종 재검수 필요",
+          "map": "출발지·주차·화장실·대중교통은 지도 링크로 확인",
+          "review": "월간산 2026년 7월호 '7월의 산 BEST4' 추천 코스 인용"
+        },
+        "sources": {
+          "official": [
+            {
+              "label": "공식/지자체 관광 정보 최종 재검수 필요",
+              "url": "https://korean.visitkorea.or.kr/"
+            }
+          ],
+          "map": [
+            {
+              "label": "카카오맵 두타산",
+              "url": "https://map.kakao.com/link/search/%EB%91%90%ED%83%80%EC%82%B0"
+            },
+            {
+              "label": "네이버지도 두타산",
+              "url": "https://map.naver.com/p/search/%EB%91%90%ED%83%80%EC%82%B0"
+            }
+          ],
+          "review": [
+            {
+              "label": "월간산 '7월의 산 BEST4' 기사",
+              "url": "https://n.news.naver.com/article/094/0000013635"
+            }
+          ]
+        },
+        "sourceNote": "코스 설명문은 출처 문장을 복사하지 않고 딕소톤 마운틴 클럽 톤으로 재작성했습니다.",
+        "needsFinalReview": true,
+        "badge": "월간산 추천",
+        "name": "월간산 추천 코스 (베틀바위~마천루)",
+        "level": "중급",
+        "distance": "7km",
+        "distanceKm": 7,
+        "time": "약 4시간 30분",
+        "hours": 4.5,
+        "elevation": "정보 준비중",
+        "start": "무릉계곡 관리사무소",
+        "mid": "베틀바위전망대 · 두타산성 · 마천루전망대",
+        "summit": "정상 미경유(전망대·계곡 중심 코스)",
+        "end": "주차장",
+        "route": [
+          "무릉계곡 관리사무소",
+          "베틀바위전망대",
+          "미륵바위",
+          "두타산성",
+          "웅담계곡",
+          "마천루전망대",
+          "쌍폭포·용추폭포",
+          "삼화사",
+          "무릉반석",
+          "주차장"
+        ],
+        "terrain": [
+          "데크길",
+          "계곡길",
+          "바위",
+          "숲길"
+        ],
+        "themes": [
+          "폭포 명소",
+          "기암 전망",
+          "사찰 탐방"
+        ],
+        "summary": "무릉계곡 관리사무소에서 시작해 베틀바위전망대와 마천루전망대의 기암괴석을 감상하고, 쌍폭포·용추폭포와 삼화사를 지나 원점으로 돌아오는 코스입니다. 데크길이 잘 정비돼 있어 거대 암벽을 안전하게 볼 수 있고, 장마 직후에는 폭포 수량이 풍부해 여름철 피서 산행으로 인기가 높습니다.",
+        "recommendedFor": [
+          "여름 폭포 산행",
+          "전망 명소 탐방",
+          "가족 나들이"
         ]
       }
     ],
